@@ -1,7 +1,6 @@
 Text:
 Additional verse in Tachanun
 Girsa of beracha of mekadeish hashabbat--add ungrammatical version in footnote
-Psalm for 10 days of repentance between yishtabach and chatzi kaddish
 Move yom-tov stuff around
 Add bracha for tallit katan
 
@@ -20,3 +19,4 @@ Bold for shva na'
 Other:
 Write introduction
 Come up with a name
+Reorganize so Yom-Tov doesn't have so much skipping around

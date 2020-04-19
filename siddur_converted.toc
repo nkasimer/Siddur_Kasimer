@@ -8,43 +8,66 @@
 \egroup 
 \selectlanguage *[numerals=Hebrew]{hebrew}
 \contentsline {chapter}{ברכות השחר}{2}%
-\contentsline {section}{כניסה לבהכ״נ}{11}%
-\contentsline {section}{פסוקי דזמרא}{14}%
-\contentsline {chapter}{שחרית לחול}{24}%
-\contentsline {section}{תפילת העמידה}{28}%
-\contentsline {section}{תחנון}{35}%
-\contentsline {section}{סדר קריאת התורה}{40}%
-\contentsline {section}{סיום התפילה}{46}%
-\contentsline {section}{שיר של יום}{50}%
-\contentsline {section}{נטילת הלולב}{55}%
-\contentsline {section}{הלל‎}{55}%
-\contentsline {chapter}{מוסף לראש חודש}{61}%
-\contentsline {chapter}{קדיש דרבנן}{65}%
-\contentsline {chapter}{אבינו מלכנו}{66}%
-\contentsline {chapter}{מנחה לחול}{68}%
-\contentsline {chapter}{ערבית לחול}{82}%
-\contentsline {section}{ספירת העמר}{95}%
-\contentsline {section}{הבדלה}{97}%
-\contentsline {section}{ברכת הלבנה}{98}%
-\contentsline {chapter}{קריאת שמע שעל המיטה}{100}%
-\contentsline {chapter}{בדיקת וביטול חמץ}{103}%
-\contentsline {chapter}{התרת נדרים}{104}%
-\contentsline {chapter}{וידוי}{106}%
-\contentsline {chapter}{חנוכה}{110}%
-\contentsline {chapter}{פורים}{112}%
-\contentsline {chapter}{ברית מילה}{114}%
-\contentsline {chapter}{פדיון הבן}{116}%
-\contentsline {chapter}{ברכת המזון}{117}%
-\contentsline {section}{זמון לנשואין}{124}%
-\contentsline {section}{שבע ברכות}{124}%
-\contentsline {section}{ברכה מעין שלש}{125}%
-\contentsline {chapter}{קריאת התורה}{126}%
-\contentsline {section}{פרשיות לכל השנה}{126}%
-\contentsline {section}{חנוכה}{153}%
-\contentsline {section}{פורים}{158}%
-\contentsline {section}{חה“מ פסח}{158}%
-\contentsline {section}{חה“מ סכות}{163}%
-\contentsline {section}{תשעה באב}{165}%
-\contentsline {section}{תענית ציבור}{167}%
-\contentsline {section}{ראש חדש}{169}%
-\contentsline {chapter}{תפלת הדרך}{170}%
+\contentsline {section}{כניסה לבהכ״נ}{13}%
+\contentsline {section}{פסוקי דזמרא}{17}%
+\contentsline {chapter}{שחרית לחול}{36}%
+\contentsline {section}{תפילת העמידה}{40}%
+\contentsline {section}{תחנון}{49}%
+\contentsline {section}{סדר קריאת התורה}{55}%
+\contentsline {section}{סיום התפילה}{61}%
+\contentsline {section}{שיר של יום}{65}%
+\contentsline {section}{נטילת הלולב}{71}%
+\contentsline {section}{הלל‎}{72}%
+\contentsline {chapter}{מוסף לראש חודש}{78}%
+\contentsline {chapter}{קדיש דרבנן}{84}%
+\contentsline {chapter}{אבינו מלכנו}{85}%
+\contentsline {chapter}{מנחה לחול}{87}%
+\contentsline {chapter}{ערבית לחול}{102}%
+\contentsline {section}{הבדלה}{116}%
+\contentsline {section}{ספירת העמר}{117}%
+\contentsline {section}{ברכת הלבנה}{119}%
+\contentsline {chapter}{קריאת שמע שעל המיטה}{123}%
+\contentsline {chapter}{עירוב תבשילין}{126}%
+\contentsline {chapter}{הדלקת הנרות שבת ויום טוב}{126}%
+\contentsline {chapter}{קבלת שבת}{127}%
+\contentsline {chapter}{ערבית לשבת ויום טוב}{135}%
+\contentsline {chapter}{קידוש ליל שבת}{146}%
+\contentsline {chapter}{קידוש ליל יום טוב}{149}%
+\contentsline {chapter}{שחרית לשבת ויום טוב}{151}%
+\contentsline {section}{תפילת העמידה}{161}%
+\contentsline {section}{נטילת הלולב}{168}%
+\contentsline {section}{הלל‎}{168}%
+\contentsline {section}{סדר קריאת התורה}{180}%
+\contentsline {chapter}{מוסף לשבת}{192}%
+\contentsline {chapter}{קידושא רבא}{208}%
+\contentsline {chapter}{מנחה לשבת ויום טוב}{210}%
+\contentsline {chapter}{תפלת העמידה לשלש רגלים}{224}%
+\contentsline {chapter}{תפלת מוסף לשלש לרגלים}{231}%
+\contentsline {section}{ברכת כהנים}{244}%
+\contentsline {section}{תפילת טל}{249}%
+\contentsline {section}{תפילת גשם}{251}%
+\contentsline {chapter}{הושענות}{254}%
+\contentsline {section}{הושענות להושענא רבא}{259}%
+\contentsline {chapter}{הקפות לשמחת תורה}{269}%
+\contentsline {chapter}{יזכור}{271}%
+\contentsline {chapter}{בדיקת וביטול חמץ}{273}%
+\contentsline {chapter}{התרת נדרים}{274}%
+\contentsline {chapter}{וידוי}{276}%
+\contentsline {chapter}{חנוכה}{280}%
+\contentsline {chapter}{פורים}{282}%
+\contentsline {chapter}{ברית מילה}{284}%
+\contentsline {chapter}{פדיון הבן}{286}%
+\contentsline {chapter}{ברכת המזון}{288}%
+\contentsline {section}{זמון לנשואין}{296}%
+\contentsline {section}{שבע ברכות}{296}%
+\contentsline {section}{ברכה מעין שלש}{298}%
+\contentsline {chapter}{קריאת התורה}{300}%
+\contentsline {section}{פרשיות לכל השנה}{300}%
+\contentsline {section}{חנוכה}{334}%
+\contentsline {section}{פורים}{339}%
+\contentsline {section}{חה“מ פסח}{340}%
+\contentsline {section}{חה“מ סכות}{345}%
+\contentsline {section}{תשעה באב}{348}%
+\contentsline {section}{תענית ציבור}{350}%
+\contentsline {section}{ראש חדש}{352}%
+\contentsline {chapter}{תפלת הדרך}{354}%
