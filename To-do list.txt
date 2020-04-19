@@ -1,14 +1,19 @@
 Text:
-Akeida--end bakasha needs rework
-Morid hagashem--add "hageshem" in footnote
 Additional verse in Tachanun
 Girsa of beracha of mekadeish hashabbat--add ungrammatical version in footnote
 Psalm for 10 days of repentance between yishtabach and chatzi kaddish
-Get rid of thing during barekhu
+Move yom-tov stuff around
+Add bracha for tallit katan
+
+Typographical stuff:
+Some "kols" not fixed
+Some kamatzes still doubled (see modim)
+Some shva-marks still doubled (see aleinu)
+Script output a list of words that may or may not have kamatz katans (kamatz followed by shva) for manual checking (includining when the shva is marked already)
 
 Formatting:
-Rashi script for instructions
 Bilingual instructions
+Rashi script for instructions
 Stretchy letters
 Bold for shva na'
 
