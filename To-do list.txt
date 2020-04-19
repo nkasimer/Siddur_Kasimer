@@ -1,8 +1,9 @@
 Text:
 Additional verse in Tachanun
 Girsa of beracha of mekadeish hashabbat--add ungrammatical version in footnote
-Move yom-tov stuff around
 Add bracha for tallit katan
+Add Yah Eli piyyut
+Add thingy at end of Anim Zemirot
 
 Typographical stuff:
 Some "kols" not fixed
@@ -15,6 +16,8 @@ Bilingual instructions
 Rashi script for instructions
 Stretchy letters
 Bold for shva na'
+Shabbat mincha kedusha is screwed up
+Bentshing (bamarom) has messed up formatting
 
 Other:
 Write introduction
