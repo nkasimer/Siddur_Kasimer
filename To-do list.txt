@@ -3,12 +3,25 @@ Girsa of beracha of mekadeish hashabbat--add ungrammatical version in footnote
 Add Yah Eli piyyut
 Fix kaddish
 Add Bei Ana
+Hameichin mitz'adei gaver
+End of ma'arakha
+Part 3 of Eizehu mekoman
+Spelling of "mesharatav" in birchot K"Sh
+Change instructions in K"Sh brachot
+Umevarchim has a shva on a shuruk
+Ahava rabba--lehavin ulhaskil?
 
 Typographical stuff:
-Some "kols" not fixed
+Some "kols" not fixed (Amar Rebbe Yishmael)
 Some kamatzes still doubled (see modim)
-Some shva-marks still doubled (see aleinu)
+Some shva-marks still doubled (see aleinu, Amar Rebbe Yishmael)
 Script output a list of words that may or may not have kamatz katans (kamatz followed by shva) for manual checking (includining when the shva is marked already)
+Junk in 2nd paragraph of kadesh li kol bechor
+Az Yashir--yemincha missing a yod, looks weird one line above that
+Fix last vowel of Yerushalayim
+Kamatz katan in "mordechai"
+ולעבדו in kedusha desidra (just before Yehi Ratzon)
+Kamatz katan needed in גבהי in aleinu
 
 Formatting:
 Bilingual instructions
@@ -17,6 +30,10 @@ Stretchy letters
 Bold for shva na'
 Shabbat mincha kedusha is screwed up
 Bentshing (bamarom) has messed up formatting
+Un-narrow hodu
+Make long PDZ into blocks of text
+Blank pages around barekhu, after weekday shacharit amidah
+Get rid of dots (see right after Shema)
 
 Other:
 Come up with a name
