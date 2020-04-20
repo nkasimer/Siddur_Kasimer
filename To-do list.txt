@@ -1,9 +1,8 @@
 Text:
-Additional verse in Tachanun
 Girsa of beracha of mekadeish hashabbat--add ungrammatical version in footnote
-Add bracha for tallit katan
 Add Yah Eli piyyut
-Add thingy at end of Anim Zemirot
+Fix kaddish
+Add Bei Ana
 
 Typographical stuff:
 Some "kols" not fixed
@@ -20,6 +19,5 @@ Shabbat mincha kedusha is screwed up
 Bentshing (bamarom) has messed up formatting
 
 Other:
-Write introduction
 Come up with a name
-Reorganize so Yom-Tov doesn't have so much skipping around
+Reorganize so Yom-Tov doesn't have so much skipping around--in progress

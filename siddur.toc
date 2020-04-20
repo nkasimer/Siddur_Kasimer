@@ -7,6 +7,10 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *[numerals=Hebrew]{hebrew}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *[numerals=Hebrew]{hebrew}
 \contentsline {chapter}{ברכות השחר}{2}%
 \contentsline {section}{כניסה לבהכ״נ}{13}%
 \contentsline {section}{פסוקי דזמרא}{17}%
@@ -28,7 +32,7 @@
 \contentsline {chapter}{עירוב תבשילין}{120}%
 \contentsline {chapter}{הדלקת הנרות שבת ויום טוב}{120}%
 \contentsline {chapter}{קבלת שבת}{121}%
-\contentsline {chapter}{ערבית לשבת ויום טוב}{129}%
+\contentsline {chapter}{ערבית לשבת ויום טוב}{128}%
 \contentsline {chapter}{קידוש ליל שבת}{140}%
 \contentsline {chapter}{קידוש ליל יום טוב}{143}%
 \contentsline {chapter}{שחרית לשבת ויום טוב}{145}%
@@ -38,26 +42,26 @@
 \contentsline {section}{הלל‎}{162}%
 \contentsline {section}{סדר קריאת התורה}{174}%
 \contentsline {chapter}{מוסף לשבת ויו״ט}{186}%
-\contentsline {section}{מוסף לשלש לרגלים}{195}%
-\contentsline {section}{ברכת כהנים}{205}%
-\contentsline {section}{תפילת טל}{210}%
-\contentsline {section}{תפילת גשם}{212}%
-\contentsline {chapter}{קידושא רבא}{220}%
-\contentsline {chapter}{מנחה לשבת ויום טוב}{222}%
-\contentsline {chapter}{תפלת העמידה לשלש רגלים}{236}%
-\contentsline {chapter}{הושענות}{243}%
-\contentsline {section}{הושענות להושענא רבא}{248}%
-\contentsline {chapter}{הקפות לשמחת תורה}{258}%
-\contentsline {chapter}{יזכור}{260}%
-\contentsline {chapter}{בדיקת וביטול חמץ}{262}%
-\contentsline {chapter}{התרת נדרים}{263}%
-\contentsline {chapter}{וידוי}{265}%
-\contentsline {chapter}{חנוכה}{269}%
-\contentsline {chapter}{פורים}{271}%
-\contentsline {chapter}{ברית מילה}{273}%
-\contentsline {chapter}{פדיון הבן}{275}%
-\contentsline {chapter}{ברכת המזון}{277}%
-\contentsline {section}{זמון לנשואין}{285}%
-\contentsline {section}{שבע ברכות}{285}%
-\contentsline {section}{ברכה מעין שלש}{287}%
-\contentsline {chapter}{תפלת הדרך}{289}%
+\contentsline {section}{מוסף לשלש לרגלים}{194}%
+\contentsline {section}{ברכת כהנים}{204}%
+\contentsline {section}{תפילת טל}{209}%
+\contentsline {section}{תפילת גשם}{211}%
+\contentsline {chapter}{קידושא רבא}{219}%
+\contentsline {chapter}{מנחה לשבת ויום טוב}{221}%
+\contentsline {chapter}{תפלת העמידה לשלש רגלים}{235}%
+\contentsline {chapter}{הושענות}{242}%
+\contentsline {section}{הושענות להושענא רבא}{247}%
+\contentsline {chapter}{הקפות לשמחת תורה}{257}%
+\contentsline {chapter}{יזכור}{259}%
+\contentsline {chapter}{בדיקת וביטול חמץ}{261}%
+\contentsline {chapter}{התרת נדרים}{262}%
+\contentsline {chapter}{וידוי}{264}%
+\contentsline {chapter}{חנוכה}{268}%
+\contentsline {chapter}{פורים}{270}%
+\contentsline {chapter}{ברית מילה}{272}%
+\contentsline {chapter}{פדיון הבן}{274}%
+\contentsline {chapter}{ברכת המזון}{276}%
+\contentsline {section}{זמון לנשואין}{283}%
+\contentsline {section}{שבע ברכות}{283}%
+\contentsline {section}{ברכה מעין שלש}{285}%
+\contentsline {chapter}{תפלת הדרך}{287}%
