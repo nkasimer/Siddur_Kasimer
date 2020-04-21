@@ -12,16 +12,13 @@ Umevarchim has a shva on a shuruk
 Ahava rabba--lehavin ulhaskil?
 
 Typographical stuff:
-Some "kols" not fixed (Amar Rebbe Yishmael)
-Some kamatzes still doubled (see modim)
-Some shva-marks still doubled (see aleinu, Amar Rebbe Yishmael)
-Script output a list of words that may or may not have kamatz katans (kamatz followed by shva) for manual checking (includining when the shva is marked already)
-Junk in 2nd paragraph of kadesh li kol bechor
+Some shva-marks still doubled (see aleinu, omer)
 Az Yashir--yemincha missing a yod, looks weird one line above that
 Fix last vowel of Yerushalayim
 Kamatz katan in "mordechai"
 ולעבדו in kedusha desidra (just before Yehi Ratzon)
 Kamatz katan needed in גבהי in aleinu
+Script output a list of words that may or may not have kamatz katans (kamatz followed by shva) for manual checking
 
 Formatting:
 Bilingual instructions

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2020.1.25)  19 APR 2020 20:46
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2020.1.25)  20 APR 2020 21:30
 entering extended mode
 **./siddur_converted.tex
 (siddur_converted.tex
@@ -2564,6 +2564,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 [][]
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[][]
+ []
+
 Requested font "Shlomo/OT" at 10.94997pt
  -> C:/Users/nkasimer/AppData/Local/Microsoft/Windows/Fonts/Shlomo.ttf
 Requested font "Shlomo/OT:script=hebr;language=;" at 10.95pt
@@ -3326,21 +3331,9 @@ Requested font "Shlomo/OT" at 8.99997pt
 Requested font "Shlomo/OT:script=hebr;language=;" at 9.0pt
  -> C:/Users/nkasimer/AppData/Local/Microsoft/Windows/Fonts/Shlomo.ttf
  [11]
-Underfull \hbox (badness 1048) in paragraph at lines 323--324
- []\TU/Shlomo(1)/bx/n/10.95 כֵּיצַד עָלָה בַכֶּֽבֶשׁ וּפָנָה לַסּוֹבֵב וּבָא־לוֹ לְ֯קֶֽ
-רֶן דְּ֯רוֹמִית[] 
- []
-
-
 Underfull \hbox (badness 2486) in paragraph at lines 329--330
  []\TU/Shlomo(1)/bx/n/10.95 בָּעֲזָרָה וְ֯דָמָן טָעוּן שְׁ֯תֵּי מַתָּנוֹת שֶׁהֵן אַרְבּ
 ַע: וְ֯נֶאֱכָלִין[] 
- []
-
-
-Underfull \hbox (badness 1264) in paragraph at lines 329--330
- []\TU/Shlomo(1)/bx/n/10.95 הַמּוּרָם מֵהֶם כַּיּוֹצֵא בָהֶם אֶלָּא שֶׁהַמּוּרָם נֶאֱכׇל
-־לַכֹּהֲנִים[] 
  []
 
 
@@ -3361,9 +3354,9 @@ Underfull \hbox (badness 1975) in paragraph at lines 333--334
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 333--334
+Underfull \hbox (badness 1107) in paragraph at lines 333--334
  []\TU/Shlomo(1)/bx/n/10.95 לְ֯כׇל־אָדָם: וְ֯נֶּאֱכָלִין בְּ֯כׇל־הָעִיר בְּ֯כׇל־מַ
-אֲכׇל־לִשְׁנֵי יָמִים[] 
+אֲכָל לִשְׁנֵי יָמִים[] 
  []
 
 
@@ -4602,8 +4595,8 @@ Underfull \hbox (badness 1142) in paragraph at lines 1013--1014
 
 
 Underfull \hbox (badness 2753) in paragraph at lines 1015--1015
- []\TU/Shlomo(1)/bx/n/10.95 בִּקְדֻשָּׁה וּבְטׇׇׇׇׇׇׇׇהֳרָה בְּ֯שִׁירָה וּבְזִמְרָה וּ֯
-ְמְ֯בָרֲכִים וּמְשַׁבְּ֯חִים[] 
+ []\TU/Shlomo(1)/bx/n/10.95 בִּקְדֻשָּׁה וּבְטׇׇׇׇׇהֳרָה בְּ֯שִׁירָה וּבְזִמְרָה וְּ֯מ֯
+ְבָרֲכִים וּמְשַׁבְּ֯חִים[] 
  []
 
 
@@ -4976,7 +4969,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1524--1524
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1524--1524
- []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעָבְדְּ֯ךָ בְּ֯לֵבָב[] 
+ []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעׇׇׇבְדְּ֯ךָ בְּ֯לֵבָב[] 
  []
 
 
@@ -5775,7 +5768,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1880--1882
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1880--1882
- []\TU/Shlomo(1)/bx/n/10 כָּל־גְּ֯זֵרוׂת קָשׁוׂת,[] 
+ []\TU/Shlomo(1)/bx/n/10 כׇּל־גְּ֯זֵרוׂת קָשׁוׂת,[] 
  []
 
 
@@ -5841,7 +5834,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1883--1885
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1883--1885
- []\TU/Shlomo(1)/bx/n/10 כָּל־הַבְּ֯רָכוׂת,[] 
+ []\TU/Shlomo(1)/bx/n/10 כׇּל־הַבְּ֯רָכוׂת,[] 
  []
 
 
@@ -5851,7 +5844,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1883--1885
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1883--1885
- []\TU/Shlomo(1)/bx/n/10 כָּל־גְּ֯זֵרוׂת[] 
+ []\TU/Shlomo(1)/bx/n/10 כׇּל־גְּ֯זֵרוׂת[] 
  []
 
 
@@ -5927,7 +5920,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1886--1888
 
 
 Overfull \hbox (5.76347pt too wide) in paragraph at lines 1886--1888
- []\TU/Shlomo(1)/bx/n/10 עָלְֶ֯יהֶם כָּל־הַבְּ֯רָכוׂת,[] 
+ []\TU/Shlomo(1)/bx/n/10 עָלְֶ֯יהֶם כׇּל־הַבְּ֯רָכוׂת,[] 
  []
 
 
@@ -5937,7 +5930,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1886--1888
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1886--1888
- []\TU/Shlomo(1)/bx/n/10 כָּל־גְּ֯זֵרוׂת קָשׁוׂת,[] 
+ []\TU/Shlomo(1)/bx/n/10 כׇּל־גְּ֯זֵרוׂת קָשׁוׂת,[] 
  []
 
 
@@ -6883,7 +6876,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2353--2353
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2353--2353
- []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעָבְדְּ֯ךָ בְּ֯לֵבָב[] 
+ []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעׇׇׇבְדְּ֯ךָ בְּ֯לֵבָב[] 
  []
 
 
@@ -7373,7 +7366,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2541--2541
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2541--2541
- []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעָבְדְּ֯ךָ בְּ֯לֵבָב[] 
+ []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעׇׇׇבְדְּ֯ךָ בְּ֯לֵבָב[] 
  []
 
 
@@ -8973,8 +8966,8 @@ Underfull \hbox (badness 1158) in paragraph at lines 2954--2955
 
 
 Underfull \hbox (badness 1694) in paragraph at lines 2954--2955
- []\TU/Shlomo(1)/bx/n/10.95 בַּתּוׂרָה: וּסְפַרְתֶּ֤ם []לָכֶם֙ מִמׇׇׇׇׇׇׇׇׇׇׇׇּ
-חֳרַ֣ת הַשַּׁבָּ֔ת מִיּוֹם֙ הֲבִ֣יאֲכֶ֔ם[] 
+ []\TU/Shlomo(1)/bx/n/10.95 בַּתּוׂרָה: וּסְפַרְתֶּ֤ם []לָכֶם֙ מִמׇּחֳרַ֣ת הַשַ
+ּׁבָּ֔ת מִיּוֹם֙ הֲבִ֣יאֲכֶ֔ם[] 
  []
 
 
@@ -9194,7 +9187,7 @@ Requested font "Shlomo/OT:script=hebr;language=;" at 10.95pt
 
 Underfull \hbox (badness 1215) in paragraph at lines 3078--3080
  [][]\TU/Shlomo(1)/bx/n/10.95 לַֽמְ֯נַצֵּ֥ח[] בִּ֝נְגִינֹ֗ת מִזְמ֥וֹר שִֽׁיר׃ אֱלֹה
-ִ֗ים יְ֯חׇׇׇׇׇׇׇׇנֵּ֥נוּ וִֽיבָֽרֲכֵ֑נוּ יָ֤אֵ֥ר[] 
+ִ֗ים יְ֯חׇׇׇׇׇׇנֵּ֥נוּ וִֽיבָֽרֲכֵ֑נוּ יָ֤אֵ֥ר[] 
  []
 
 
@@ -10378,8 +10371,8 @@ Requested font "Shlomo/OT:script=hebr;language=;" at 9.0pt
  -> C:/Users/nkasimer/AppData/Local/Microsoft/Windows/Fonts/Shlomo.ttf
  [149]
 Underfull \hbox (badness 2753) in paragraph at lines 3878--3878
- []\TU/Shlomo(1)/bx/n/10.95 בִּקְדֻשָּׁה וּבְטׇׇׇׇׇׇׇׇהֳרָה בְּ֯שִׁירָה וּבְזִמְרָה וּ֯
-ְמְ֯בָרֲכִים וּמְשַׁבְּ֯חִים[] 
+ []\TU/Shlomo(1)/bx/n/10.95 בִּקְדֻשָּׁה וּבְטׇׇׇׇׇהֳרָה בְּ֯שִׁירָה וּבְזִמְרָה וְּ֯מ֯
+ְבָרֲכִים וּמְשַׁבְּ֯חִים[] 
  []
 
 
@@ -10576,7 +10569,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3896--3902
 
 
 Underfull \hbox (badness 3240) in paragraph at lines 3896--3902
- []\TU/Shlomo(1)/bx/n/10.95 מַהֵר לְ֯גׇׇׇׇׇׇׇׇׇׇׇׇאֳלֵֽנוּ כְּ֯גָאַֽלְתָּ[] 
+ []\TU/Shlomo(1)/bx/n/10.95 מַהֵר לְ֯גׇׇׇׇׇׇׇאֳלֵֽנוּ כְּ֯גָאַֽלְתָּ[] 
  []
 
 
@@ -10838,7 +10831,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3978--3978
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 3978--3978
- []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעָבְדְּ֯ךָ בְּ֯לֵבָב[] 
+ []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעׇׇׇבְדְּ֯ךָ בְּ֯לֵבָב[] 
  []
 
 
@@ -11736,7 +11729,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4350--4352
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4350--4352
- []\TU/Shlomo(1)/bx/n/10 כָּל־גְּ֯זֵרוׂת קָשׁוׂת,[] 
+ []\TU/Shlomo(1)/bx/n/10 כׇּל־גְּ֯זֵרוׂת קָשׁוׂת,[] 
  []
 
 
@@ -11796,7 +11789,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4353--4355
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4353--4355
- []\TU/Shlomo(1)/bx/n/10 כָּל־הַבְּ֯רָכוׂת,[] 
+ []\TU/Shlomo(1)/bx/n/10 כׇּל־הַבְּ֯רָכוׂת,[] 
  []
 
 
@@ -11806,7 +11799,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4353--4355
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4353--4355
- []\TU/Shlomo(1)/bx/n/10 כָּל־גְּ֯זֵרוׂת[] 
+ []\TU/Shlomo(1)/bx/n/10 כׇּל־גְּ֯זֵרוׂת[] 
  []
 
 
@@ -11876,7 +11869,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4356--4358
 
 
 Overfull \hbox (5.76347pt too wide) in paragraph at lines 4356--4358
- []\TU/Shlomo(1)/bx/n/10 עָלְֶ֯יהֶם כָּל־הַבְּ֯רָכוׂת,[] 
+ []\TU/Shlomo(1)/bx/n/10 עָלְֶ֯יהֶם כׇּל־הַבְּ֯רָכוׂת,[] 
  []
 
 
@@ -11886,7 +11879,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4356--4358
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4356--4358
- []\TU/Shlomo(1)/bx/n/10 כָּל־גְּ֯זֵרוׂת קָשׁוׂת,[] 
+ []\TU/Shlomo(1)/bx/n/10 כׇּל־גְּ֯זֵרוׂת קָשׁוׂת,[] 
  []
 
 
@@ -12437,7 +12430,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4629--4629
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4629--4629
- []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעָבְדְּ֯ךָ בְּ֯לֵבָב[] 
+ []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעׇׇׇבְדְּ֯ךָ בְּ֯לֵבָב[] 
  []
 
 
@@ -12971,7 +12964,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4890--4890
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4890--4890
- []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעָבְדְּ֯ךָ בְּ֯לֵבָב[] 
+ []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעׇׇׇבְדְּ֯ךָ בְּ֯לֵבָב[] 
  []
 
 
@@ -13125,7 +13118,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4940--4940
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4940--4940
- []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעָבְדְּ֯ךָ בְּ֯לֵבָב[] 
+ []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעׇׇׇבְדְּ֯ךָ בְּ֯לֵבָב[] 
  []
 
 
@@ -14515,7 +14508,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5558--5558
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5558--5558
- []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעָבְדְּ֯ךָ בְּ֯לֵבָב[] 
+ []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעׇׇׇבְדְּ֯ךָ בְּ֯לֵבָב[] 
  []
 
 
@@ -14888,7 +14881,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5730--5730
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5730--5730
- []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעָבְדְּ֯ךָ בְּ֯לֵבָב[] 
+ []\TU/Shlomo(1)/bx/n/10 רְ֯צֹנֶֽךָ וּלְעׇׇׇבְדְּ֯ךָ בְּ֯לֵבָב[] 
  []
 
 
@@ -15129,8 +15122,8 @@ Requested font "Shlomo/OT:script=hebr;language=;" at 10.95pt
  -> C:/Users/nkasimer/AppData/Local/Microsoft/Windows/Fonts/Shlomo.ttf
 
 Underfull \hbox (badness 1024) in paragraph at lines 5919--5920
- []\TU/Shlomo(1)/bx/n/10.95 דְּ֯בַר־י֥וֹם בְּ֯יוֹמֽוֹ׃ לְ֯מַ֗עַן דַּ֚עַת כָּל־ע
-ַמֵּ֣י הָאָ֔רֶץ כִּ֥י יְיָ֖ ה֣וּא[] 
+ []\TU/Shlomo(1)/bx/n/10.95 דְּ֯בַר־י֥וֹם בְּ֯יוֹמֽוֹ׃ לְ֯מַ֗עַן דַּ֚עַת כׇּל־עַ
+מֵּ֣י הָאָ֔רֶץ כִּ֥י יְיָ֖ ה֣וּא[] 
  []
 
 Requested font "Shlomo/OT" at 10.94997pt
@@ -15524,8 +15517,8 @@ Requested font "Shlomo/OT:script=hebr;language=;" at 10.95pt
  -> C:/Users/nkasimer/AppData/Local/Microsoft/Windows/Fonts/Shlomo.ttf
 
 Underfull \hbox (badness 1400) in paragraph at lines 6242--6254
- []\TU/Shlomo(1)/bx/n/10.95 יְהִ֨י []יְיָ֤ אֱלֹהֵ֙ינוּ֙ עִמָּ֔נוּ כַּאֲשֶׁ֥ר הָ
-יָ֖ה עִם־אֲבֹתֵ֑ינוּ אַל־יַעַזְבֵ֖נוּ[] 
+ []\TU/Shlomo(1)/bx/n/10.95 יְ֯הִ֨י []יְיָ֤ אֱלֹהֵ֙ינוּ֙ עִמָּ֔נוּ כַּאֲשֶׁ֥ר ה
+ָיָ֖ה עִם־אֲבֹתֵ֑ינוּ אַל־יַעַזְבֵ֖נוּ[] 
  []
 
 
@@ -16513,10 +16506,10 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  47415 strings out of 427232
  958553 string characters out of 3140718
- 1016423 words of memory out of 3000000
+ 1016569 words of memory out of 3000000
  51311 multiletter control sequences out of 15000+200000
  539236 words of font info for 130 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,12n,105p,4120b,2146s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,12n,105p,4128b,2146s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on siddur_converted.pdf (296 pages).
