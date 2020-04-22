@@ -6,10 +6,14 @@ Add Bei Ana
 Decide if I'm adding "reishit chochma"
 Weird tachanun instruction before Mizmor LeTodah
 
+
+
 Typographical stuff:
 Some shva-marks still doubled (see aleinu, omer)
+--fixed pending testing
 Fix last vowel of Yerushalayim
-Script output a list of words that may or may not have kamatz katans (kamatz followed by shva) for manual checking
+
+
 
 Formatting:
 Shabbat mincha kedusha is screwed up
