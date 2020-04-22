@@ -1,36 +1,25 @@
 Text:
 Girsa of beracha of mekadeish hashabbat--add ungrammatical version in footnote
 Add Yah Eli piyyut
-Fix kaddish
+Determine kaddish girsa
 Add Bei Ana
-Hameichin mitz'adei gaver
-End of ma'arakha
-Part 3 of Eizehu mekoman
-Spelling of "mesharatav" in birchot K"Sh
-Change instructions in K"Sh brachot
-Umevarchim has a shva on a shuruk
-Ahava rabba--lehavin ulhaskil?
+Spelling of "mesharatav" in birchot K"Sh, and similar gutteral letters with a shva na (e.g. barekhu)
+Decide if I'm adding "reishit chochma"
 
 Typographical stuff:
 Some shva-marks still doubled (see aleinu, omer)
-Az Yashir--yemincha missing a yod, looks weird one line above that
 Fix last vowel of Yerushalayim
-Kamatz katan in "mordechai"
-ולעבדו in kedusha desidra (just before Yehi Ratzon)
-Kamatz katan needed in גבהי in aleinu
 Script output a list of words that may or may not have kamatz katans (kamatz followed by shva) for manual checking
 
 Formatting:
+Shabbat mincha kedusha is screwed up
+Bentshing (bamarom) has messed up formatting
+Blank pages around barekhu, after weekday shacharit amidah
+Get rid of dots (see right after Shema)
 Bilingual instructions
 Rashi script for instructions
 Stretchy letters
 Bold for shva na'
-Shabbat mincha kedusha is screwed up
-Bentshing (bamarom) has messed up formatting
-Un-narrow hodu
-Make long PDZ into blocks of text
-Blank pages around barekhu, after weekday shacharit amidah
-Get rid of dots (see right after Shema)
 
 Other:
 Come up with a name
