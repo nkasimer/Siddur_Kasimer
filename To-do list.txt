@@ -4,14 +4,29 @@ Add Yah Eli piyyut
 Determine kaddish girsa
 Add Bei Ana
 Decide if I'm adding "reishit chochma"
+"Lishma" in birchot hatorah
+Check hodu
+Figure out ketivs--there's one in ashrei in ve'ezuz
+Hakol yoducha for Shabbat/YT
+Get rid of alternate zulat text
+Add psalm for RCh
+Spelling of "Rebbe"
+Verse numbers in tefillat channah
+Blank space between paragraphs in kadesh-li
+Kamatz katan in "na'avodkha" after amar rebbe yishmael
+Renegade kaf in "shiru lashem"
+Kamatz katan in almayya--is it right?  No, shva under mem is wrong
+Blank page in geula for Shabbat/YT
+Blank page in Shabbat Shacharit
 
-Typographical stuff:
-Some shva-marks still doubled (see aleinu, omer)
---fixed pending testing
-Fix last vowel of Yerushalayim
-Kamatz katans: 1170
 
-Formatting:
+Formatting:Shabbat amidah-intro has stuff falling into the margin
+Get rid of pre-aleinu instruction
+References and blank page after shacharit amidah
+Blank space after instruction for lamenatzeach
+Mimaamakim still messed up
+Space before mashiv haruach
+Blank space after hanoten leyaef koach
 Shabbat mincha kedusha is screwed up
 Bentshing (bamarom) has messed up formatting
 Blank pages around barekhu, after weekday shacharit amidah
