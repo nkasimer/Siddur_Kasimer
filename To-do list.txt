@@ -4,16 +4,12 @@ Add Yah Eli piyyut
 Determine kaddish girsa
 Add Bei Ana
 Decide if I'm adding "reishit chochma"
-Weird tachanun instruction before Mizmor LeTodah
-
-
 
 Typographical stuff:
 Some shva-marks still doubled (see aleinu, omer)
 --fixed pending testing
 Fix last vowel of Yerushalayim
-
-
+Kamatz katans: 1170
 
 Formatting:
 Shabbat mincha kedusha is screwed up
@@ -26,5 +22,5 @@ Stretchy letters
 Bold for shva na'
 
 Other:
-Come up with a name
+Come up with a name--for not, קטורת תמיד
 Reorganize so Yom-Tov doesn't have so much skipping around--in progress
