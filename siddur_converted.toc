@@ -16,30 +16,29 @@
 \contentsline {section}{פסוקי דזמרא}{17}%
 \contentsline {chapter}{שחרית לחול}{34}%
 \contentsline {section}{תפילת העמידה}{38}%
-\contentsline {section}{תחנון}{47}%
-\contentsline {section}{סדר קריאת התורה}{53}%
-\contentsline {section}{סיום התפילה}{59}%
-\contentsline {section}{שיר של יום}{63}%
-\contentsline {chapter}{מוסף לראש חודש}{70}%
-\contentsline {chapter}{קדיש דרבנן}{76}%
-\contentsline {chapter}{אבינו מלכנו}{77}%
-\contentsline {chapter}{מנחה לחול}{79}%
-\contentsline {chapter}{ערבית לחול}{94}%
-\contentsline {section}{הבדלה}{108}%
-\contentsline {section}{ספירת העמר}{109}%
-\contentsline {section}{ברכת הלבנה}{111}%
-\contentsline {chapter}{קריאת שמע שעל המיטה}{115}%
-\contentsline {chapter}{עירוב תבשילין}{118}%
-\contentsline {chapter}{הדלקת הנרות שבת ויום טוב}{118}%
-\contentsline {chapter}{קבלת שבת}{119}%
-\contentsline {chapter}{ערבית לשבת ויום טוב}{126}%
-\contentsline {chapter}{קידוש ליל שבת}{138}%
-\contentsline {chapter}{קידוש ליל יום טוב}{141}%
-\contentsline {chapter}{שחרית לשבת ויום טוב}{143}%
-\contentsline {section}{תפילת העמידה}{153}%
-\contentsline {section}{נטילת הלולב}{160}%
-\contentsline {section}{נטילת הלולב}{160}%
-\contentsline {section}{הלל‎}{160}%
+\contentsline {section}{תחנון}{46}%
+\contentsline {section}{סדר קריאת התורה}{52}%
+\contentsline {section}{סיום התפילה}{58}%
+\contentsline {section}{שיר של יום}{62}%
+\contentsline {chapter}{מוסף לראש חודש}{71}%
+\contentsline {chapter}{קדיש דרבנן}{77}%
+\contentsline {chapter}{אבינו מלכנו}{78}%
+\contentsline {chapter}{מנחה לחול}{80}%
+\contentsline {chapter}{ערבית לחול}{95}%
+\contentsline {section}{הבדלה}{109}%
+\contentsline {section}{ספירת העמר}{110}%
+\contentsline {section}{ברכת הלבנה}{112}%
+\contentsline {chapter}{קריאת שמע שעל המיטה}{116}%
+\contentsline {chapter}{עירוב תבשילין}{119}%
+\contentsline {chapter}{הדלקת הנרות שבת ויום טוב}{119}%
+\contentsline {chapter}{קבלת שבת}{120}%
+\contentsline {chapter}{ערבית לשבת ויום טוב}{127}%
+\contentsline {chapter}{קידוש ליל שבת}{139}%
+\contentsline {chapter}{קידוש ליל יום טוב}{142}%
+\contentsline {chapter}{שחרית לשבת ויום טוב}{144}%
+\contentsline {section}{תפילת העמידה}{152}%
+\contentsline {section}{נטילת הלולב}{159}%
+\contentsline {section}{הלל‎}{159}%
 \contentsline {section}{סדר קריאת התורה}{172}%
 \contentsline {chapter}{מוסף לשבת ויו״ט}{184}%
 \contentsline {section}{מוסף לשלש לרגלים}{192}%
