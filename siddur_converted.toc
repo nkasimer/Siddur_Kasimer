@@ -16,13 +16,13 @@
 \contentsline {section}{פסוקי דזמרא}{17}%
 \contentsline {chapter}{שחרית לחול}{34}%
 \contentsline {section}{תפילת העמידה}{38}%
-\contentsline {section}{תחנון}{46}%
-\contentsline {section}{סדר קריאת התורה}{52}%
-\contentsline {section}{סיום התפילה}{58}%
-\contentsline {section}{שיר של יום}{62}%
-\contentsline {chapter}{מוסף לראש חודש}{71}%
-\contentsline {chapter}{קדיש דרבנן}{77}%
-\contentsline {chapter}{אבינו מלכנו}{78}%
+\contentsline {section}{אבינו מלכנו}{46}%
+\contentsline {section}{תחנון}{48}%
+\contentsline {section}{סדר קריאת התורה}{54}%
+\contentsline {section}{סיום התפילה}{60}%
+\contentsline {section}{שיר של יום}{64}%
+\contentsline {chapter}{מוסף לראש חודש}{72}%
+\contentsline {chapter}{קדיש דרבנן}{78}%
 \contentsline {chapter}{מנחה לחול}{80}%
 \contentsline {chapter}{ערבית לחול}{95}%
 \contentsline {section}{הבדלה}{109}%
@@ -36,7 +36,7 @@
 \contentsline {chapter}{קידוש ליל שבת}{139}%
 \contentsline {chapter}{קידוש ליל יום טוב}{142}%
 \contentsline {chapter}{שחרית לשבת ויום טוב}{144}%
-\contentsline {section}{תפילת העמידה}{152}%
+\contentsline {section}{תפילת העמידה}{153}%
 \contentsline {section}{נטילת הלולב}{159}%
 \contentsline {section}{הלל‎}{159}%
 \contentsline {section}{סדר קריאת התורה}{172}%

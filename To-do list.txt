@@ -2,19 +2,19 @@ Text:
 Add Yah Eli piyyut
 Add Bei Ana
 Girsa of beracha of mekadeish hashabbat--add ungrammatical version in footnote
-Check hodu
+
+Check hodu, change paragraph breaks
 Spelling of "Rebbe"
 "Kol" in kaddish
+Yehemu-na in 'al hatzaddikim
 
 Formatting:
 Shabbat amidah-intro has stuff falling into the margin
-Blank space after instruction for lamenatzeach
 Mimaamakim still messed up
 Space before mashiv haruach
-Blank space after hanoten leyaef koach
 Shabbat mincha kedusha is screwed up
 Bentshing (bamarom) has messed up formatting
-Blank pages around barekhu, after weekday shacharit amidah
+
 Bilingual instructions
 Rashi script for instructions
 Stretchy letters
@@ -23,3 +23,4 @@ Bold for shva na'
 Other:
 Come up with a name--for not, קטורת תמיד
 Reorganize so Yom-Tov doesn't have so much skipping around--in progress
+Add bibliography
