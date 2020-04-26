@@ -13,18 +13,18 @@
 \selectlanguage *[numerals=Hebrew]{hebrew}
 \contentsline {chapter}{ברכות השחר}{2}%
 \contentsline {section}{כניסה לבהכ״נ}{13}%
-\contentsline {section}{פסוקי דזמרא}{17}%
+\contentsline {chapter}{פסוקי דזמרא}{17}%
 \contentsline {chapter}{שחרית לחול}{34}%
-\contentsline {section}{תפילת העמידה}{38}%
+\contentsline {section}{תפילת העמידה}{39}%
 \contentsline {section}{אבינו מלכנו}{46}%
 \contentsline {section}{תחנון}{48}%
-\contentsline {section}{סדר קריאת התורה}{54}%
-\contentsline {section}{סיום התפילה}{60}%
-\contentsline {section}{שיר של יום}{64}%
-\contentsline {chapter}{מוסף לראש חודש}{71}%
-\contentsline {chapter}{קדיש דרבנן}{77}%
-\contentsline {chapter}{מנחה לחול}{79}%
-\contentsline {chapter}{ערבית לחול}{94}%
+\contentsline {section}{סדר קריאת התורה}{53}%
+\contentsline {section}{סיום התפילה}{59}%
+\contentsline {section}{שיר של יום}{63}%
+\contentsline {chapter}{מוסף לראש חודש}{70}%
+\contentsline {chapter}{קדיש דרבנן}{76}%
+\contentsline {chapter}{מנחה לחול}{78}%
+\contentsline {chapter}{ערבית לחול}{93}%
 \contentsline {section}{הבדלה}{108}%
 \contentsline {section}{ספירת העמר}{109}%
 \contentsline {section}{ברכת הלבנה}{111}%
@@ -33,34 +33,36 @@
 \contentsline {chapter}{הדלקת הנרות שבת ויום טוב}{118}%
 \contentsline {chapter}{קבלת שבת}{119}%
 \contentsline {chapter}{ערבית לשבת ויום טוב}{126}%
+\contentsline {section}{תפילת העמידה}{130}%
 \contentsline {chapter}{קידוש ליל שבת}{138}%
 \contentsline {chapter}{קידוש ליל יום טוב}{141}%
 \contentsline {chapter}{שחרית לשבת ויום טוב}{143}%
 \contentsline {section}{תפילת העמידה}{152}%
-\contentsline {section}{נטילת הלולב}{158}%
+\contentsline {section}{נטילת הלולב}{157}%
 \contentsline {section}{הלל‎}{158}%
-\contentsline {section}{סדר קריאת התורה}{170}%
-\contentsline {chapter}{מוסף לשבת ויו״ט}{182}%
-\contentsline {section}{מוסף לשלש לרגלים}{190}%
-\contentsline {section}{ברכת כהנים}{200}%
-\contentsline {section}{תפילת טל}{205}%
-\contentsline {section}{תפילת גשם}{207}%
-\contentsline {chapter}{קידושא רבא}{215}%
-\contentsline {chapter}{מנחה לשבת ויום טוב}{217}%
-\contentsline {chapter}{תפלת העמידה לשלש רגלים}{231}%
-\contentsline {chapter}{הושענות}{238}%
-\contentsline {section}{הושענות להושענא רבא}{243}%
-\contentsline {chapter}{הקפות לשמחת תורה}{253}%
-\contentsline {chapter}{יזכור}{255}%
-\contentsline {chapter}{בדיקת וביטול חמץ}{257}%
-\contentsline {chapter}{התרת נדרים}{258}%
-\contentsline {chapter}{וידוי}{260}%
-\contentsline {chapter}{חנוכה}{264}%
-\contentsline {chapter}{פורים}{266}%
-\contentsline {chapter}{ברית מילה}{268}%
-\contentsline {chapter}{פדיון הבן}{270}%
-\contentsline {chapter}{ברכת המזון}{272}%
-\contentsline {section}{זמון לנשואין}{279}%
-\contentsline {section}{שבע ברכות}{279}%
-\contentsline {section}{ברכה מעין שלש}{281}%
-\contentsline {chapter}{תפלת הדרך}{283}%
+\contentsline {section}{שיר של יום}{163}%
+\contentsline {section}{סדר קריאת התורה}{169}%
+\contentsline {chapter}{מוסף לשבת ויו״ט}{181}%
+\contentsline {section}{מוסף לשלש לרגלים}{188}%
+\contentsline {section}{ברכת כהנים}{198}%
+\contentsline {section}{תפילת טל}{203}%
+\contentsline {section}{תפילת גשם}{205}%
+\contentsline {chapter}{קידושא רבא}{213}%
+\contentsline {chapter}{מנחה לשבת ויום טוב}{215}%
+\contentsline {chapter}{תפלת העמידה לשלש רגלים}{229}%
+\contentsline {chapter}{הושענות}{236}%
+\contentsline {section}{הושענות להושענא רבא}{241}%
+\contentsline {chapter}{הקפות לשמחת תורה}{251}%
+\contentsline {chapter}{יזכור}{253}%
+\contentsline {chapter}{בדיקת וביטול חמץ}{255}%
+\contentsline {chapter}{התרת נדרים}{256}%
+\contentsline {chapter}{וידוי}{259}%
+\contentsline {chapter}{חנוכה}{263}%
+\contentsline {chapter}{פורים}{265}%
+\contentsline {chapter}{ברית מילה}{267}%
+\contentsline {chapter}{פדיון הבן}{269}%
+\contentsline {chapter}{ברכת המזון}{271}%
+\contentsline {section}{זמון לנשואין}{278}%
+\contentsline {section}{שבע ברכות}{278}%
+\contentsline {section}{ברכה מעין שלש}{280}%
+\contentsline {chapter}{תפלת הדרך}{282}%
