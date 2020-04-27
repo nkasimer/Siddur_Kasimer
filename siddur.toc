@@ -39,30 +39,30 @@
 \contentsline {chapter}{שחרית לשבת ויום טוב}{143}%
 \contentsline {section}{תפילת העמידה}{152}%
 \contentsline {section}{נטילת הלולב}{157}%
-\contentsline {section}{הלל‎}{158}%
-\contentsline {section}{שיר של יום}{163}%
-\contentsline {section}{סדר קריאת התורה}{169}%
+\contentsline {section}{הלל‎}{157}%
+\contentsline {section}{שיר של יום}{162}%
+\contentsline {section}{סדר קריאת התורה}{168}%
 \contentsline {chapter}{מוסף לשבת ויו״ט}{181}%
-\contentsline {section}{מוסף לשלש לרגלים}{188}%
-\contentsline {section}{ברכת כהנים}{198}%
-\contentsline {section}{תפילת טל}{203}%
-\contentsline {section}{תפילת גשם}{205}%
-\contentsline {chapter}{קידושא רבא}{213}%
-\contentsline {chapter}{מנחה לשבת ויום טוב}{215}%
-\contentsline {chapter}{תפלת העמידה לשלש רגלים}{229}%
-\contentsline {chapter}{הושענות}{236}%
-\contentsline {section}{הושענות להושענא רבא}{241}%
-\contentsline {chapter}{הקפות לשמחת תורה}{251}%
-\contentsline {chapter}{יזכור}{253}%
-\contentsline {chapter}{בדיקת וביטול חמץ}{255}%
-\contentsline {chapter}{התרת נדרים}{256}%
-\contentsline {chapter}{וידוי}{259}%
-\contentsline {chapter}{חנוכה}{263}%
-\contentsline {chapter}{פורים}{265}%
-\contentsline {chapter}{ברית מילה}{267}%
-\contentsline {chapter}{פדיון הבן}{269}%
-\contentsline {chapter}{ברכת המזון}{271}%
-\contentsline {section}{זמון לנשואין}{278}%
-\contentsline {section}{שבע ברכות}{278}%
-\contentsline {section}{ברכה מעין שלש}{280}%
-\contentsline {chapter}{תפלת הדרך}{282}%
+\contentsline {section}{מוסף לשלש לרגלים}{187}%
+\contentsline {section}{ברכת כהנים}{197}%
+\contentsline {section}{תפילת טל}{202}%
+\contentsline {section}{תפילת גשם}{204}%
+\contentsline {chapter}{קידושא רבא}{212}%
+\contentsline {chapter}{מנחה לשבת ויום טוב}{214}%
+\contentsline {chapter}{תפלת העמידה לשלש רגלים}{228}%
+\contentsline {chapter}{הושענות}{235}%
+\contentsline {section}{הושענות להושענא רבא}{240}%
+\contentsline {chapter}{הקפות לשמחת תורה}{250}%
+\contentsline {chapter}{יזכור}{252}%
+\contentsline {chapter}{בדיקת וביטול חמץ}{254}%
+\contentsline {chapter}{התרת נדרים}{255}%
+\contentsline {chapter}{וידוי}{258}%
+\contentsline {chapter}{חנוכה}{262}%
+\contentsline {chapter}{פורים}{264}%
+\contentsline {chapter}{ברית מילה}{266}%
+\contentsline {chapter}{פדיון הבן}{268}%
+\contentsline {chapter}{ברכת המזון}{270}%
+\contentsline {section}{זמון לנשואין}{277}%
+\contentsline {section}{שבע ברכות}{277}%
+\contentsline {section}{ברכה מעין שלש}{279}%
+\contentsline {chapter}{תפלת הדרך}{281}%
