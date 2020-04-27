@@ -1,4 +1,4 @@
-# Siddur Ketoret Tamid
+# Siddur
 Jewish prayer book written in LaTeX markup language, based on Siddur Olas Tamid by Aaron Wolf. 
 By Nathan Kasimer
 
