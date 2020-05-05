@@ -49,20 +49,20 @@
 \contentsline {section}{תפילת גשם}{208}%
 \contentsline {chapter}{קידושא רבא}{216}%
 \contentsline {chapter}{מנחה לשבת ויום טוב}{218}%
-\contentsline {chapter}{תפלת העמידה לשלש רגלים}{232}%
-\contentsline {chapter}{הושענות}{239}%
-\contentsline {section}{הושענות להושענא רבא}{244}%
-\contentsline {chapter}{הקפות לשמחת תורה}{254}%
-\contentsline {chapter}{יזכור}{256}%
-\contentsline {chapter}{בדיקת וביטול חמץ}{258}%
-\contentsline {chapter}{התרת נדרים}{259}%
-\contentsline {chapter}{וידוי}{262}%
-\contentsline {chapter}{חנוכה}{266}%
-\contentsline {chapter}{פורים}{268}%
-\contentsline {chapter}{ברית מילה}{270}%
-\contentsline {chapter}{פדיון הבן}{272}%
-\contentsline {chapter}{ברכת המזון}{274}%
-\contentsline {section}{זמון לנשואין}{281}%
-\contentsline {section}{שבע ברכות}{281}%
-\contentsline {section}{ברכה מעין שלש}{283}%
-\contentsline {chapter}{תפלת הדרך}{285}%
+\contentsline {chapter}{תפלת העמידה לשלש רגלים}{231}%
+\contentsline {chapter}{הושענות}{238}%
+\contentsline {section}{הושענות להושענא רבא}{243}%
+\contentsline {chapter}{הקפות לשמחת תורה}{253}%
+\contentsline {chapter}{יזכור}{255}%
+\contentsline {chapter}{בדיקת וביטול חמץ}{257}%
+\contentsline {chapter}{התרת נדרים}{258}%
+\contentsline {chapter}{וידוי}{261}%
+\contentsline {chapter}{חנוכה}{265}%
+\contentsline {chapter}{פורים}{267}%
+\contentsline {chapter}{ברית מילה}{269}%
+\contentsline {chapter}{פדיון הבן}{271}%
+\contentsline {chapter}{ברכת המזון}{273}%
+\contentsline {section}{זמון לנשואין}{280}%
+\contentsline {section}{שבע ברכות}{280}%
+\contentsline {section}{ברכה מעין שלש}{282}%
+\contentsline {chapter}{תפלת הדרך}{284}%
