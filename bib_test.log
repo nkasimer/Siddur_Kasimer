@@ -1,0 +1,426 @@
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2020.1.25)  10 MAY 2020 20:55
+entering extended mode
+**./bib_test.tex
+(bib_test.tex
+LaTeX2e <2019-10-01> patch level 3
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cl
+s"
+Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo
+"
+File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblat
+ex.sty"
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdft
+excmds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\inf
+warerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.s
+ty"
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcm
+ds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolb
+ox.sty"
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count88
+)
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval
+.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvopt
+ions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvs
+etkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.s
+ty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count89
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.d
+ef"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty
+"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) ("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count90
+\c@listtotal=\count91
+\c@listcount=\count92
+\c@liststart=\count93
+\c@liststop=\count94
+\c@citecount=\count95
+\c@citetotal=\count96
+\c@multicitecount=\count97
+\c@multicitetotal=\count98
+\c@instcount=\count99
+\c@maxnames=\count100
+\c@minnames=\count101
+\c@maxitems=\count102
+\c@minitems=\count103
+\c@citecounter=\count104
+\c@maxcitecounter=\count105
+\c@savedcitecounter=\count106
+\c@uniquelist=\count107
+\c@uniquename=\count108
+\c@refsection=\count109
+\c@refsegment=\count110
+\c@maxextratitle=\count111
+\c@maxextratitleyear=\count112
+\c@maxextraname=\count113
+\c@maxextradate=\count114
+\c@maxextraalpha=\count115
+\c@abbrvpenalty=\count116
+\c@highnamepenalty=\count117
+\c@lownamepenalty=\count118
+\c@maxparens=\count119
+\c@parenlevel=\count120
+\blx@tempcnta=\count121
+\blx@tempcntb=\count122
+\blx@tempcntc=\count123
+\blx@maxsection=\count124
+\blx@maxsegment@0=\count125
+\blx@notetype=\count126
+\blx@parenlevel@text=\count127
+\blx@parenlevel@foot=\count128
+\blx@sectionciteorder@0=\count129
+\blx@entrysetcounter=\count130
+\labelnumberwidth=\skip43
+\labelalphawidth=\skip44
+\biblabelsep=\skip45
+\bibitemsep=\skip46
+\bibnamesep=\skip47
+\bibinitsep=\skip48
+\bibparsep=\skip49
+\bibhang=\skip50
+\blx@bcfin=\read1
+\blx@bcfout=\write3
+\blx@langwohyphens=\language82
+\c@mincomprange=\count131
+\c@maxcomprange=\count132
+\c@mincompwidth=\count133
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-dm
+.def"
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'apa.dbx' found.
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-apa\ap
+a.dbx"
+File: apa.dbx 2020/04/08 v9.9 APA biblatex style data model
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count134
+\c@savedafterword=\count135
+\c@annotator=\count136
+\c@savedannotator=\count137
+\c@author=\count138
+\c@savedauthor=\count139
+\c@bookauthor=\count140
+\c@savedbookauthor=\count141
+\c@commentator=\count142
+\c@savedcommentator=\count143
+\c@editor=\count144
+\c@savededitor=\count145
+\c@editora=\count146
+\c@savededitora=\count147
+\c@editorb=\count148
+\c@savededitorb=\count149
+\c@editorc=\count150
+\c@savededitorc=\count151
+\c@foreword=\count152
+\c@savedforeword=\count153
+\c@holder=\count154
+\c@savedholder=\count155
+\c@introduction=\count156
+\c@savedintroduction=\count157
+\c@namea=\count158
+\c@savednamea=\count159
+\c@nameb=\count160
+\c@savednameb=\count161
+\c@namec=\count162
+\c@savednamec=\count163
+\c@translator=\count164
+\c@savedtranslator=\count165
+\c@shortauthor=\count166
+\c@savedshortauthor=\count167
+\c@shorteditor=\count168
+\c@savedshorteditor=\count169
+\c@groupauthor=\count170
+\c@savedgroupauthor=\count171
+\c@narrator=\count172
+\c@savednarrator=\count173
+\c@execproducer=\count174
+\c@savedexecproducer=\count175
+\c@execdirector=\count176
+\c@savedexecdirector=\count177
+\c@with=\count178
+\c@savedwith=\count179
+\c@labelname=\count180
+\c@savedlabelname=\count181
+\c@institution=\count182
+\c@savedinstitution=\count183
+\c@lista=\count184
+\c@savedlista=\count185
+\c@listb=\count186
+\c@savedlistb=\count187
+\c@listc=\count188
+\c@savedlistc=\count189
+\c@listd=\count190
+\c@savedlistd=\count191
+\c@liste=\count192
+\c@savedliste=\count193
+\c@listf=\count194
+\c@savedlistf=\count195
+\c@location=\count196
+\c@savedlocation=\count197
+\c@organization=\count198
+\c@savedorganization=\count199
+\c@origlocation=\count266
+\c@savedoriglocation=\count267
+\c@origpublisher=\count268
+\c@savedorigpublisher=\count269
+\c@publisher=\count270
+\c@savedpublisher=\count271
+\c@language=\count272
+\c@savedlanguage=\count273
+\c@origlanguage=\count274
+\c@savedoriglanguage=\count275
+\c@citation=\count276
+\c@savedcitation=\count277
+\c@pageref=\count278
+\c@savedpageref=\count279
+\shorthandwidth=\skip51
+\shortjournalwidth=\skip52
+\shortserieswidth=\skip53
+\shorttitlewidth=\skip54
+\shortauthorwidth=\skip55
+\shorteditorwidth=\skip56
+\locallabelnumberwidth=\skip57
+\locallabelalphawidth=\skip58
+\localshorthandwidth=\skip59
+\localshortjournalwidth=\skip60
+\localshortserieswidth=\skip61
+\localshorttitlewidth=\skip62
+\localshortauthorwidth=\skip63
+\localshorteditorwidth=\skip64
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-un
+icode.def")
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-co
+mpat.def"
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblat
+ex.def"
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count280
+\c@textcitetotal=\count281
+\c@textcitemaxnames=\count282
+\c@biburlbigbreakpenalty=\count283
+\c@biburlbreakpenalty=\count284
+\c@biburlnumpenalty=\count285
+\c@biburlucpenalty=\count286
+\c@biburllcpenalty=\count287
+\biburlbigskip=\muskip11
+\biburlnumskip=\muskip12
+\biburlucskip=\muskip13
+\biburllcskip=\muskip14
+\c@smartand=\count288
+)
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-apa\ap
+a.bbx"
+File: apa.bbx 2020/04/08 v9.9 APA biblatex references style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\st
+andard.bbx"
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count289
+\c@bbx:relatedtotal=\count290
+))
+Package biblatex Info: Trying to load citation style 'apa'...
+Package biblatex Info: ... file 'apa.cbx' found.
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-apa\ap
+a.cbx"
+File: apa.cbx 2020/04/08 v9.9 APA biblatex citation style
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already 
+defined, overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined
+, overwriting.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeyear'.
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblat
+ex.cfg"
+File: biblatex.cfg 
+))
+\@quotelevel=\count291
+\@quotereset=\count292
+ (bib_test.aux)
+\openout1 = `bib_test.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-apa\en
+glish-apa.lbx"
+File: english-apa.lbx 2020/04/08 v9.9 APA biblatex localisation
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\en
+glish.lbx"
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
+Package biblatex Info: ... file 'american-apa.lbx' found.
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-apa\am
+erican-apa.lbx"
+File: american-apa.lbx 2020/04/08 v9.9 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\am
+erican.lbx"
+File: american.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Users\nkasimer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\en
+glish.lbx"
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+))))
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `bib_test.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'bib_test.bbl' found.
+ (bib_test.bbl)
+Package biblatex Info: Reference section=0 on input line 10.
+Package biblatex Info: Reference segment=0 on input line 10.
+
+
+LaTeX Warning: Citation 'levshalem' on page 1 undefined on input line 12.
+
+
+LaTeX Warning: Citation 'sefasyisroel' undefined on input line 13.
+
+
+LaTeX Warning: Empty bibliography on input line 14.
+
+[1
+
+] (bib_test.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                bib_test
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'bib_test.run.xml'.
+\openout1 = `bib_test.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 8314 strings out of 427232
+ 156293 string characters out of 3140718
+ 720902 words of memory out of 3000000
+ 12800 multiletter control sequences out of 15000+200000
+ 3656 words of font info for 16 fonts, out of 3000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 47i,4n,49p,836b,4720s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on bib_test.pdf (1 page).
