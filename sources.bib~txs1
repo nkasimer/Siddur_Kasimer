@@ -1,0 +1,3344 @@
+\usepackage{url}
+\usepackage{hyperref}
+
+@MastersThesis{Nichols98,
+  author  =  {Dudley Stephen Nichols III},
+  title   =  {Calculation of free surface wave forms and flow field about the {S}eries 60 {$C_B$} = 0.6 Ship},
+  school  =  {Mississippi State University},
+  year    =  1998,
+}
+
+@phdthesis{Nichols2002,
+  author  =  {Dudley Stephen Nichols III},
+  title   =  {Development of a free surface method utilizing an incompressible multi-phase algorithm 
+              to study the flow about surface ships and underwater vehicles},
+  school  =  {Mississippi State University},
+  annote  =  {cfd uns},
+  month   =  {August},
+  year    =  2002
+}
+
+@Article{Baker1979a,
+  author  =  {C.J. Baker},
+  title   =  {The laminar horseshoe vortex},
+  journal =  {Journal of Fluid Mehcanics},
+  volume  =   95,
+  pages   =   {347-367},
+  year    =   1979,
+}
+
+@Article{Burg02a,
+  author  =  {C.O.E. Burg and K. Sreenivas and D.G. Hyams and B. Mitchell},
+  title   =  {Unstructured nonlinear free surface flow solutions: validation and verification},
+  journal =  {AIAA Paper 2002-2977},
+  note    =  {32nd AIAA Fluid Dynamics Conference and Exhibit, 24-26 June, St. Louis, MO},
+  annote  =  {cfd},
+  year    =  2002,
+}
+
+@Misc{Burg02b,
+  author  =  {C.O.E. Burg and K. Sreenivas and  D.G. Hyams and B. Mitchell},
+  title   =  {Unstructured nonlinear free surface simulations for the fully-appended {DTMB} model 5415 series hull including rotating propulsors},
+  note    =  {24th Symposium on Naval Hydrodynamics, Fukuoka, Japan, 8-12 July, 2002},
+}
+
+@Article{Sussman94,
+  author  =   {M. Sussman and P. Smereka and S. Osher},
+  title   =   {A level set method for computing solutions to incompressible two-phase flow},
+  journal =   {Journal of Computational Physics},
+  volume  =   119,
+  pages   =   {146-159},
+  annote  =   {uns},
+  year    =   1994,
+}
+
+@Article{Beddhu94,
+  author  =   {M. Beddhu and L.K. Taylor and D.L. Whitfield},
+  title   =   {A time accurate calculation procedure for flows with a free surface using a modified artificial compressibility formulation},
+  journal =   {Applied Mathematics and Computation},
+  volume  =   65,
+  pages   =   {33-48},
+  annote  =   {uns},
+  year    =   1994,
+}
+
+@Article{Beddhu98a,
+  author  =   {M. Beddhu and M.Y. Jiang and L.K. Taylor and D.L. Whitfield},
+  title   =   {Computation of Steady and Unsteady Flows with a free surface around the {w}igley hull},
+  journal =   {Applied Mathematics and Computation},
+  volume  =   89,
+  pages   =   {67-84},
+  annote  =   {uns},
+  year    =   1998,
+}
+
+@Article{Beddhu98b,
+  author  =   {M. Beddhu and M.Y. Jiang and D.L. Whitfield and L.K. Taylor and A. Arabshahi},
+  title   =   {{CFD} validation of the free surface flow around {DTMB} {M}odel 5415 using {R}eynolds {A}veraged {N}avier-{S}tokes equations},
+  journal =   {Proceedings of the Third Osaka Coloquium on Advanced CFD Applicationsto Ship Flow and Hull Form Design},
+  year    =   1998,
+}
+
+@Article{Beddhu98c,
+  author  =   {M. Beddhu and S. Nichols and M.Y. Jiang and C. Sheng and D.L. Whitfield and L.K. Taylor},
+  title   =   {Comparison of {EFD} and {CFD} results of the free surface flow field about the {S}eries 60 {$C_B$} = 0.6 {S}hip},
+  journal =   {Proceedings of the Twenty-Fifth American Towing Tank Conference},
+  year    =   1998,
+}
+
+@Article{Kawamura1984a,
+  author  =   {T. Kawamura and M. Hiwada and T. Hibino and I. Mabuchi and M. Kumada},
+  title   =   {Flow around a finite cylinder on a flat plate},
+  journal =   {Bulletin of the Japanese Soc. of Mech. Engineering},
+  volume  =   27,
+  number  =   232,
+  pages   =   {2142-2151},
+  annote  =   {uns},
+  year    =   1984,
+}
+
+@Article{Rifki2007a,
+  author  =   {R. Rifki and A. Ahmed and M.J. Khan},
+  title   =   {Effect of Aspect Ratio on the End-Wall Flow of a Streamlined Cylinder},
+  journal =   {AIAA},
+  volume  =   45,
+  number  =   4,
+  pages   =   {954-958},
+  year    =   2007,
+}
+
+@Book{Rahman95,
+  author  =  {Matiur Rahman},
+  title   =  {Water Waves: Relating Modern Theory to Advanced Engineering Applications},
+  publisher = {Oxford University Press},
+  year    =  1995,
+}
+
+@Book{Stull2000,
+  author  =  {Roland B. Stull},
+  title   =  {Meteorology for Scientists and Engineers},
+  publisher = {Brooks/Cole},
+  year    =  2000,
+}
+
+@Book{Pedlosky1987,
+  author  =  {Joseph Pedlosky},
+  title   =  {Geophysical Fluid Dynamics, Second Edition},
+  publisher = {Springer},
+  year    =  1987,
+}
+
+@Book{Dutton2002,
+  author  =  {John A. Dutton},
+  title   =  {The Ceaseless Wind: An Introduction to the Theory of Atmospheric Motion},
+  publisher = {Dover},
+  year    =  2002,
+}
+
+@Book{Wilcox1998,
+  author  =  {David C. Wilcox},
+  title   =  {Turbulence modeling for {CFD}, Second Edition},
+  publisher = {DCW Industries},
+  year    =  2002,
+}
+
+@Article{Apsley1997,
+  author  =  {D. D. Apsley and I. P. Castro},
+  title   =  {A Limited-Length-Scale $k-\epsilon$ Model for Neutral and Stably-Stratified Atmospheric Boundary Layer},
+  journal =  {Boundary Layer Meteorology},
+  volume  =   83,
+  pages   =   {75-98},
+  year    =  1997,
+}
+
+@Article{Alinot2005,
+  author  =  {Cedric Alinot and Christian Masson},
+  title   =  {$k-\epsilon$ Model for the Atmospheric Boundary Layer Under Various Thermal Stratifications},
+  journal =  {J. of Solar Energy Engineering},
+  volume  =   127,
+  pages   =   {438-443},
+  year    =  2005,
+}
+
+@Article{Martinuzzi1993,
+  author  =  {R. Martinuzzi and C. Tropea},
+  title   =  {The flow around surface-mounted, prismatic obstacles placed in a fully developed channel flow},
+  journal =  {J. of Fluid Engineering},
+  volume  =   115,
+  pages   =   {85},
+  year    =  1993,
+}
+
+@Article{Launder1989,
+  author  =  {B.E. Launder and N. Shima},
+  title   =  {Second-Moment Closure for the Near-Wall Sublayer: Development and Application},
+  journal =  {AIAA Journal},
+  volume  =  27,
+  number  =  10,
+  pages   =   {1319-1325},
+  annote  =   {cfd},
+  year    =   1989,
+}
+
+@Article{Batten1997,
+  author  =  {P. Batten and N. Clarke and C. Lambert and D.M. Causon},
+  title   =  {On The Choice of Wavespeeds for the HLLC Riemann Solver},
+  journal =  {SIAM J. Sci. Comput.},
+  volume  =  18,
+  number  =  6,
+  month   =  {November},
+  pages   =  {1553-1570},
+  annote  =  {math},
+  year    =  1997,
+} 
+
+
+@techreport{Tracer2001,
+  author  =  {Thomas J. Rappolt},
+  title   =  {Field Test Data Report: Measurements of Atmospheric Dispersion in the Los Angeles Urban Environment, Summer 2001},
+  institution = {Tracer Environmental Sciences and Technologies, Inc.},
+  number  =  {Project Number 1322},
+  address =  {San Marcos, CA, 92069},
+  year    =  2001,
+}
+
+@Article{Cybyk2001,
+  author  =  {B.Z. Cybyk and J.P. Boris and T.R. Young and M.H. Emery and S.A. Cheatham},
+  title   =  {Simulation of Fluid Dynamics Around Complex Urban Geometries},
+  journal =  {AIAA Paper 01-0803},
+  note    =  {39th AIAA Aerospace Sciences Meeting and Exhibit, 8-11 January 2001, Reno, NV},
+  annote  =  {cfd},
+  year    =  2001,
+}
+
+
+@Article{Bassi2005,
+  author  =  {F. Bassi and A. Crivellini and S. Rebay and M. Savini},
+  title   =  {Discontinuous Galerkin Solution of the Reynolds-averaged Navier-Stokes and $k-\omega$ Turbulence Model Equations},
+  journal =  {Computers \& Fluids},
+  volume  =  34,
+  pages   =   {507-540},
+  annote  =  {cfd},
+  year    =  2005,
+}
+
+
+@techreport{Liou1996,
+  author  =  {W.W. Liou and T.H. Shih},
+  title   =  {Transonic Turbulent Flow Predictions With New Two-Equation Turbulence Models},
+  institution = {NASA},
+  number  =  {CR-198444},
+  annote  =  {uns},
+  year    =  1996,
+}
+
+@techreport{Ameri2010,
+  author  =  {A. Ameri},
+  title   =  {NASA Rotor 37 CFD Code Validation},
+  institution = {NASA},
+  number  =  {CR-2010-216235},
+  annote  =  {uns},
+  year    =  2010,
+}
+
+
+@techreport{Menter1992,
+  author  =  {F.R. Menter},
+  title   =  {Improved Two-Equation $k-\omega$ Turbulence Models for Aerodynamic Flows},
+  institution = {NASA},
+  number  =  {TM-103975},
+  annote  =  {uns},
+  year    =  1992,
+}
+
+@Article{Gomez2011,
+  author  =  {C. Gomez and S. Girimaji},
+  title   =  {Algebraic Reynolds Stress Model (ARSM) for Compressible Shear Flows},
+  journal =  {AIAA Paper 2011-3572},
+  note    =  {41st AIAA Fluid Dynamics Conference and Exhibit, 27-30 June, 2011, Honolulu, HI},
+  annote  =  {cfd},
+  year    =  2011,
+}
+
+
+@Article{Strelets2001,
+  author  =  {M. Strelets},
+  title   =  {Detached Eddy Simulation of Massively Separated Flows},
+  journal =  {AIAA Paper 01-0879},
+  note    =  {39th AIAA Aerospace Sciences Meeting and Exhibit, 8-11 January 2001, Reno, NV},
+  annote  =  {cfd},
+  year    =  2001,
+}
+
+@Article{Menter2003,
+  author  =  {F.R. Menter and M. Kuntz and R. Bender},
+  title   =  {A Scale-Adaptive Simulation Model for Turbulent Flow Predictions},
+  journal =  {AIAA Paper 2003-0767},
+  note    =  {41st AIAA Aerospace Sciences Meeting and Exhibit, 6-9 January 2003, Reno, NV},
+  annote  =  {cfd},
+  year    =  2003,
+}
+
+@Article{Menter1997,
+  author  =  {F.R. Menter},
+  title   =  {Eddy Viscosity Transport Equations and Their Relation to the $k-\epsilon$ Model},
+  journal =  {Journal of Fluids Engineering},
+  volume  =  119,
+  pages   =   {876-884},
+  annote  =   {cfd},
+  year    =   1997,
+}
+
+@Article{Menter2005,
+  author  =  {F.R. Menter and Y. Egorov},
+  title   =  {A Scale-Adaptive Simulation Model using Two-Equation Models},
+journal =  {AIAA Paper 2005-1095},
+  note    =  {43rd AIAA Aerospace Sciences Meeting and Exhibit, 10-13 January 2005, Reno, NV},
+  annote  =  {cfd},
+  year    =  2005,
+}
+
+
+@Article{Spalart2006,
+  author  =  {P.R. Spalart and S. Deck and M.L. Shur and K.D. Squires and M.Kh. Strelets and A. Travin},
+  title   =  {A New Version of Detached-Eddy Simulation, Resistant to Ambiguous Grid Densities},
+  journal =  {Theoretical Computational Fluid Dynamics},
+  volume  =  20,
+  pages   =   {181-195},
+  annote  =   {cfd},
+  year    =   2006,
+}
+
+
+@Article{Karman2009a,
+  author  =  {S.L. Karman and P.A. Wooden},
+  title   =  {CFD Modeling of F-35 Using Hybrid Unstructured Meshes},
+  journal =  {AIAA Paper 2009-3662},
+  note    =  {19th AIAA Computational Fluid Dynamics, 22-25 June 2009, San Antonio, Texas},
+  annote  =   {cfd},
+  year    =   2009,
+}
+
+@Article{Hajjawi2008a,
+  author  =  {M. Hajjawi and Lafayette K. Taylor and D. Stephen Nichols},
+  title   =  {Assessment and Modification for Reynolds Stress Transport Turbulence Model Flow Prediction},
+  journal =  {AIAA Paper 2008-0568},
+  note    =  {46th AIAA Aerospace Sciences Meeting and Exhibit, January 2008},
+  annote  =  {cfd},
+  year    =  2008,
+}
+
+
+@Article{Hajjawi2008b,
+  author  =  {M. Hajjawi and Lafayette K. Taylor and D. Stephen Nichols},
+  title   =  {Assessment of Filtered Based RANS Turbulence Model for Unsteady Separated Flow Prediction},
+  journal =  {AIAA Paper 2008-0670},
+  note    =  {46th AIAA Aerospace Sciences Meeting and Exhibit, January 2008},
+  annote  =  {cfd},
+  year    =  2008,
+}
+
+
+
+@Article{Karman2006a,
+  author  =  {S.L. Karman and W.K. Anderson and M. Sahasrabudhe},
+  title   =  {Mesh Generation Using Unstructured Computational Meshes and Elliptic Partial Differential Equation Smoothing},
+  journal =  {AIAA Journal},
+  volume  =  44,
+  number  =  6,
+  pages   =   {1277-1286},
+  annote  =   {cfd},
+  year    =   2006,
+}
+
+@Article{Nichols2006a,
+  author  =  {D. Stephen Nichols and Daniel G. Hyams and Kidambi Sreenivas and Brent Mitchell and Lafayette K. Taylor and David L. Whitfield},
+  title   =  {An Unstructured Incompressible Multi-Phase Solution Algorithm},
+  journal =  {AIAA Paper 2006-1290},
+  note    =  {44th AIAA Aerospace Sciences Meeting and Exhibit, 9-12 January 2006, Reno, NV},
+  annote  =  {cfd},
+  year    =  2006,
+}
+
+@Article{Nichols2006b,
+  author  =  {D. Stephen Nichols and Brent Mitchell and Kidambi Sreenivas and Lafayette K. Taylor and W. Roger Briley and David L. Whitfield},
+  title   =  {Aerosol Propagation in an Urban Environment},
+  journal =  {AIAA Paper 2006-3726},
+  note    =  {36th AIAA Fluid Dynamics Conference and Exhibit, 5-8 June 2006, San Francisco, CA},
+  annote  =  {cfd},
+  year    =  2006,
+}
+
+@Article{Arabshahi2007a,
+  author  =  {A. Arabshahi and K. Sreenivas and S. Nichols and B. Mitchell and L. Taylor and D. Whitfield},
+  title   =  {Computational Analysis of Turbulent Internal Flow in Ballistic Rocket Motors},
+  journal =  {AIAA Paper 2007-1449},
+  note    =  {45th AIAA Aerospace Sciences Meeting and Exhibit, 8-11 January 2007, Reno, NV},
+  annote  =  {cfd},
+  year    =  2007,
+}
+
+@Article{Sreenivas2007a,
+  author  =  {K. Sreenivas and S. Nichols and D. Hyams and B. Mitchell and S. Sawyer and D. Whitfield},
+  title   =  {Computational Simulation of Heavy Trucks},
+  journal =  {AIAA Paper 2007-1087},
+  note    =  {45th AIAA Aerospace Sciences Meeting and Exhibit, 8-11 January 2007, Reno, NV},
+  annote  =  {cfd},
+  year    =  2007,
+}
+
+@Article{Sreenivas2007b,
+  author  =  {K. Sreenivas and B. Mitchell and S. Sawyer and S. Karman and S. Nichols and D. Hyams},
+  title   =  {Computational Prediction of Forces and Moments for Transport Aircraft},
+  journal =  {AIAA Paper 2007-1088},
+  note    =  {45th AIAA Aerospace Sciences Meeting and Exhibit, 8-11 January 2007, Reno, NV},
+  annote  =  {cfd},
+  year    =  2007,
+}
+
+@Article{Sreenivas2017,
+	author  =  {Kidambi Sreenivas and Robert S. Webster and Ethan A. Hereth},
+	title   =  {Impact of High-Order Spatial Accuracy on Multi-Stage Turbomachinery Simulations},
+	journal =  {AIAA Paper 2017-4823},
+	note    =  {53rd AIAA/SAE/ASEE Joint Propulsion Conference, 10-12 July 2017, Atlanta, GA},
+	annote  =  {WENO stencil},
+	year    =  2017,
+}
+
+@Article{Nichols2007a,
+  author  =  {D. Stephen Nichols and Kidambi Sreenivas and Steve L. Karman and Brent Mitchell},
+  title   =  {Turbulence Modeling for Highly Separated Flows},
+  journal =  {AIAA Paper 2007-1407},
+  note    =  {45th AIAA Aerospace Sciences Meeting and Exhibit, 8-11 January 2007, Reno, NV},
+  annote  =  {cfd},
+  year    =  2007,
+}
+
+@Article{Sreenivas2006a,
+  author  =  {Kidambi Sreenivas and R. Pankajakshan and D. Stephen Nichols and Brent Mitchell and Lafayette K. Taylor and David L. Whitfield},
+  title   =  {Aerodynamic Simulations of Heavy Trucks with Spinning Wheels},
+  journal =  {AIAA Paper 2006-1394},
+  note    =  {44th AIAA Aerospace Sciences Meeting and Exhibit, 9-12 January 2006, Reno, NV},
+  annote  =  {cfd},
+  year    =  2006,
+}
+
+
+@Article{Sreenivas2006b,
+  author  =  {K. Sreenivas and L.K. Taylor and W.R. Briley},
+  title   =  {A Global Preconditioner for Viscous Flow Simulations at All Mach Numbers},
+  journal =  {AIAA Paper 2006-3852},
+  note    =  {36th AIAA Fluid Dynamics Conference and Exhibit, 5-8 June 2006, San Francisco, CA},
+  annote  =  {cfd},
+  year    =  2006,
+}
+
+
+@Article{Sreenivas2005a,
+  author  =  {K.Sreenivas and D.G. Hyams and D.S. Nichols and B. Mitchell and L.K. Taylor and W.R. Briley and D.L. Whitfield},
+  title   =  {Development of an Unstructured Parallel Flow Solver for Arbitrary Mach Numbers},
+  journal =  {AIAA Paper 2005-0325},
+  note    =  {43rd AIAA Aerospace Sciences Meeting and Exhibit, January 2005},
+  annote  =  {cfd},
+  year    =  2005,
+}
+
+
+@InCollection{Pankajakshan01,
+  author  = {R. Pankajakshan and L.K.  Taylor and C. Sheng and W.R. Briley  and D. L. Whitfield},
+  title  =  {Scalable Parallel Implicit Multigrid Solution of Unsteady Incompressible Flows}, 
+  booktitle = {Frontiers of Computational Fluid Dynamics 2000},
+  editor = {D. A. Caughey and M. M. Hafez}, 
+  publisher = {World Scientific Publishing Company PTE. LTD},
+  year = {2001},
+} 
+
+
+
+@Article{Ahmad2006a,
+  author  =  {Nash'at Ahmad and John Lindeman},
+  title   =  {Euler solutions using flux-based wave decomposition},
+  journal =  {International Journal for Numerical Methods in Fluids},
+  volume  =  54,
+  pages   =  {47-72},
+  annote  =  {uns},
+  year    =  2006,
+}
+
+
+@Article{Straka1993,
+  author  =  {JM Straka and RB Wilhelmson and LJ Wicker and JR Anderson and KK Droegemeier},
+  title   =  {Numerical solutions of a non-linear density current: a benchmark solution and comparisons},
+  journal =  {International Journal for Numerical Methods in Fluids},
+  volume  =  17,
+  pages   =  {1-22},
+  annote  =  {uns},
+  year    =  1993,
+}
+
+@Article{Droegemeier1987,
+  author  =  {KK Droegemeier and RB Wilhelmson},
+  title   =  {Numerical solutions of a non-linear density current: a benchmark solution and comparisons},
+  journal =  {Journal of Atmospheric Science},
+  volume  =  44,
+  pages   =  {1180-1210},
+  annote  =  {uns},
+  year    =  1987,
+}
+
+@Article{Hunter1998,
+  author  =  {C.A. Hunter},
+  title   =  {Experiment, Theoretical, and Computational Investigation of Separated Nozzle Flows},
+  journal =  {AIAA Paper 98-3107},
+  note    =  {34th AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit July 13-15, 1998, Cleveland, OH},
+  annote  =  {cfd},
+  year    =  1998,
+}
+
+@Article{Xiao2003,
+  author  =  {Q. Xiao and H.M. Tsai and F. Liu},
+  title   =  {Computation of Shock Induced Separated Flow with a Lagged $k-\omega$ Turbulence Model},
+  journal =  {AIAA-2003-3464},
+  note    =  {33rd AIAA Fluid Dynamics Conference, 23-26 June 2003, Orlando, FL},
+  annote  =  {cfd},
+  year    =  2003,
+}
+
+@Article{Karman2009,
+  author  =  {S.L. Karman and P.A. Wooden},
+  title   =  {CFD Modeling of F-35 Using Hybrid Unstructured Meshes},
+  journal =  {AIAA-2009-3662},
+  note    =  {19th AIAA Computational Fluid Dynamics Conference, 22-25 June 2009, San Antonio, TX},
+  annote  =  {cfd},
+  year    =  2009,
+}
+
+@Article{Wooden2007,
+  author  =  {P.A. Wooden and B.R. Smith and J.J. Azevedo},
+  title   =  {CFD Predictions of Wing Pressure Distributions on the F-35 at Angles-of-Attack for Transonic Maneuvers},
+  journal =  {AIAA-2007-4433},
+  note    =  {June 2007},
+  annote  =  {cfd},
+  year    =  2007,
+}
+
+
+
+
+@Article{Hirt81,
+  author  =   {C.W. Hirt and B.D. Nichols},
+  title   =   {Volume of method ({VOF})for the dynamics of free boundaries},
+  journal =   {Journal of Computational Physics},
+  volume  =   39,
+  pages   =   {201-225},
+  annote  =   {uns},
+  year    =   1981,
+}
+
+@Misc{Bertram99,
+  author  =  {V. Bertram and S. Muzaferija and M. Peric},
+  title   =  {Prediction of free-surface flows with breaking waves},
+  note    =  {Numerical Towing Tank Symposium, Rome 2-3, August 1999},
+}
+
+
+@Article{Toda92,
+  author = 	 {Y. Toda and F. Stern and J. Longo},
+  title = 	 {Mean-flow measurements in the boundary layer and wake and wave field of a {S}eries 60 {$C_B$} = 0.6 ship model- {P}art 1 : {F}roude numbers 0.16 and 3.16},
+  journal = 	 {Journal of Ship Research},
+  annote =       {uns},
+  volume =       36,
+  number =       4,
+  month =        {December},
+  year = 	 {1992},
+  pages = 	 {360-377},
+}
+
+@Article{Longo93,
+  author = 	 {J. Longo and F. Stern and Y. Toda},
+  title = 	 {Mean-flow measurements in the boundary layer and wake and wave field of a {S}eries 60 {$C_B$} = 0.6 ship model- {P}art 2 : {S}cale effects onthe near-field wave patterns and comparisons with inviscid theory},
+  journal = 	 {Journal of Ship Research},
+  annote =       {uns},
+  volume =       37,
+  number =       1,
+  month =        {March},
+  year = 	 {1993},
+  pages = 	 {16-24},
+}
+
+@Article{Tahara96,
+  author = 	 {Y. Tahara and F. Stern},
+  title = 	 {A large-domain approach for calculating ship boundary layers and wakes and wave fields for nonzero {F}roude number},
+  journal = 	 {Journal of Computational Physics},
+  annote =       {uns},
+  volume =       127,
+  year = 	 {1996},
+  pages = 	 {398-411},
+}
+
+@Article{Stern96,
+  author = 	 {F. Stern and J. Longo and Z.J. Zhang and A.K. Subramani},
+  title = 	 {Detailed bow-flow data and {CFD} for a {S}eries 60 {$C_B$} = 0.6 ship model for {F}roude number 0.316},
+  journal = 	 {Journal of Ship Research},
+  annote =       {uns},
+  volume =       40,
+  number =       3,
+  month =        {September},
+  year = 	 {1996},
+  pages = 	 {193-199},
+}
+
+
+@Article{Kunz99,
+  author = 	 {Robert F. Kunz and David A Boger and David R. Stinebring and Thomas S. Chyczewski and Jules W. Lindau and Howard J. Gibeling and Sankaran Venkateswaran and T.R. Govindan},
+  title = 	 {A Preconditioned {N}avier-{S}tokes Method for Two-Phase Flows with Application to Cavitation Prediction},
+  journal = 	 {Computers and Fluids},
+  annote =       {uns},
+  volume =       29,
+  month =        {November},
+  year = 	 {2000},
+  pages = 	 {849-875},
+}
+ 
+
+@Article{Duncan83,
+  author = 	 {James H. Duncan},
+  title = 	 {The breaking and non-breaking wave resistance of a two-dimensional hydrofoil},
+  journal = 	 {Journal of Fluid Mechanics},
+  year = 	 {1983},
+  volume = 	 {126},
+  pages =        {507-520}
+}
+
+@unpublished{Digitizer,
+  author  =  {Mark Mitchell},
+  title   =  {Engauge Digitizer Version 4.1},
+  note    =  {http://digitizer.sourceforge.net},
+}
+
+
+@unpublished{Kyle,
+  author  =  {W. Kyle Anderson},
+  title   =  {},
+  note    =  {{P}rivate conversations, Engineering Research Center for Computational Field 
+              Simulation, Mississippi State, MS, November 1998},
+}
+
+@unpublished{BrileyPrivate1998,
+  author  =  {W. Roger Briley},
+  title   =  {},
+  note    =  {{P}rivate conversations, Engineering Research Center for Computational Field 
+              Simulation, Mississippi State, MS, January 1998},
+}
+
+@unpublished{Lafe1999,
+  author  =  {Lafayette K. Taylor},
+  title   =  {},
+  note    =  {{P}rivate conversations, Engineering Research Center for Computational Field 
+              Simulation, Mississippi State, MS, November 1999},
+}
+
+@unpublished{Marcum,
+  author  =  {David L. Marcum},
+  title   =  {},
+  note    =  {{P}rivate conversations, Engineering Research Center for Computational Field 
+              Simulation, Mississippi State, MS, December 1997},
+}
+
+@unpublished{UGTClass,
+  author  =  {},
+  title   =  {},
+  note    =  {Unstructured Grid Technology ME8993, Class Notes, Mississippi State, MS, 1997},
+}
+
+@unpublished{Sree,
+  author  =  {Kidambi Sreenivas},
+  title   =  {},
+  note    =  {{P}rivate conversations, Engineering Research Center for Computational Field 
+              Simulation, Mississippi State, MS, March 2000},
+}
+
+@unpublished{Whitfield,
+  author  =  {David L. Whitfield},
+  title   =  {},
+  note    =  {{P}rivate conversations, Engineering Research Center for Computational Field 
+              Simulation, Mississippi State, MS, January 2000},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@techreport{Abgr90,
+  author  =  {R. Abgrall},
+  title   =  {On Essentially Non-Oscillatory Schemes on Unstructured Meshes:
+              Analysis and Implementation},
+  institution = {NASA Langley Research Center},
+  number  =  {NASA Contract No. NAS1-19480},
+  address =  {Hampton, VA  23681},
+  annote  =  {uns},
+  year    =  1990
+}
+
+@techreport{Abgr91,
+  author  =  {R. Abgrall},
+  title   =  {Design of an Essentially Non-Oscillatory Reconstruction Procedure
+             on Finite-Element Type Meshes},
+  address = {Hampton, Virginia  23665},
+  institution = {NASA Langley Research Center},
+  number  = {ICASE Report No. 91-84},
+  annote  =  {uns},
+  year    =  1901,
+} 
+
+
+@Article{Aft95,
+  author  =   {Michael Aftosmis and Datta Gaitonda and T. Sean Tavares},
+  title   =   {Behavior of Linear Reconstruction Techniques on Unstructured
+               Meshes},
+  journal =   {AIAA Journal},
+  volume  =   33,
+  number  =   11,
+  pages   =   {2038-2049},
+  month   =   {November},
+  annote  =   {uns},
+  year    =   1995
+}
+
+@Article{And85,
+  author  =  {W. Kyle Anderson and J. L. Thomas and B. van Leer},
+  title   =  {A Comparison of Finite Volume Flux Vector Splittings for the
+             {E}uler Equations},
+  journal =  {AIAA Paper 85-0122},
+  note    =  {AIAA 23rd Aerospace Sciences Meeting, January 1985, Reno, NV},
+  annote  =  {cfd},
+  year    =  1985,
+} 
+
+@Techreport{And92,
+  author  =  {W. Kyle Anderson},
+  title   =  {Grid Generation and Flow Solution Method for the {E}uler Equations
+             on Unstructured Grids},
+  institution = {NASA Langley Research Center},
+  address =  {Hampton, VA  23665-5225},
+  number  =  {L-16986},
+  month   =  {April},
+  annote  =  {uns},
+  year    =  1992
+} 
+
+@Article{And93,
+  author  =  {W. Kyle Anderson and Daryl L. Bonhaus and Robert McGhee and Betty
+              Walker},
+  title   =  {{N}avier-{S}tokes Computations and Experimental Comparisons for
+              Multielement Airfoil Configurations},
+  journal =  {AIAA Paper 93-0645},
+  address =  {NASA Langley Research Center, Hampton, VA  23681},
+  note    =  {uns},
+  year    =  1993,
+}
+
+
+
+@Article{And94,
+  author  =   {W. Kyle Anderson and Daryl L. Bonhaus},
+  title   =   {An Implicit Upwind Algorithm for Computing Turbulent Flows on
+               Unstructured Grids},
+  journal =   {Computers in Fluids},
+  volume  =   23,
+  number  =   1,
+  pages   =   {1-21},
+  annote  =   {uns},
+  year    =   1994
+}
+
+
+@Article{And95,
+  author  =   {W. Kyle Anderson and Russ D. Rausch and Daryl L. Bonhaus},
+  title   =   {Implicit/Multigrid Algorithms for Incompressible Turbulent Flows 
+   		on Unstructured Grids},
+  journal =   {AIAA Paper 95-1740},
+  annote  =   {uns},
+  year    =   1995
+}
+
+@Article{And97,
+  author  =  {W. Kyle Anderson and V. Venkatakrishnan},
+  title   =  {Aerodynamic Design Optimization on Unstructured Grids with a
+              Continuous Adjoint Formulation},
+  journal =  {AIAA Paper 97-0643},
+  annote  =  {uns},
+  year    =  1997,
+}
+
+@Article{And95b,
+  author  =  {Eric J. Nielsen and  W. Kyle Anderson and Robert W. Walters and David E. Keyes},
+  title   =  {Application of {N}ewton-{K}rylov Methodology to a Three-Dimensional Unstructured
+              {E}uler Code},
+  journal =  {AIAA Paper 95-1733},
+  annote  =  {uns gmres},
+  year    =  1995,
+}
+
+@Article{Apelt58,
+  author  =  {C. J. Apelt},
+  title   =  {The steady flow of a viscous fluid past a circular cylinder at {R}eynolds
+              numbers 40 and 44},
+  journal =  {Aero. Res. Counc. R. \& M.},
+  pages   =  {3175},
+  annote  =  {exp - I don't have this paper - see Coutanceau},
+  year    =  1958,
+}
+
+@Article{Bald91 ,
+  author  =  {Barrett S. Baldwin and Timothy J. Barth},
+  title   =  {A One-Equation Turbulence Transport Model for High {R}eynolds
+              Number Wall-Bounded Flows},
+  journal =  {AIAA Paper 91-0610},
+  note    =  {29th Aerospace Sciences Meeting, January 1991, Reno, NV},
+  annote  =  {uns},
+  year    =  1991,
+} 
+
+@Article{Bancroft.90,
+  author =       {G. V. Bancroft and F. J. Merritt and T. C. Plessell and P. G. Kelaita and R. K. McCabe and A. Globus},
+  title =        {{FAST}: A Multi-Processed Environment for Visualization},
+  journal =      {Proceedings of IEEE Visualization '90},
+  year =         {1990},
+  month =        {October},
+  annote =       {this reference was from Kelly..},
+  pages =        {14-27},
+}        
+
+@Article{Bar89 ,
+  author  =  {Timothy J. Barth and Dennis C. Jespersen},
+  title   =  {The Design and Application of Upwind Schemes on Unstructured
+              Meshes},
+  journal =  {AIAA Paper 89-0366},
+  annote  =  {uns},
+  note    =  {27th Aerospace Sciences Meeting, January 1989, Reno, NV},
+  year    =  1989,
+} 
+
+@Article{Bar90,
+  author  =  {Timothy J. Barth and Paul O. Frederickson},
+  title   =  {Higher Order Solution of the {E}uler Equations on Unstructured
+              Grids using Quadratic Reconstruction},
+  journal =  {AIAA Paper 90-0013},
+  note    =  {28th Aerospace Sciences Meeting, January 1990, Reno, NV},
+  annote  =  {uns},
+  year    =  1990,
+} 
+
+
+@Article{Bar91a,
+  author  =  {Timothy J. Barth},
+  title   =  {Numerical Aspects of Computing Viscous High {R}eynolds
+               Number Flows on Unstructured Meshes},
+  journal =  {AIAA Paper 91-0721},
+  annote  =  {uns}, 
+  year    =  1991
+}
+ 
+@Article{Bar91b,
+  author  =   {Timothy J. Barth},
+  title   =   {A 3-{D} Upwind {E}uler Solver for Unstructured Meshes},
+  journal =   {AIAA Paper 91-1548},
+  annote  =   {uns},
+  year    =   1991
+}
+ 
+@Article{Bar92,
+  author  =  {Timothy J. Barth},
+  title   =  {Aspects of Unstructured Grids and Finite Volume Solvers
+                for the {E}uler Equations},
+  journal =  {AGARD Report 787: Special Course on Unstructured
+                    Grid Methods for Advection Dominated Flows},
+  annote  =  {uns},
+  year    =  1992
+}
+
+@Article{Bar92b,
+  author  =  {Steven W. Hammond and Timothy J. Barth},
+  title   =  {Efficient Massively Parallel {E}uler Solver for Two-Dimensional
+              Unstructured Grids},
+  journal =  {AIAA Journal},
+  annote  =  {uns},
+  month   =  {April},
+  volume  =  30,
+  number  =  4,
+  pages   =  {947-952},
+  year    =  1992,
+} 
+
+@InCollection{Bar94,
+  author  =      {Timothy J. Barth},
+  title   =      {Aspects of Unstructured Grids and Finite-Volume
+                  Solvers for the {E}uler and {N}avier-{S}tokes Equations},
+  booktitle =    {Computational Fluid Dynamics},
+  publisher =    {von Karman Institute for Fluid Dynamics},
+  year   =         1994,
+  number =       {1994--04},
+  annote =       {uns},
+  series =       {Lecture Series}
+}
+
+@InCollection{Bar95,
+  author  =  {Timothy J. Barth},
+  title   =  {Parallel CFD Algorithms on Unstructured Meshes},
+  booktitle = {VKI/NASA/AGARD Lecture Series},
+  publisher =    {von Karman Institute for Fluid Dynamics},
+  series =       {Lecture Series On Parallel Computing},
+  number  =   {AGARD Publication R-807},
+  year    =  1995,
+}
+
+@Article{Bar95b,
+  author  =  {Timothy J. Barth and Samuel W. Linton},
+  title   =  {An Unstructured Mesh {N}ewton Solver for Compressible Fluid Flow and
+               Its Parallel Implementation},
+  journal =  {AIAA Paper},
+  annote  =  {uns},
+  year    =  1995,
+}
+
+@Article{Bar95c,
+  author  =  {Timothy J. Barth},
+  title   =  {Steiner Triangulation for Isotropic and Stretched Elements},
+  journal =  {AIAA Paper},
+  annote  =  {uns},
+  year    =  1995,
+}  
+
+@Article{Bar95d ,
+  author  =  {Timothy J. Barth},
+  title   =  {Randomized Multigrid},
+  journal =  {AIAA Paper},
+  annote  =  {uns},
+  year    =  1995,
+} 
+
+@Article{Bat93,
+  author  =  {John T. Batina},
+  title   =  {Implicit Upwind Solution Algorithms for Three-Dimensional
+             Unstructured Meshes},
+  journal =  {AIAA Journal},
+  volume  =  31,
+  number  =  5,
+  month   =  {May},
+  annote  =  {uns},
+  year    =  1993,
+} 
+
+@Article{BeamWarm78,
+  author  =  {R. M. Beam and R. F. Warming},
+  title   =  {An Implicit Factored Scheme for the Compressible {N}avier-{S}tokes Equations},
+  journal =  {AIAA Journal},
+  volume  =  16,
+  number  =  4,
+  month   =  {April},
+  pages   =  {393-402},
+  annote  =  {cfd, don't have this paper, LIBRARY},
+  year    =  1978,
+}
+
+
+@Article{Bhat99,
+  author  =  {Maharaj K. Bhat},
+  title   =  {Parallel Implementation of an Unstructured Grid-Based {N}avier-{S}tokes
+              Solver},
+  journal =  {AIAA Paper 99-0663},
+  note    =  {37th Aerospace Sciences Meeting and Exhibit, Jan 1999, Reno, NV},
+  annote  =  {uns parallel},
+  year    =  1999,
+} 
+
+@Article{Blaz99,
+  author  =  {J. Blazek and S. Irmisch and A. Haselbacher},
+  title   =  {Unstructured Mixed-Grid {N}avier-{S}tokes Solver for Turbomachinery Applications},
+  journal =  {AIAA Paper 99-0664},
+  note    =  {37th Aerospace Sciences Meeting and Exhibit, Jan 1999, Reno, NV},
+  annote  =  {uns},
+  year    =  1999,
+} 
+
+
+@MastersThesis{Bon93,
+  author  =  {Daryl L. Bonhaus},
+  title   =  {An Upwind Multigrid Method for Solving Viscous Flow on
+              Unstructured Triangular Meshes},
+  school  =  {George Washington University},
+  year    =  1993,
+} 
+
+@Article{Book73,
+  author  =  {Jay P. Boris and David L. Book},
+  title   =  {Flux-Corrected Transport.  {I.} {SHASTA}, A Fluid Transport
+              Algorithm That Works},
+  journal =  {Journal of Computational Physics},
+  pages   =  {38-69},
+  volume  =  11,
+  annote  =  {cfd},
+  year    =  1973,
+}  
+
+@Article{Bra96,
+  author  =  {Mark E. Braaten and Stuart D. Connell},
+  title   =  {Three-Dimensional Unstructured Adaptive Multigrid Scheme for the
+              {N}avier-{S}tokes Equations},
+  journal =  {AIAA Journal},
+  volume  =  34,
+  number  =  2,
+  month   =  {February},
+  annote  =  {uns},
+  pages   =  {281-290},
+  year    =  1996,
+}
+
+@Article{Bragg99,
+  author  =  {S. Lee and M. B. Bragg},
+  title   =  {Effects of Simulated-Spanwise Ice Shapes on Airfoils: Experimental Investigation},
+  journal =  {AIAA Paper 99-0092},
+  note    =  {37th AIAA Aerospace Sciences Meeting and Exhibit, Jan 1999, Reno, NV},
+  annote  =  {icing},
+  year    =  1999,
+} 
+
+@Article{Brandt79,
+  author  =  {Achi Brandt},
+  title   =  {Multi Level Adaptive Computations in Fluid Dynamics},
+  journal =  {AIAA Paper 79-1455},
+  annote  =  {cfd},
+  year    =  1979,
+} 
+
+
+@Article{Bri77,
+  author  =  {W. R. Briley and H. McDonald},
+  title   =  {Solution of the Multidimensional Compressible {N}avier-{S}tokes
+              Equations by a Generalized Implicit Method},
+  journal =  {Journal of Computational Physics},
+  volume  =  24,
+  pages   =  {372-397},
+  annote  =  {cfd},
+  year    =  1977,
+} 
+
+
+@Article{Bri95,
+  author  =  {Ramesh Pankajakshan and W. Roger Briley},
+  title   =  {Parallel Solution of Viscous Incompressible Flow on Multi-Block
+              Structured Grids using {MPI}},
+  journal =  {Parallel Computational Fluid Dynamics: Implementations and Results
+              Using Parallel Computers},
+  editor  =  {A. Ecer and J. Periaux and N. Satofuka and S. Taylor},
+  pages   =  {601-608},
+  year    =  1995,
+} 
+
+@Article{Bri96,
+  author  =  {W. Roger Briley and Shyam S. Neerarambam and David L. Whitfield},
+  title   =  {Implicit Lower-Upper/Approximate-Factorization Schemes for
+              Incompressible Flows},
+  journal =  {Journal of Computational Physics},
+  volume  =  128,
+  pages   =  {32-42},
+  annote  =  {cfd},
+  year    =  1996,
+} 
+
+@Article{Briley2003,
+  author  =  {W.R. Briley and L.K. Taylor and D.L. Whitfield},
+  title   =  {High-Resolution Viscous Flow Simulations at Arbitrary Mach Number},
+  journal =  {Journal of Computational Physics},
+  volume  =  184,
+  pages   =  {79-105},
+  annote  =  {cfd},
+  year    =  2003,
+} 
+
+@Article{Brun97,
+  author  =  {Christopher W. S. Bruner and Robert W. Walters},
+  title   =  {Parallelization of the {E}uler Equations on Unstructured Grids},
+  journal =  {AIAA Paper 97-1894},
+  annote  =  {uns},
+  year    =  1997,
+} 
+
+@Article{Brun99,
+  author  =  {S. H. Woodson and C. W. S. Bruner},
+  title   =  {Analysis of Unstructured {CFD} codes for the accurate prediction
+              of aircraft store trajectories},
+  journal =  {AIAA Paper 99-0123},
+  note    =  {37th AIAA Aerospace Sciences Meeting and Exhibit, January 1999, Reno, NV},
+  annote  =  {uns},
+  year    =  1999,
+} 
+
+@Article{Chang87,
+  author  =  {Sin-Chung Chang},
+  title   =  {On the Validity of the Modified Equation Approach to the Stability
+               Analysis of Finite-Difference Methods},
+  journal =  {AIAA Paper No. 87-1120},
+  annote  =  {cfd},
+  year    =  1987,
+} 
+
+
+@Article{Chen99,
+  author  =  {R. F. Chen and Z. J. Wang},
+  title   =  {An Improved {LU}-{SGS} Scheme with Faster Convergence for Unstructured
+              Grids of Arbitrary Topology},
+  journal =  {AIAA Paper No. 99-0935},
+  note    =  {37th AIAA Aerospace Sciences Meeting and Exhibit, Jan 1999, Reno, NV},
+  annote  =  {uns},
+  year    =  1999,
+} 
+
+
+@Article{Chorin67,
+  author  =  {Alexandre Joel Chorin},
+  title   =  {A Numerical Method for Solving Incompressible Viscous Flow
+              Problems},
+  journal =  {Journal of Computational Physics},
+  volume  =  2,
+  pages   =  {12-26},
+  annote  =  {cfd},
+  year    =  1967,
+} 
+
+
+@Article{Chow97,
+  author  =  {Jim S. Chow and Gregory G. Zilliac and Peter Bradshaw},
+  title   =  {Mean and Turbulence Measurements in the Near Field of a Wingtip 
+              Vortex},
+  journal =  {AIAA Journal},
+  volume  =  35,
+  number  =  10,
+  annote  =  {turbulence},
+  month   =  {October},
+  pages   =  {1561-1567},
+  year    =  1997,
+} 
+
+
+@Article{Coakley83,
+  author  =  {T. J. Coakley},
+  title   =  {Turbulence Modeling Methods for the Compressible {N}avier-{S}tokes Equations},
+  journal =  {AIAA Paper 83-1693},
+  note    =  {AIAA 16th Fluid and Plasma Dynamics Conference, July 1983, Danvers, Mass.},
+  annote  =  {uns},
+  year    =  1983,
+} 
+
+@Article{Coakley85,
+  author  =  {T. J. Coakley and T. Hsieh},
+  title   =  {A Comparison Between Implicit and Hybrid Methods for the Calculation
+              of Steady and Unsteady Inlet Flows},
+  journal =  {AIAA Paper 85-1125},
+  note    =  {AIAA/SAE/ASME/ASEE 21st Joint Propulsion Conference, 
+              July 1985, Monterey, California},
+  annote  =  {turb},
+  year    =  1985,
+} 
+
+
+@Article{Coles68,
+  author  =  {D. E. Coles and E. A. Hirst},
+  title   =  {Computation of Turbulent Boundary Layers --- 1968 {AFOSR-IFP}
+              {S}tanford {C}onference},
+  journal =  {Proceedings of 1968 Stanford Conference, Volume 2},
+  note    =  {Stanford University, Stanford, CA},
+  annote  =  {turb, don't have this paper},
+  year    =  1968,
+} 
+
+@Article{Conn94,
+  author  =  {Stuart D. Connell and D. Graham Holmes},
+  title   =  {Three-Dimensional Unstructured Adaptive Multigrid Scheme for the
+              {E}uler Equations},
+  journal =  {AIAA Journal},
+  volume  =  32,
+  number  =  8,
+  annote  =  {uns},
+  month   =  {August},
+  pages   =  {1626-1632},
+  year    =  1994,
+} 
+
+@Article{Cout77,
+  author  =  {Madeleine Coutanceau and Roger Bouard},
+  title   =  {Experimental determination of the main features of the viscous
+              flow in the wake of a circular cylinder in uniform translation.  
+              {P}art 1: {S}teady flow},
+  journal =  {Journal of Fluid Mechanics},
+  volume  =  79,
+  number  =  2,
+  pages   =  {231-256},
+  annote  =  {exp},
+  year    =  1977,
+} 
+
+
+@Article{Cout77b,
+  author  =  {Madeleine Coutanceau and Roger Bouard},
+  title   =  {Experimental determination of the main features of the viscous
+              flow in the wake of a circular cylinder in uniform translation.  
+              Part 2. Unsteady flow},
+  journal =  {Journal of Fluid Mechanics},
+  volume  =  79,
+  number  =  2,
+  pages   =  {257-272},
+  annote  =  {exp},
+  year    =  1977,
+} 
+
+@Article{Dav95,
+  author  =  {F. Davoudzadeh and H. McDonald and B. E. Thompson},
+  title   =  {Accuracy Evaluation of Unsteady {CFD} Numerical Schemes By Vortex Preservation},
+  journal =  {Computers \& Fluids},
+  volume  =  24,
+  number  = 8,
+  month   =  {December},
+  pages   =  {883-895},
+  annote  =  {cfd, vortex convection, DONOTHAVE},
+  year    =  1995,
+}
+
+@Article{Del97,
+  author  =  {M. Delanaye and J. A. Essers},
+  title   =  {Quadratic-Reconstruction Finite Volume Scheme for Compressible
+              Flows on Unstructured Adaptive Grids},
+  journal =  {AIAA Journal},
+  pages   =  {631-638},
+  month   =  {April},
+  annote  =  {uns},
+  volume  =  35,
+  number  =  4,
+  year    =  1997,
+} 
+
+@Article{Del97b,
+  author  =  {M. Delanaye and Ph. Geuzaine and J. A. Essers},
+  title   =  {Development and Application of Quadratic Reconstruction Schemes
+              for Compressible Flows on Unstructured Adaptive Grids},
+  journal =  {AIAA Paper No. 97-2120},
+  annote  =  {uns},
+  year    =  1997,
+} 
+
+@Article{Den70,
+  author  =  {S. C. R. Dennis and Gau-Zu Chang},
+  title   =  {Numerical Solutions for steady flow past a circular cylinder at
+              {R}eynolds numbers up to 100},
+  journal =  {Journal of Fluid Mechanics},
+  volume  =  42,
+  number  =  3,
+  pages   =  {471-489},
+  annote  =  {exp},
+  year    =  1970,
+} 
+
+@Article{Durbin95,
+  author  =  {P. A. Durbin},
+  title   =  {On the $k$-3 Stagnation Point Anomaly},
+  journal =  {International Journal of Heat and Fluid Flow},
+  volume  =  17,
+  pages   =  {89-90},
+  annote  =  {turb},
+  year    =  1995,
+} 
+
+
+@Article{Erhel97,
+  author  =  {Jocelyne Erhel and Kevin Burrage and Bert Pohl},
+  title   =  {Restarted GMRES Preconditioned by Deflation},
+  journal =  {unknown},
+  annote  =  {math},
+  year    =  1997,
+}
+
+@Article{Fair99,
+  author  =  {Bruce D. Fairlie and Regina H. Caldeira},
+  title   =  {Prediction of {JDAM} separation characteristics from the {F/A-18C} Aircraft},
+  journal =  {AIAA Paper 99-0126},
+  note    =  {37th AIAA Aerospace Sciences Meeting and Exhibit, January 1999, Reno, NV},
+  annote  =  {uns},
+  year    =  1999,
+} 
+
+@Article{Frink92,
+  author  =  {Neal T. Frink},
+  title   =  {Upwind Scheme for Solving the {E}uler Equations on Unstructured
+              Tetrahedral Meshes},
+  journal =  {AIAA Journal},
+  volume  =  30,
+  number  =  1,
+  pages   =  {70-77},
+  annote  =  {uns},
+  year    =  1992,
+}
+
+
+@mastersthesis{Gaither97,
+  author  =  {J. Adam Gaither},
+  title   =  {A Solid Modelling Topology Data Structure for General Grid Generation},
+  school  =  {Mississippi State University},
+  annote  =  {gridgen, don't have a copy of this one},
+  year    =  1997
+}
+
+@phdthesis{Gaither2000,
+  author  =  {Kelly P. Gaither},
+  title   =  {An Object-Oriented Toolkit for Visualizing Large-Scale Unstructured Scientific Data},
+  school  =  {Mississippi State University},
+  annote  =  {cfd uns},
+  month   =  {May},
+  year    =  2000
+}
+
+
+@Article{Giles88,
+  author  =  {Michael Giles},
+  title   =  {Non-Reflecting Boundary Conditions for the {E}uler Equations},
+  journal =  {unpublished},
+  annote  =  {cfd},
+  number  =  {CFDL-TR-88-1},
+  month   =  {February},
+  year    =  1988,
+}
+
+@Article{Giles91,
+  author  =  {Michael Giles},
+  title   =  {UNSFLO: A Numerical method for the Calculation of Unsteady Flow in
+              Turbomachinery},
+  journal =  {unpublished},
+  annote  =  {uns},
+  number  =  {GTL Report #205},
+  year    =  1991,
+}  
+
+@InProceedings{Giles95a,
+  author  =  {D. A. Burgess and  P.I. Crumpton and M. B. Giles},
+  title   =  {A parallel framework for unstructured grid solvers},
+  booktitle = {Proceedings of the Second European Computational Fluid Dynamics
+               Conference  },
+  note    =  {Stuttgart, Germany},
+  pages   =  {391-396},
+  month   =  {September},
+  annote  =  {uns},
+  number  =  {Oxford University Computing Lab Tech Report #NA-95/20},
+  year    =  1995,
+} 
+
+@Article{Giles95b,
+  author  =  {P. I. Crumpton and M. B. Giles},
+  title   =  {Implicit time accurate solutions on unstructured dynamic grids},
+  journal =  {unpublished},
+  number  =  {Oxford University Computing Laboratory Tech Report #95/17},
+  annote  =  {uns},
+  year    =  1995,
+} 
+
+@Article{Giles96a ,
+  author  =  {M. B. Giles},
+  title   =  {Progress in Applied Numerical Analysis For Computational Fluid
+              Dynamics},
+  journal =  {unpublished},
+  annote  =  {cfd},
+  year    =  1996,
+} 
+
+@Article{Giles97a,
+  author  =  {N. A. Pierce and M.B. Giles and A. Jameson and L. Martinelli},
+  title   =  {Accelerating Three-Dimensional {N}avier-{S}tokes Calculations},
+  journal =  {AIAA Journal},
+  annote  =  {cfd},
+  year    =  1997,
+}  
+
+@Article{Giles97b,
+  author  =  {M. B. Giles},
+  title   =  {Stability Analysis of a {G}alerkin/{R}unge-{K}utta
+              {N}avier-{S}tokes Discretization on Unstructured Tetrahedral Grids},
+  journal =  {Journal of Computational Physics},
+  annote  =  {uns},
+  year    =  1997,
+} 
+
+@Article{Gleize99,
+  author  =  {Vincent Gleize},
+  title   =  {Low {M}ach number preconditioning for {3D} turbulent complex flow simulations},
+  journal =  {AIAA Paper 99-0788},
+  note    =  {37th AIAA Aerospace Sciences Meeting and Exhibit, January 1999, Reno, NV},
+  annote  =  {uns},
+  year    =  1999,
+} 
+
+
+@Article{Gooch95,
+  author   =  {Carl F. Ollivier-Gooch},
+  title  =  {Multigrid Acceleration of an Upwind {E}uler Solver on Unstructured
+              Meshes},
+  journal =  {AIAA Journal},
+  volume  =  33,
+  number  =  10,
+  pages   =  {1822-1827},
+  annote  =  {uns},
+  year    =  1995,
+} 
+
+
+@Article{Grove64,
+  author  =  {A. S. Grove and F. H. Shair and E. E. Petersen and Andreas Acrivos},
+  title   =  {An experimental investigation of the steady separated flow past a
+              circular cylinder},
+  journal =  {Journal of Fluid Mechanics},
+  volume  =  19,
+  pages   =  {60-80},
+  annote  =  {exp},
+  year    =  1964,
+} 
+
+@Techreport{Groves89,
+  author  =  {Nancy C. Groves and Thomas T. Huang and Ming S. Chang},
+  title   =  {Geometric Characteristics of {DARPA} {SUBOFF} Models},
+  institution = {David Taylor Research Center},
+  address =  {Bethesda, Maryland  20084-5000},
+  number  =  {DTRC/SHD-1298-01},
+  month   =  {March},
+  annote  =  {cfd experimental},
+  year    =  1989,
+} 
+
+@Article{Halt92,
+  author  =  {D. W. Halt and R. K. Agarwal},
+  title   =  {Compact Higher Order Characteristic-Based {E}uler Solver for
+              Unstructured Grids},
+  journal =  {AIAA Journal},
+  volume  =  30,
+  number  =  8,
+  month   =  {August},
+  pages   =  {1993-1999},
+  annote  =  {uns}, 
+  year    =  1992,
+}  
+
+@Article{Has91,
+  author   =  {O. Hassan and K. Morgan and J. Peraire and E. J. Probert and R. R.
+		Thareja},
+  title  =  {Adaptive Unstructured Mesh Methods for Steady Viscous Flow},
+  journal =  {AIAA Paper 91-1538-CP},
+  note    =  {AIAA 10th Computational Fluid Dynamics Conference, Honolulu,
+              Hawaii, June 1991},
+  annote  =  {uns},
+  year    =  1991,
+} 
+
+
+@InCollection{Heck93,
+  author  =  {Paul S. Heckbert},
+  title   =  {Introduction to Finite Element Methods},
+  booktitle = {Global Illumination Course Notes},
+  publisher = {SIGGRAPH '93},
+  month   =  {August},
+  address =  {Anaheim, CA},
+  annote  =  {math},
+  year    =  1993
+}
+
+@Article{Ho91,
+  author  =  {Y. H. Ho and B. Lakshminarayana},
+  title   =  {Computation of Unsteady Viscous Flow Using an Efficient Algorithm},
+  journal =  {AIAA Paper 91-1597-CP},
+  annote  =  {cfd},
+  year    =  1991,
+} 
+
+
+@Article{Huang92,
+  author  =  {T. T. Huang and N. C. Groves and T. J. Forlini and J. N. Blanton and S. Gowing},
+  title   =  {Measurement of Flows Over an Axisymmetric Body with Various Appendages},
+  journal =  {Nineteenth Symposium on Naval Hydrodynamics},
+  note    =  {Seoul, Korea},
+  month   =  {August},
+  annote  =  {cfd, experimental, I do not have this paper},
+  year    = 1992 
+} 
+
+
+@Article{Hudd94,
+  author  =  {D. H. Huddleston and B. K. Soni, and X. Zheng},
+  title   =  {Application of a Factored {N}ewton-Relaxation Scheme to Calculation
+              of Discrete Aerodynamic Sensitivity Derivatives},
+  journal =  {AIAA Paper 94-1894},
+  note    =  {12th AIAA Applied Aerodynamics Conference, June 1994, Colorado
+              Springs, CO},
+  annote  =  {cfd},
+  year    =  1994,
+} 
+
+@Article{Hwang91,
+  author  =  {C. J. Hwang and J. L. Liu},
+  title   =  {Locally Implicit Total-Variation-Diminishing Schemes on
+              Unstructured Triangular Meshes},
+  journal =  {AIAA Journal},
+  volume  =  29,
+  number  =  10,
+  month   =  October,
+  pages   =  {1619-1626},
+  annote  =  {uns},
+  year    =  1991,
+}
+
+@Article{Hwang93,
+  author  =  {C. J. Hwang and S. Y. Yang},
+  title   =  {Locally Implicit Total Variation Diminishing Schemes on Mixed
+              Quadrilateral-Triangular Meshes},
+  journal =  {AIAA Journal},
+  volume  =  31,
+  number  =  11,
+  month   =  November,
+  annote  =  {uns},
+  year    =  1993,
+}  
+
+@Article{Hwang95,
+  author  =  {Yao-Hsin Hwang},
+  title   =  {Unstructured Additive Correction Multigrid Method for the
+               Solution of Matrix Equations},
+  journal =  {Numerical Heat Transfer, Part B},
+  volume  =  27,
+  pages   =  {192-212},
+  annote  =  {uns},
+  year    =  1995,
+} 
+
+@Article{Hwang95b ,
+  author  =  {Yao-Hsin Hwang},
+  title   =  {Calculations of Incompressible Flow on a Staggered Triangular
+              Grid, Part {I}: Mathematical Formulation},
+  journal =  {Numerical Heat Transfer, Part B},
+  volume  = 27,
+  pages   = {323-336},
+  annote  = {uns},
+  year    =  1995,
+} 
+
+
+@phdthesis{Hyams2000,
+  author  =  {Daniel G. Hyams},
+  title   =  {An Investigation of Parallel Implicit Solution Algorithms for
+              Incompressible Flows on Unstructured Topologies},
+  school  =  {Mississippi State University},
+  annote  =  {cfd uns},
+  month   =  {May},
+  year    =  2000
+}
+
+
+@Article{Iss96,
+  author  =  {E. Issman and G. Degrez and H. Deconinck},
+  title   =  {Implicit Upwind Residual-Distribution {E}uler and
+              {N}avier-{S}tokes Solver on Unstructured Meshes},
+  journal =  {AIAA Journal},
+  pages   =  {2021-2028},
+  volume  =  34,
+  number  =  10,
+  month   =  {October},
+  annote  =  {uns},
+  year    =  1996,
+}
+
+@Article{Jameson81,
+  author   =  {A. Jameson and W. Schmidt and E. Turkel},
+  title  =  {Numerical Solutions of the {E}uler Equations by Finite Volume
+              Methods Using {R}unge-{K}utta Time-Stepping Schemes},
+  journal =  {AIAA Paper No. AIAA 81-1259},
+  annote  =  {cfd},
+  note    =  {AIAA 14th Fluid and Plasma Dynamics Conference, June 1981, Palo
+              Alto, CA},
+  year    =  1981,
+} 
+
+
+@Techreport{Johnson96,
+  author  =  {A. A. Johnson and T. E. Tezduyar},
+  title   =  {Parallel Computation of Incompressible Flows with Complex Geometries},
+  institution = {Army HPC Research Center, University of Minnesota},
+  address =  {1100 Washington Avenue South, Minneapolis, MN  55415},
+  number  =  {NIST contract 60NANB2D1272},
+  month   =  {February},
+  annote  =  {parallel uns},
+  year    =  1996,
+} 
+
+
+
+@Article{Iss96,
+  author  =  {E. Issman and G. Degrez and H. Deconinck},
+  title   =  {Implicit Upwind Residual-Distribution {E}uler and
+              {N}avier-{S}tokes Solver on Unstructured Meshes},
+  journal =  {AIAA Journal},
+  pages   =  {2021-2028},
+  volume  =  34,
+  number  =  10,
+  month   =  {October},
+  annote  =  {uns},
+  year    =  1996,
+}
+
+@phdthesis{Janus89,
+  author  =  {J. Mark Janus},
+  title   =  {Advanced 3-{D} {CFD} Algorithm for Turbomachinery},
+  school  =  {Mississippi State University},
+  annote  =  {cfd},
+  month   =  {May},
+  year    =  1989
+}
+
+@Article{Janus99,
+  author  =  {J. Mark Janus and Howard Z. Hostman and David L. Whitfield},
+  title   =  {Unsteady Flowfield Simulation of Ducted Prop-Fan Configurations},
+  journal =  {Journal of Propulsion and Power},
+  volume  =  15,
+  number  =  1,
+  pages   =  {64-72},
+  annote  =  {cfd rotating},
+  year    =  1999,
+}  
+
+@Techreport{Jessup98,
+  author  =  {Christopher J. Chesnakas and Stuart D. Jessup},
+  title   =  {Cavitation and {3-D} {LDV} Tip-Flowfield Measurements of {P}ropeller 5168},
+  institution = {Carderock Division, Naval Surface Warfare Center},
+  address =  {9500 MacArthur Blvd., West Bethesda, Maryland  20817-5700},
+  number  =  {CRDKNSWC/HD-1460-02},
+  month   =  {May},
+  annote  =  {cfd experimental},
+  year    =  1998,
+} 
+
+
+@Techreport{Kary98a,
+  author  =  {G. Karypis and V. Kumar},
+  title   =  {Multilevel Algorithms for Multi-constraint Graph Partitioning},
+  number  =  {TR 98-019},
+  institution =  {Department of Computer Science, University of Minnesota},
+  annote  =  {partition uns},
+  year    =  1998,
+} 
+
+@Article{Kary98b,
+  author  =  {G. Karypis and V. Kumar},
+  title   =  {Multilevel k-way Partitioning Scheme for Irregular Graphs},
+  journal =  {Journal of Parallel and Distributed Computing},
+  volume  =  48,
+  number  =  1,
+  pages   =  {96-129},
+  annote  =  {partition uns},
+  year    =  1998,
+}   
+
+@Article{Kary98c,
+  author  =  {G. Karypis and V. Kumar},
+  title   =  {A Fast and High Quality Multilevel Scheme for Partitioning Irregular Graphs},
+  journal =  {SIAM journal on Scientific Computing},
+  annote  =  {partition uns don't have this one},
+  year    =  1998,
+} 
+
+@Article{Kawa53,
+  author  =  {M. Kawaguti},
+  title   =  {Numerical solution of the {N}avier - {S}tokes equations
+              for the flow around a circular cylinder at {R}eynolds number 40},
+  journal =  {J. Phys. Soc. Japan},
+  volume  =  8,
+  pages   =  {747},
+  annote  =  {experimental, don't have this paper},
+  year    =  1953,
+}  
+
+
+@Article{Kleb97,
+  author  =  {William L. Kleb},
+  title   =  {Comments Regarding Two Upwind Methods for Solving Two-Dimensional
+              External Flows Using Unstructured Grids},
+  journal =  {unpublished},
+  year    =  1997,
+} 
+
+@Article{Kleb98,
+  author  =  {William A. Wood and Wiliam L. Kleb},
+  title   =  {Diffusion Characteristics of Upwind Schemes of Unstructured
+              Triangulations},
+  journal =  {AIAA Paper No. 98-2443},
+  note    =  {29th AIAA Fluid Dynamics Conference, June 15-18, Albuquerque, NM},
+  year    =  1998,
+} 
+
+
+
+@Article{Kuf96,
+  author  =  {Jurg K\"uffer and Berhard M\"uller and Torstein K. Fannel\op},
+  title   =  {Implicit Solution Method for Incompressible {N}avier-{S}tokes
+              Equations Including Two-Layer k-\tau Turbulence Model},
+  journal =  {AIAA Journal},
+  volume  =  34,
+  number  =  12,
+  month   =  {December},
+  pages   =  {2501-2508},
+  annote  =  {cfd},
+  year    =  1996,
+}
+
+@Article{Lax54,
+  author  =  {Peter D. Lax},
+  title   =  {Weak Solutions of Nonlinear Hyperbolic Equations and Their
+              Numerical Computation},
+  journal =  {Communications on Pure and Applied Mathematics},
+  volume  =  7,
+  pages   =  {159-193},
+  annote  =  {cfd},
+  year    =  1954,
+} 
+
+
+
+@Article{Leyland97,
+  author  =  {P. Leyland and R. Richter},
+  title   =  {Completely Parallel Compressible Flow Simulations Using Adaptive
+              Unstructured Meshes},
+  journal =  {AIAA Paper 97-2050},
+  note    =  {13th Computational Fluid Dynamics Conference, June 1997, Snowmass
+              Village, CO},
+  annote  =  {uns},
+  year    =  1997,
+} 
+
+@Article{Liu76,
+  author  =  {Wai-Hung Liu and Andrew J. Sherman},
+  title   =  {Comparative Analysis of the {C}uthill-{M}c{K}ee and the {R}everse
+             {C}uthill={M}c{K}ee ordering algorithms for sparse matrices},
+  journal =  {SIAM Journal of Numerical Analysis},
+  month   =  {April},
+  volume  =  13,
+  number  =  6,
+  pages   =  {198-213},
+  annote  =  {uns},
+  year    =  1976,
+} 
+
+@Article{Liu90,
+  author  =  {N. S. Liu and F. Davoudzadeh and W. R. Briley and S. J. Shamroth},
+  title   =  {{N}avier-{S}tokes Simulation of Transonic Blade-Vortex Interactions},
+  journal =  {Computers \& Fluids},
+  volume  =  112,
+  month   =  {December},
+  pages   =  {501-509},
+  annote  =  {cfd, vortex convection, DONOTHAVE},
+  year    =  1990,
+}
+
+
+@Article{Lohn94,
+  author  =  {Jean Cabello and Ken Morgan and Rainald L\"ohner},
+  title   =  {A Comparison of Higher Order Schemes Used in a Finite Volume
+              Solver for Unstructured Grids},
+  journal =  {AIAA Paper 94-2293},
+  annote  =  {uns},
+  note    =  {25th AIAA Plasmadynamics and Lasers Conference, June 1994,
+               Colorado Springs, CO},
+  year    =  1994,
+} 
+
+@Article{Lohn94b,
+  author  =  {Hong Luo and Joseph D. Baum and Rainald L\"ohner},
+  title   =  {Edge-Based Finite Element Scheme for the {E}uler Equations},
+  journal =  {AIAA Journal},
+  volume  =  32,
+  number  =  6,
+  month   =  June,
+  annote  =  {uns},
+  pages   =  {1183-1190},
+  year    =  1994,
+}  
+
+@Article{Lohn96,
+  author  =  {R. Ramamurti and R. L\"ohner},
+  title   =  {A Parallel Implicit Incompressible Flow Solver Using Unstructured
+              Meshes},
+  journal =  {Computers and Fluids},
+  volume  =  25,
+  number  =  2,
+  annote  =  {uns},
+  pages   =  {119-132},
+  year    =  1996,
+} 
+
+@Article{Lohn97,
+  author  =  {Rainald L\"ohner and Chi Yang and Eugenio O\~{n}ate and Sergio
+             Idelssohn},
+  title   =  {An Unstructured Grid-Based, Parallel Free Surface Solver},
+  journal =  {AIAA Paper 97-1830},
+  annote  =  {uns},
+  note    =  {28th AIAA Fluid Dynamics Conference, June 1997, Snowmass Village,
+              CO},
+  year    =  1997,
+} 
+
+@Article{Lohn99a,
+  author  =  {Hong Luo and Joseph D. Baum and Rainald L\"ohner},
+  title   =  {An Accurate, Fast, Matrix-Free Implicit Method for Computing
+              Unsteady Flows on Unstructured Grids},
+  journal =  {AIAA Paper 99-0937},
+  annote  =  {uns gmres},
+  note    =  {37th AIAA Aerospace Sciences Meeting and Exhibit, Jan 11-14, 1999, Reno, NV},
+  year    =  1999,
+} 
+
+@Article{Lohn99b,
+  author  =  {Hong Luo and Joseph D. Baum and Rainald L\"ohner},
+  title   =  {A Fast, Matrix-Free Implicit Method for Compressible Flows 
+              on Unstructured Grids},
+  journal =  {AIAA Paper 99-0936},
+  annote  =  {uns gmres},
+  note    =  {37th AIAA Aerospace Sciences Meeting and Exhibit, Jan 11-14, 1999, Reno, NV},
+  year    =  1999,
+} 
+
+@Article{Lohn99c,
+  author  =  {Rainald L\"ohner},
+  title   =  {Generation of Unstructured Grids Suitable for {RANS} Calculations},
+  journal =  {AIAA Paper 99-0662},
+  annote  =  {uns grids},
+  note    =  {37th AIAA Aerospace Sciences Meeting and Exhibit, Jan 11-14, 1999, Reno, NV},
+  year    =  1999,
+} 
+
+@Article{Lohn2000a,
+  author  =  {Hong Luo and Dmitri Sharov and Joseph D. Baum and Rainald L\"ohner},
+  title   =  {On the Computation of Compressible Turbulent Flows on Unstructured Grids},
+  journal =  {AIAA Paper No. 2000-0926},
+  annote  =  {uns},
+  note    =  {38th AIAA Aerospace Sciences Meeting, January 10-13, Reno, NV},
+  year    =  2000,
+} 
+
+
+@Article{Lohn2000b,
+  author  =  {Dmitri Sharov and Hong Luo and Joseph D. Baum and Rainald L\"ohner},
+  title   =  {Implementation of Unstructured Grid {GMRES+LU-SGS} Method on
+              Shared-Memory, Cache-Based Parallel Computers},
+  journal =  {AIAA Paper No. 2000-0927},
+  annote  =  {uns},
+  note    =  {38th AIAA Aerospace Sciences Meeting, January 10-13, Reno, NV},
+  year    =  2000,
+} 
+
+@phdthesis{LTaylor91,
+  author  =  {Lafayette K. Taylor},
+  title   =  {Unsteady Three-Dimensional Incompressible Algorithm 
+		based on Artificial Compressibility},
+  school  =  {Mississippi State University},
+  annote  =  {cfd},
+  year    =  1991
+}
+
+
+@InProceedings{LTaylor93,
+  author  =  {Lafayette K. Taylor and J.A. Busby and M. Y. Jiang and A. Arabshahi and
+              K. Sreenivas and D. L. Whitfield},
+  title   =  {Time Accurate Incompressible {N}avier-{S}tokes Simulation
+              of the Flapping Foil Experiment},
+  booktitle =  {Sixth International Conference on Numerical Ship Hydrodynamics},
+  month   =  {August},
+  note    =  {{I}owa {C}ity, {I}owa},
+  annote  =  {cfd},
+  year    =  1993
+}
+
+
+
+@Article{MacCorm97,
+  author  =  {Robert W. MacCormack},
+  title   =  {A New Implicit Algorithm for Fluid Flow},
+  journal =  {AIAA Paper 97-2100},
+  annote  =  {cfd},
+  year    =  1997,
+}  
+
+@Article{Mar92,
+  author  =  {David L. Marcum and R. K. Agarwal},
+  title   =  {Finite Element {N}avier-{S}tokes Solver for Unstructured Grids},
+  journal =  {AIAA Journal},
+  volume  =  30,
+  number  =  3,
+  month   =  {March},
+  pages   =  {648-654},
+  annote  =  {uns},
+  year    =  1992,
+}
+
+@Article{Mar94,
+  author  =  {David L. Marcum and Nigel P. Weatherill},
+  title   =  {Unstructured Grid Generation using Iterative Point Insertion and
+              Local Reconnection},
+  journal =  {AIAA Journal},
+  annote  =  {uns},
+  pages   =  {1619-1625},
+  volume  =  33,
+  number  =  9,
+  year    =  1994,
+} 
+
+@Article{Mar95 ,
+  author  =  {David L. Marcum and Nigel P. Weatherill and Michael J. Marchant
+              and Frank Beaven},
+  title   =  {Adaptive Unstructured Grid Generation for Viscous Flow
+              Applications},
+  journal =  {AIAA Paper 95-1726-CP},
+  annote  =  {uns},
+  note    =  {12th AIAA CFD Conference, June 1995, San Diego, CA},
+  year    =  1995,
+} 
+
+@Article{Mar95b,
+  author  =  {David L. Marcum},
+  title   =  {Generation of Unstructured Grids for Visous Flow Applications},
+  journal =  {AIAA Paper 95-0212},
+  annote  =  {uns},
+  note    =  {33rd Aerospace Sciences Meeting and Exhibit, January 1995, Reno,
+              NV},
+  year    =  1995,
+}  
+
+@Article{Mar95c,
+  author  =  {David L. Marcum},
+  title   =  {Control of Point Placement and Connectivity in Unstructured Grid
+               Procedures},
+  journal =  {IX International Conference on Finite Elements in Fluids},  
+  annote  =  {uns},
+  note    =  {New Trends and Applications},
+  month   =  {October},
+  year    =  1995,
+} 
+
+
+
+@Article{Mar96,
+  author  =  {David L. Marcum},
+  title   =  {Adaptive Unstructured Grid Generation for Viscous Flow
+              Applications},
+  journal =  {AIAA Journal},
+  volume  =  34,
+  number  =  11,
+  annote  =  {uns},
+  pages   =  {2440-2443},
+  year    =  1996,
+}
+
+@Article{Mar97,
+  author  =  {David L. Marcum},
+  title   =  {Advancing-Front/Local Reconnection ({AFLR}) Unstructured Grid
+              Generation},
+  journal =  {Conmputational Fluid Dynamics Review},
+  annote  =  {uns},
+  year    =  1997,
+}
+
+@Article{Mar97b,
+  author  =  {David L. Marcum and Kelly P. Gaither},
+  title   =  {Solution Adaptive Unstructured Grid Generation Using
+              Pseudo-Pattern Recognition Techniques},
+  journal =  {AIAA Paper 97-1860},
+  annote  =  {uns},
+  note    =  {13th CFD Conference, June 1997, Snowmass Village, CO},
+  year    =  1997,
+}  
+
+@Article{Mar99,
+  author  =  {David L. Marcum and J. Adam Gaither},
+  title   =  {Mixed Element Type Unstructured Grid Generation for Viscous
+              Flow Applications},
+  journal =  {AIAA Paper 99-3252},
+  annote  =  {uns gridgen},
+  note    =  {14th AIAA CFD Conference, June 1999, Norfolk, VA},
+  year    =  1999,
+}  
+
+
+@Article{Martin94,
+  author  =  {Olivier C. Martin and Steve W. Otto},
+  title   =  {Partitioning of Unstructured Meshes for Load Balancing},
+  journal =  {submitted to Concurrency: Practice and Experience},
+  annote  =  {uns},
+  year    =  1994,
+}  
+
+@Article{Mav90a,
+  author  =  {D. J. Mavriplis and A. Jameson},
+  title   =  {Multigrid Solution of the {N}avier-{S}tokes Equations on
+              Triangular Meshes},
+  journal =  {AIAA Journal},
+  volume  =  28,
+  number  =  8,
+  month   =  {August},
+  annote  =  {uns},
+  pages   =  {1415-1425},
+  year    =  1990,
+} 
+
+
+@techreport{Mav91a,
+  author  =  {D. J. Mavriplis and L. Martinelli},
+  title   =  {Multigrid solution of compressible turbulent flow on unstructured
+              meshes using a two-equation model},
+  institution = {NASA Langley Research Center},
+  number  =  {ICASE No. 91-11},
+  address =  {Hampton, VA  23681},
+  annote  =  {uns},
+  year    =  1991
+}
+
+@Article{Mav91b,
+  author  =  {Dimitri J. Mavriplis},
+  title   =  {Turbulent Flow Calculations using Unstructured and Adaptive Meshes},
+  journal =  {International Journal for Numerical Methods in Fluids},
+  volume  =  13,
+  pages   =  {1131-1152},
+  annote  =  {uns},
+  year    =  1991,
+} 
+
+@techreport{Mav91c,
+  author  =  {D. J. Mavriplis},
+  title   =  {Unstructured and Adaptive Mesh Generation for High {R}eynolds number
+              Viscous Flows},
+  institution = {NASA Langley Research Center},
+  number  =  {ICASE No. 91-25},
+  address =  {Hampton, VA  23681},
+  annote  =  {uns},
+  year    =  1991
+}
+
+
+@techreport{Mav92a,
+  author  =  {R. Das and D. J. Mavriplis and J. Saltz and S. Gupta and R.
+               Ponnusamy},
+  title   =  {The Design and Implementation of a Parallel Unstructured {E}uler Solver
+               Using Software Primitives}, 
+  institution = {NASA Langley Research Center},
+  number  =  {ICASE Report No. 92-12},
+  address =  {Hampton, VA  23665},
+  annote  =  {uns},
+  year    =  1992
+}
+
+@Article{Mav92b,
+  author  =  {D. J. Mavriplis},
+  title   =  {Three-Dimensional Unstructured Multigrid for the {E}uler Equations},
+  journal =  {AIAA Journal},
+  volume  =  30,
+  number  =  7,
+  annote  =  {uns},
+  pages   =  {1753-1761},
+  year    =  1992,
+} 
+
+@techreport{Mav94a,
+  author  =  {D. J. Mavriplis},
+  title   =  {A Three Dimensional Multigrid {R}eynolds-averaged 
+              {N}avier-{S}tokes solver for unstructured meshes},
+  institution = {NASA Langley Research Center},
+  number  =  {ICASE No. 94-29},
+  address =  {Hampton, VA  23681},
+  annote  =  {uns},
+  year    =  1994
+}
+
+@techreport{Mav95a,
+  author  =  {D. J. Mavriplis and V. Venkatakrishnan},
+  title   =  {A Unified Multigrid Solver for the {N}avier-{S}tokes Equations on
+              Mixed Element Meshes},
+  institution = {NASA Langley Research Center},
+  number  =  {NASA Contract No. NAS1-19480},
+  address =  {Hampton, VA  23681},
+  annote  =  {uns},
+  year    =  1995,
+} 
+
+@techreport{Mav95b,
+  author  =  {E. Morano and D. J. Mavriplis},
+  title   =  {Implementation of a Parallel Unstructured {E}uler Solver on the
+              {CM-5}},
+  institution = {NASA Langley Research Center},
+  number  =  {ICASE No. 95-16},
+  address =  {Hampton, VA  23681},
+  annote  =  {uns},
+  year    =  1995
+}
+
+
+@InCollection{Mav95c,
+  author  =      {D. J. Mavriplis},
+  title   =      {Unstructured Mesh Generation and Adaptivity},
+  booktitle =    {Computational Fluid Dynamics},
+  publisher =    {von Karman Institute for Fluid Dynamics},
+  year   =         1995,
+  annote =       {uns},
+  month  =       {March},
+  series =       {Lecture Series}
+}
+
+@InCollection{Mav95d,
+  author  =      {D. J. Mavriplis},
+  title   =      {Multigrid Techniques for Unstructured Meshes},
+  booktitle =    {Computational Fluid Dynamics},
+  publisher =    {von Karman Institute for Fluid Dynamics},
+  year   =         1995,
+  annote =       {uns},
+  month  =       {March},
+  series =       {Lecture Series}
+}
+
+@Article{Mav98,
+  author  =  {D. J. Mavriplis},
+  title   =  {On Convergence Acceleration Techniques for Unstructured Meshes},
+  journal =  {AIAA Paper No. 98-2966},
+  annote  =  {uns},
+  note    =  {29th AIAA Fluid Dynamics Conference, June 15-18, Albuquerque, NM},
+  year    =  1998,
+} 
+
+@Article{Mav2000,
+  author  =  {D. J. Mavriplis},
+  title   =  {Parallel Unstructured Mesh Analysis of High-Lift Configurations},
+  journal =  {AIAA Paper No. 2000-0923},
+  annote  =  {uns},
+  note    =  {38th AIAA Aerospace Sciences Meeting, January 10-13, Reno, NV},
+  year    =  2000,
+} 
+
+
+@Article{METIS,
+  author  =  {George Karypis and Vipin Kumar},
+  title   =  {{METIS}: Family of Multilevel Partitioning Algorithms},
+  journal =  {http://www-users.cs.umn.edu/~karypis/metis/metis.html},
+  year    =  1998
+}
+
+
+
+@InCollection{Morg90,
+  author  =  {K .Morgan and J. Peraire and J. Peiro},
+  title   =  {Unstructured Grid Methods for Compressible Flows},
+  publisher = {AGARD},
+  booktitle = {Unstructured Grid Methods for Advection Dominated Flows},
+  number  =  {AGARD Report 787},
+  annote  =  {uns},
+  series  =  {Special Course},
+  year    =  1990,
+} 
+
+@Article{Morino99,
+  author  =  {Hiroyuki Morino and Kazuhiro Nakahashi},
+  title   =  {Space-Marching Method on Unstructured Hybrid Grid for Supersonic Viscous Flows},
+  journal =  {AIAA Paper 99-0661},
+  note    =  {37th Aerospace Sciences Meeting and Exhibit, Jan 1999, Reno, NV},
+  annote  =  {uns},
+  year    =  1999,
+} 
+
+@Techreport{MPI,
+  author  =  {{MPI}: A Message-Passing Interface Standard},
+  title   =  {},
+  institution = {University of Tennessee Computer Science Dept.},
+  address =  {Knoxville, TN},
+  number  =  {CS-94-230},
+  annote  =  {cs; I don't have this report},
+  year    =  1994
+}
+
+@Article{Nieu73,
+  author  =  {F. Nieuwstadt and H. B. Keller},
+  title   =  {Viscous Flow Past Circular Cylinders},
+  journal =  {Computers \& Fluids},
+  volume  =  1,
+  pages   =  {59-71},
+  annote  =  {exp},
+  year    =  1973,
+}  
+
+@Book{Ogawa,
+  author  =  {O. Ogawa},
+  title   =  {Vortex Flow},
+  publisher = {CRC Press},
+  year    =  1993,
+} 
+
+@Article{Page99,
+  author  =  {Andreas Haselbacher and James J. McGuirk and Gary J. Page},
+  title   =  {Finite Volume Discretization Aspects for Viscous Flows on
+              Mixed Unstructured Grids},
+  journal =  {AIAA Journal},
+  annote  =  {uns},
+  volume  =  37,
+  number  =   2,
+  month   =  {February},
+  pages   =  {177-184},
+  year    =  1999,
+} 
+
+@Article{Pan93,
+  author  =  {Dartzi Pan and Jen-Chieh Cheng},
+  title   =  {Upwind Finite-Volume {N}avier-{S}tokes Computations on
+              Unstructured Triangular Meshes},
+  journal =  {AIAA Journal},
+  annote  =  {uns},
+  volume  =  31,
+  number  =   9,
+  month   =  {September},
+  pages   =  {1618-1625},
+  year    =  1993,
+} 
+
+@phdthesis{Panka97,
+  author  =  {Ramesh Pankajakshan},
+  title   =  {Parallel Solution of Unsteady Incompressible Viscous Flows Using
+              Multiblock Structured Grids},
+  school  =  {Mississippi State University},
+  annote  =  {cfd},
+  year    =  1997
+}
+
+
+@Article{Pletch96,
+  author  =  {Philip E. Jorgenson and Richard H. Pletcher},
+  title   =  {An Implicit Numerical Scheme for the simulation of internal
+              viscous flow on unstructured grids},
+  journal =  {Computers \& Fluids},
+  volume  =  25,
+  number  =  5,
+  annote  =  {uns},
+  pages   =  {447-466},
+  year    =  1996,
+} 
+
+@Article{Rai87,
+  author  =  {M. M. Rai},
+  title   =  {{N}avier-{S}tokes Simulations of Blade-Vortex Interaction Using
+              High-Order Accurate Upwind Schemes},
+  journal =  {AIAA Paper No. 87-0543},
+  annote  =  {cfd, vortex convection, DONOTHAVE},
+  year    =  1987,
+} 
+
+@Techreport{Roddy90,
+  author  =  {Robert F. Roddy},
+  title   =  {Investigation of the Stability and Control Characteristics
+              of Several Configurations of the {DARPA} {SUBOFF} model
+              from Captive-Model Experiments},
+  institution = {David Taylor Research Center},
+  address =  {Bethesda, Maryland  20084-5000},
+  number  =  {DTRC/SHD-1298-08},
+  month   =  {September},
+  annote  =  {cfd experimental},
+  year    =  1990,
+} 
+
+@Article{Roe81,
+  author  =  {P. L. Roe},
+  title   =  {Approximate {R}iemann Solvers, Parameter Vectors, and Difference
+              Schemes},
+  journal =  {Journal of Computational Physics},
+  volume  =  43,
+  pages   =  {357-372},
+  annote  =  {cfd},
+  year    =  1981,
+}
+
+@Article{Roe86,
+  author  =  {P. L. Roe},
+  title   =  {Characteristic-Based Schemes for the {E}uler Equations},
+  journal =  {Annual Review of Fluid Mechanics},
+  volume  =  18,
+  pages   =  {337-365},
+  annote  =  {cfd},
+  year    =  1986,
+}  
+
+@Article{Roe87,
+  author  =  {Bram van Leer and James L. Thomas and Philip L. Roe and Richard W.
+              Newsome},
+  title   =  {A Comparison of Numerical Flux Formulas for the {E}uler and
+              {N}avier-{S}tokes Equations},
+  journal =  {AIAA Paper No. 87-1104-CP},
+  note    =  {AIAA 8th Computational Fluid Dynamics Conference, June 1987,
+              Honolulu, Hawaii},
+  annote  =  {cfd},
+  year    =  1987,
+} 
+
+
+@Article{Roe91a,
+  author  =  {Christopher L. Rumsey and Bram van Leer and Philip L. Roe},
+  title   =  {Effect of a Multi-Dimensional Flux Function on the Monotonicity of
+             {E}uler and {N}avier-{S}tokes Computations},
+  journal =  {AIAA Paper 91-1530-CP},
+  annote  =  {cfd},
+  year    =  1991,
+} 
+
+@Article{Roe91b,
+  author  =  {K. Mazaheri and P. L. Roe},
+  title   =  {New Light on Numerical Boundary Conditions},
+  journal =  {AIAA Paper 91-1600-CP},
+  annote  =  {cfd},
+  year    =  1991,
+}
+
+@Article{Roe97, 
+  author  =  {Timur Linde and Philip L. Roe},
+  title   =  {Robust {E}uler Codes},
+  journal =  {AIAA Paper No. 97-2098},
+  annote  =  {cfd},
+  year    =  1997,
+} 
+
+@Article{Rogers95,
+  author  =  {Stuart E. Rogers},
+  title   =  {Comparison of Implicit Schemes for the Incompressible
+              {N}avier-{S}tokes Equations},
+  journal =  {AIAA Journal},
+  volume  =  33,
+  number  =  11, 
+  pages   =  {2066-2072},
+  annote  =  {cfd},
+  year    =  1995,
+} 
+
+@Article{Rum93,
+  author  =  {Christopher L. Rumsey and Veer N. Vatsa},
+  title   =  {A comparison of the predictive capabilities of several turbulence
+              models using upwind and central-difference computer codes},
+  journal =  {AIAA Paper No. 93-0192},
+  annote  =  {cfd},
+  year    =  1993,
+}  
+
+@Article{Saad86,
+  author  =  {Youcef Saad and Martin H. Schultz},
+  title   =  {{GMRES}: a generalized minimal residual algorithm for solving
+              nonsymmetric linear systems},
+  journal =  {SIAM J. Sci. Stat. Comput.},
+  volume  =  7,
+  number  =  3,
+  month   =  {July},
+  pages   =  {856-869},
+  annote  =  {math},
+  year    =  1986,
+} 
+
+@Article{Saad92,
+  author  =  {Y. Saad},
+  title   =  {Preconditioned {K}rylov Subspace Methods for {CFD} Applications},
+  journal =  {NASA Grant NAG2-904},
+  annote  =  {math gmres},
+  year    =  1992,
+} 
+
+@Article{Saad92b,
+  author  =  {Andrew Chapman and Yousef Saad and Larry Wigton},
+  title   =  {High order {ILU} preconditioners for {CFD} problems},
+  journal =  {NASA Grant NAG2-904},
+  annote  =  {math gmres},
+  year    =  1992,
+} 
+
+@Techreport{Saad92c,
+  author  =  {Youcef Saad},
+  title   =  {{ILUT}: A dual threshold incomplete {LU} factorization},
+  institution = {University of Minnesota, Computer Science Department},
+  address =  {200 Union Street S. E., Minneapolis, MN  55455},
+  number  =  {private publication},
+  annote  =  {gmres},
+  year    =  1992,
+} 
+
+@Techreport{Saad92d,
+  author  =  {Youcef Saad},
+  title   =  {Preconditioning techniques for nonsymmetric indefinite linear systems},
+  institution = {Center of Supercomputing Research and Development},
+  address =  {University of Illinois and Urbana-Champaign, Urbana, Illinois  61801},
+  number  =  {NSF grant US NSF-MIP-8410110},
+  month   =  {December},
+  annote  =  {gmres},
+  year    =  1992,
+} 
+
+@Techreport{Saad92e,
+  author  =  {Youcef Saad},
+  title   =  {A flexible inner-outer preconditioned {GMRES} algorithm},
+  institution = {University of Minnesota, Computer Science Department},
+  address =  {200 Union Street S. E., Minneapolis, MN  55455},
+  number  =  {private publication},
+  annote  =  {gmres},
+  year    =  1992,
+} 
+
+@Techreport{Saad98a,
+  author  =  {Youcef Saad and Jun Zhang},
+  title   =  {{BILUM}: Block Versions and Multi-Elimination and Multi-Level
+              {ILU} Preconditioner for General Sparse Linear Systems},
+  institution = {University of Minnesota, Computer Science Department},
+  address =  {200 Union Street S. E., Minneapolis, MN  55455},
+  number  =  {ARPA grant NIST 60ANAB2D1272},
+  annote  =  {gmres},
+  month   =  {April},
+  year    =  1992,
+} 
+
+@Techreport{Saad98b,
+  author  =  {S. Ma and Youcef Saad},
+  title   =  {Distributed {ILU(0)} and {SOR} Preconditioners for Unstructured
+              Sparse Linear Systems},
+  institution = {University of Minnesota, Computer Science Department},
+  address =  {200 Union Street S. E., Minneapolis, MN  55455},
+  number  =  {ARPA grant NIST 60ANAB2D1272},
+  annote  =  {gmres},
+  month   =  {February},
+  year    =  1998,
+} 
+
+@Techreport{Schmid93,
+  author  =  {W. Schmid and Ronald J. W. Hoppe},
+  title   =  {A Comparison of Iterative Solvers for Nonsymmetric Linear Systems
+              in Problems from {D}-opant-{D}iffusion},
+  institution = {Mathematisches Institut der TU Munchen},
+  address =  {Arcisstr. 21, D-8000 Munchen 2, FRG},
+  number  =  {TUM M9308(93)},
+  month   =  {March},
+  annote  =  {gmres},
+  year    =  1993,
+} 
+
+
+@Article{Sheng97,
+  author  =  {C. Sheng and J. P. Chen and L. Taylor and M. Y. Jiang and D. Whitfield},
+  title   =  {Unsteady multigrid method for simulating {3-D} incompressible 
+              {N}avier-{S}tokes flows on dynamic relative motion grids},
+  journal =  {AIAA Paper 97-0446},
+  note    =  {35th AIAA Aerospace Sciences Meeting and Exhibit, January 1997, Reno, NV},
+  annote  =  {cfd},
+  year    =  1997,
+} 
+
+@Article{Sheng99,
+  author  =  {C. Sheng and D. Hyams and K. Sreenivas and A. Gaither and D. Marcum and
+              D. Whitfield and W. K. Anderson},
+  title   =  {Three-Dimensional Incompressible {N}avier-{S}tokes Flow Computations
+              About Complete Configurations Using a Multiblock Unstructured Grid
+              Approach},
+  journal =  {AIAA Paper 99-0778},
+  note    =  {37th AIAA Aerospace Sciences Meeting and Exhibit, January 1999, Reno, NV},
+  annote  =  {uns},
+  year    =  1999,
+} 
+
+
+@Article{Shu95,
+  author  =  {Bernardo Cockburn and Chi-Wang Shu},
+  title   =  {The Local Discontinuous {G}alerkin method for time-dependent
+              convection-diffusion problems},
+  journal =  {cockburn@math.umn.edu},
+  annote  =  {math},
+  year    =  1995,
+} 
+
+@Article{Shur1997,
+  author  =  {M.L. Shur and P.R. Spalart},
+  title   =  {On the Sensitization of Turbulence Models to Rotation and Curvature},
+  journal =  {Aerospace Science and Technology},
+  annote  =  {turb},
+  year    =  1997,
+} 
+
+@Article{Sii95,
+  author  =  {Timo Siikonen},
+  title   =  {An Application of {R}oe's flux-difference splitting for k-\epsilon
+              turbulence model},
+  journal =  {International Journal for Numerical Methods in Fluids},
+  volume  =  21,
+  pages   =  {1017-1039},
+  annote  =  {cfd},
+  year    =  1995,
+} 
+
+@Article{Sim94 ,
+  author  =  {Horst D. Simon},
+  title   =  {Partitioning of Unstructured Problems for Parallel Processing},
+  journal =  {NASA Contract NAS 2-12961},
+  annote  =  {uns},
+  year    =  1994,
+}
+
+@Article{Slack94,
+  author  =  {David C. Slack and D. L. Whitaker and Robert W. Walters},
+  title   =  {Time Integration Algorithms for the Two-Dimensional {E}uler
+              Equations on Unstructured Meshes},
+  annote  =  {uns},
+  journal =  {AIAA Journal},
+  volume  =  32,
+  number  =  6,
+  month   =  {June},
+  pages   =  {1158-1166}, 
+  year    =  1994,
+}  
+
+@Article{Sor95,
+  author  =  {Antonio Soria and Francois Ruel},
+  title   =  {Assessment of some iterative methods for non-symmetric linear
+               systems arising in computational fluid dynamics},
+  journal =  {International Journal of Numerical Methods in Fluids},
+  volume  =  21,
+  pages   =  {1171-1200},
+  year    =  1995,
+} 
+
+
+@Article{Spa92,
+  author  =  {P. R. Spalart and S. R. Allmaras},
+  title   =  {A One-Equation Turbulence Model for Aerodynamic Flows},
+  journal =  {AIAA Paper 92-0439},
+  annote  =  {turb},
+  year    =  1992,
+}
+
+@Article{Spa98,
+  author  =  {P. R. Spalart and M. Shur},
+  title   =  {On the sensitization of turbulence models to rotation and curvature},
+  journal =  {private publication},
+  annote  =  {turb},
+  year    =  1998,
+}
+
+@Article{Spalding61,
+  author  =  {D. B. Spalding},
+  title   =  {A Single Formula for the Law of the Wall},
+  journal =  {Journal of Applied Mechanics},
+  volume  =  28,
+  pages   =  {455-457},
+  annote  =  {turb, don't have this paper},
+  year    =  1961,
+}
+
+@Article{Squire98,
+  author  =  {W. Squire and G. Trapp},
+  title   =  {Using Complex Variables to Estimate Derivatives of Real Functions},
+  journal =  {SIAM Review},
+  annote  =  {math - don't have this paper - see Whitfield},
+  volume  =  40,
+  number  =  1,
+  month   =  {March},
+  year    =  1998,
+  pages   =  {110-112}
+}
+
+
+
+@Article{Ste81 ,
+  author  =  {Joseph L. Steger and R. F. Warming},
+  title   =  {Flux Vector Splitting of the Inviscid Gasdynamic Equations with
+              Application to Finite-Difference Methods},
+  journal =  {Journal of Computational Physics},
+  volume  =  40,
+  pages   =  {263-293},
+  annote  =  {cfd},
+  year    =  1981,
+} 
+
+@Book{Strang,
+  author  =  {Gilbert Strang},
+  title   =  {Linear Algebra and its Applications},
+  publisher = {Saunders College Publishing},
+  edition = {3rd},
+  year    =  1988,
+} 
+
+@Article{Strang99a,
+  author  =  {R. F. Tomaro and R. C. Witzeman and W. Z. Strang},
+  title   =  {A Solution of the {F18-C} for Store Separation Simulation Using {C}obalt-60},
+  journal =  {AIAA Paper 99-0122},
+  note    =  {37th AIAA Aerospace Sciences Meeting and Exhibit, January 1999, Reno, NV},
+  annote  =  {uns},
+  year    =  1999,
+} 
+
+@Article{Strang99b,
+  author  =  {W. Z. Strang and R. F. Tomaro and M. J. Grismer},
+  title   =  {The Defining Methods of {C}obalt-60: A Parallel, Implicit Unstructured
+              {E}uler/{N}avier-{S}tokes Flow Solver},
+  journal =  {AIAA Paper 99-0786},
+  note    =  {37th AIAA Aerospace Sciences Meeting and Exhibit, January 1999, Reno, NV},
+  annote  =  {uns},
+  year    =  1999,
+} 
+
+@Article{Taf96,
+  author  =  {David E. Taflin and Moeljo Soetrisno and Scott T. Imlay},
+  title   =  {A Parallel Algorithm for Hybrid Structured-Unstructured Grids},
+  journal =  {Amtec Engineering Technical Note},
+  annote  =  {uns},
+  year    =  1996,
+} 
+
+@Article{Tang97,
+  author  =  {Lei Tang and James D. Baeder},
+  title   =  {Uniformly Accurate Compact Difference Schemes},
+  journal =  {AIAA Paper No. 97-2093},
+  note    =  {11th Computational Fluid Dynamics Conference, June 1997, Snowmass
+              Village, CO},
+  annote  =  {cfd},
+  year    =  1997,
+} 
+
+@Article{Taylor89,
+  author  =  {Robert P. Taylor and Hugh W. Coleman and M. H. Hosni and Philip H. Love},
+  title   =  {Thermal boundary condition effects on heat transfer in the
+              turbulent incompressible flat plate boundary layer},
+  journal =  {International Journal of Heat and Mass Transfer},
+  volume  = 32,
+  number  = 6,
+  pages   = {1165-1174},
+  year    =  1989,
+}
+
+
+
+@InProceedings{LTaylor95,
+  author  =  {Lafayette K. Taylor and David L. Whitfield},
+  title   =  {Investigation of the Accuracy of an Unsteady Incompressible {E}uler Equation Algorithm},
+  booktitle =  {Proceedings of Advances in Scientific Computing and Modeling},
+  month   =  {October},
+  note    =  {Eastern {I}llinois {U}niversity, {C}harleston, {I}llinois},
+  annote  =  {cfd},
+  pages   =  {77-81},
+  year    =  1995
+}
+
+
+@Article{Thom78,
+  author  =  {P. D. Thomas and C. K. Lombard},
+  title   =  {Geometric Conservation Law and its application to Flow
+              Computations on Moving Grids},
+  journal =  {AIAA Journal},
+  volume  =  17,
+  number  =  10,
+  pages   =  {1030-1037},
+  annote  =  {cfd},
+  year    =  1978,
+}  
+
+@Article{Thoma96,
+  author  =  {Michael Thomadakis and Michael Leschziner},
+  title   =  {A Pressure-Correction Method for the Solution of Incompressible
+              Viscous Flows on Unstructured Grids},
+  journal =  {International Journal of Numerical Methods in Fluids},
+  volume  =  22,
+  pages   =  {581-601},
+  annote  =  {uns},
+  year    =  1996,
+}  
+
+
+@Article{Tid97,
+  author  =  {M. D. Tidriri},
+  title   =  {Preconditioning Techniques for the {N}ewton-{K}rylov
+              Solution of Compressible Flows},
+  journal =  {Journal of Computational Physics},
+  volume  =  132,
+  pages   =  {51-61},
+  annote  =  {gmres cfd},
+  year    =  1997,
+}  
+
+@Article{Van96,
+  author  =  {Kirk J. Vanden and Paul D. Orkwis},
+  title   =  {Comparison of Numerical and Analytical Jacobians},
+  journal =  {AIAA Journal},
+  number  =  6, 
+  volume  =  34,
+  month   =  {June},
+  annote  =  {cfd},
+  year    =  1996,
+} 
+
+@Article{Vanek94,
+  author  =  {Petr Vanek and Jan Mandel and Marian Brezina},
+  title   =  {Algebraic Multigrid on Unstructured Meshes},
+  journal =  {NSF Grant ASC-9121431},
+  annote  =  {uns},
+  month   =  {December},
+  year    =  1994,
+} 
+
+
+@Article{Ven91,
+  author  =  {V. Venkatakrishnan},
+  title   =  {Preconditioned Conjugate Gradient Methods for the Compressible
+             {N}avier-{S}tokes Equations},
+  journal =  {AIAA Journal},
+  volume  =  {29},
+  number  =  7,
+  month   =  {July},
+  pages   =  {1092-1100},
+  annote  =  {cfd},
+  year    =  1991,
+} 
+
+@Article{Ven93,
+  author  =  {V. Venkatakrishnan and D. J. Mavriplis},
+  title   =  {Implicit Solvers for Unstructured Meshes},
+  journal =  {Journal of Computational Physics},
+  volume  =  105,
+  pages   =  {83-91},
+  annote  =  {uns},
+  year    =  1993,
+} 
+
+
+@Article{Ven94,
+  author  =  {V. Venkatakrishnan},
+  title   =  {Parallel Implicit Unstructured Grid {E}uler Solvers},
+  journal =  {AIAA Journal},
+  annote  =  {uns},
+  volume  =  32,
+  number  =  10,
+  month   =  {October},
+  pages   =  {1985-1991},
+  year    =  1994,
+} 
+
+@Article{Ven94b,
+  author  =  {V. Venkatakrishnan and D. J. Mavriplis},
+  title   =  {Agglomeration Multigrid for the three-dimensional {E}uler
+              equations},
+  journal =  {ICASE Report 94-5},
+  annote  =  {uns},
+  year    =  1994,
+} 
+
+
+@Article{Ven95,
+  author  =  {V. Venkatakrishnan},
+  title   =  {A Perspective on Unstructured Grid Flow Solvers},
+  journal =  {AIAA Paper No. 95-0667},
+  annote  =  {uns},
+  note    =  {33rd Aerospace Sciences Exhibit, Jan. 1995, Reno, NV},
+  year    =  1995,
+} 
+
+@Article{Ven95b,
+  author  =  {V. Venkatakrishnan and D. J. Mavriplis},
+  title   =  {Implicit Method for the Computation of Unsteady Flows on
+              Unstructured Grids},
+  journal =  {Accepted for publication in the Journal of Computational Physics,
+              March 1996},
+  annote  =  {uns},
+  year    =  1995,
+} 
+
+@Article{Ven95c,
+  author  =  {V. Venkatakrishnan},
+  title   =  {Implicit Schemes and Parallel Computing in Unstructured Grid {CFD}},
+  journal =  {Unpublished article},
+  annote  =  {cfd},
+  year    =  1995,
+} 
+
+@Article{Ven96,
+  author  =  {V. Venkatakrishnan},
+  title   =  {Perspective on unstructured grid flow solvers},
+  journal =  {AIAA Journal},
+  volume  =  34,
+  pages   =  {533-547},
+  annote  =  {uns}, 
+  year    =  1996,
+}
+
+@Article{Ven96b,
+  author  =  {Xiao-Chuan Cai and David E. Keyes and V. Venkatakrishnan},
+  title   =  {{N}ewton-{K}rylov-{S}chwarz: An Implicit Solver for {CFD}},
+  journal =  {NASA Contract No. NAS1-19480},
+  annote  =  {cfd gmres},
+  year    =  1996,
+} 
+
+@Article{Ven98,
+  author  =  {V. Venkatakrishnan},
+  title   =  {Improved Convergence of Compressible {N}avier-{S}tokes Solvers},
+  journal =  {AIAA Paper No. 98-2967},
+  note    =  {29th AIAA Fluid Dynamics Conference, June 15-18, Albuquerque, NM}, 
+  year    =  1998
+} 
+
+@Article{Wake95,
+  author  =  {B. E. Wake and D. Choi},
+  title   =  {Investigation of High-Order Upwinded Differencing for Vortex Convection},
+  journal =  {AIAA Paper No. 95-1719},
+  annote  =  {cfd, vortex convection, DONOTHAVE},
+  month   =  {June},
+  year    =  {1995}
+} 
+
+@Article{Wang99,
+  author  =  {Qunzhen Wang and Steven J. Massey and Khaled S. Abdol-Hamid},
+  title   =  {Solving {N}avier-{S}tokes equations with advanced turbulence models
+              on three-dimensional unstructured grids},
+  journal =  {AIAA Paper 99-0156},
+  note    =  {37th AIAA Aerospace Sciences Meeting and Exhibit, January 1999, Reno, NV},
+  annote  =  {uns},
+  year    =  1999,
+} 
+
+@Article{Warm74,
+  author  =  {R. F. Warming and B. J. Hyett},
+  title   =  {The Modified Equation Approach to the Stability and Accuracy
+              Analysis of Finite-Difference Methods},
+  journal =  {Journal of Computational Physics},
+  volume  =  14,
+  pages   =  {159-179},
+  annote  =  {cfd},
+  year    =  1974,
+} 
+
+@Article{Warm76,
+  author  =  {R. F. Warming and Richard M. Beam},
+  title   =  {Upwind Second-Order Difference Schemes and Applications in
+              Aerodynamic Flows},
+  journal =  {AIAA Journal},
+  volume  =  14,
+  number  =  9,
+  month   =  {September},
+  pages   =  {1241-1249},
+  annote  =  {cfd},
+  year    =  1976,
+} 
+
+@InCollection{Weather94,
+  author  =  {N. P. Weatherill},
+  title   =  {Grid Generation by the {D}elanuay Triangulation},
+  booktitle = {VKI Lecture Series},
+  publisher =    {von Karman Institute for Fluid Dynamics},
+  annote  =  {uns},
+  year    =  1995,
+}
+
+@Article{Weiss97,
+  author  =  {Jonathan M. Weiss and Joe P. Maruszewski and Wayne A. Smith},
+  title   =  {Implicit Solution of the {N}avier-{S}tokes Equations on
+               Unstructured Meshes},
+  journal =  {AIAA Paper No. 97-2103},
+  annote  =  {uns},
+  year    =  1997,
+} 
+
+
+@Book{White,
+  author  =  {Frank M. White},
+  title   =  {Viscous Fluid Flow},
+  publisher = {McGraw-Hill, Inc.},
+  edition = {2nd},
+  year    =  1991,
+} 
+
+@Article{White72,
+  author  =  {F. M. White and G. H. Christoph},
+  title   =  {A Simple Theory for the Two-Dimensional Compressible Turbulent 
+              Boundary Layer},
+  annote  = {cfd},
+  journal = {Journal of Basic Engineering},
+  volume  = 94,
+  pages   = {636-642},
+  year    = {1972},
+} 
+
+@Article{Whitf84,
+  author  =  {D. L. Whitfield and J. M. Janus},
+  title   =  {Three-Dimensional Unsteady {E}uler Equations Solution Using Flux
+              Vector Splitting},
+  journal =  {AIAA Paper No. 84-1552},
+  annote  =  {cfd},
+  year    =  1984,
+} 
+
+@Techreport{Whitf93,
+  author  =  {David L. Whitfield},
+  title   =  {Numerical Solution of the Two-Dimensional Time-Dependent
+              Incompressible {E}uler Equations},
+  institution = {Mississippi State University Engineering Research Center},
+  address =  {PO Box 9627, Mississippi State, MS  39762-9627},
+  number  =  {MSSU-EIRS-ERC-93-14},
+  month   =  {April},
+  annote  =  {cfd},
+  year    =  1994
+} 
+
+@Article{Whitf94,
+  author  =  {C. Sheng and L. K. Taylor and D. L. Whitfield },
+  title   =  {An Efficient Multigrid Acceleration for Solving the {3-D}
+              Incompressible {N}avier-{S}tokes Equations in Generalized
+              Curvilinear Coordinates},
+  journal =  {AIAA Paper No. 94-},
+  annote  =  {cfd},
+  year    =  1994,
+} 
+
+
+@Article{Whitf94b,
+  author  =  {C. Sheng and L. K. Taylor and D. L. Whitfield},
+  title   =  {A Multigrid Algorithm for Three-Dimensional Incompressible High
+              {R}eynolds Number Turbulent Flows},
+  journal =  {AIAA Paper No. 94-2335},
+  annote  =  {cfd},
+  year    =  1994,
+} 
+
+@Article{Whitf95,
+  author =   {C. Sheng and L. K. Taylor and D. L. Whitfield},
+  title  =   {Multiblock Multigrid Solution of Three-Dimensional Incompressible
+              Turbulent Flows about Appended Submarine Configurations},
+  journal =   {AIAA Paper No. 95-0203},
+  annote  =   {cfd, I don't have this paper - ref taken from Whitf97b},
+  year    =   1995,
+}
+
+
+
+@Techreport{Whitf96,
+  author  =  {David L. Whitfield},
+  title   =  {Numerical Solution of the Shallow Water Equations},
+  institution = {Mississippi State University Engineering Research Center},
+  address =  {PO Box 9627, Mississippi State, MS  39762-9627},
+  number  =  {MSSU-EIRS-ERC-96-4},
+  month   =  {July},
+  annote  =  {cfd},
+  year    =  1996
+} 
+
+
+@Article{Whitf97,
+  author  =  {J. P. Chen and A. R. Ghosh and K. Sreenivas and D. L. Whitfield},
+  title   =  {Comparison of Computations Using {N}avier-{S}tokes Equations in 
+              Rotating and Fixed Coordiantes for Flow Through Turbomachinery},
+  journal =  {AIAA Paper No. 97-0878},
+  annote  =  {cfd},
+  year    =  1997,
+} 
+
+
+
+@Article{Whitf97b,
+  author  =  {C. Sheng and D. L. Whitfield and W. K. Anderson},
+  title   =  {Multiblock Approach for Calculating Incompressible Fluid Flows
+              on Unstructured Grids},
+  journal =  {AIAA Journal},
+  volume  =  37,
+  number  =  2,
+  pages   =  {169-176},
+  annote  =  {uns},
+  year    =  1999,
+} 
+
+
+@Article{Whitf97c,
+  author =   {C. Sheng and J. P. Chen and L. K. Taylor and M.Y. Jiang and D. L. Whitfield},
+  title  =   {Unsteady Multigrid Method For Simulating 3{-D} Incompressible {N}avier-{S}tokes
+              Flows on Dynamic Relative Motion Grids},
+  journal =   {AIAA Paper No. 97-0446},
+  annote  =   {cfd, I don't have this paper - ref taken from Whitf97b},
+  year    =   1997,
+}
+
+@Techreport{Whitf98,
+  author  =  {David L. Whitfield and Lafayette K. Taylor},
+  title   =  {Variants of a Two-Level Method for the Approximate Numerical
+              Solution of Field Simulation Equations},
+  institution = {Mississippi State University Engineering Research Center},
+  address =  {PO Box 9627, Mississippi State, MS  39762-9627},
+  number  =  {MSSU-EIRS-ERC-98-09},
+  month   =  {July},
+  annote  =  {cfd},
+  year    =  1998
+} 
+
+@Article{Wright98,
+  author  =  {Michael J. Wright and Graham V. Candler and Deepak Bose},
+  title   =  {Data-Parallel Line Relaxation Method for the {N}avier-{S}tokes
+              Equations},
+  journal =  {AIAA Journal},
+  volume  =  36,
+  number  =  9,
+  pages   =  {1603-1609},
+  annote  =  {cfd implicit},
+  year    =  1998,
+}  
+
+@Article{Zagha96,
+  author  =  {Marco Zagha and Brond Larson and Steve Turner and Marty Itzkowitz},
+  title   =  {Performance Analysis Using the {MIPS} {R10000} Performance Counters},
+  journal =  {Proceedings Supercomputing '96},
+  annote  =  {computers},
+  month   =  {November},
+  year    =  1996,
+} 
+
+@Article{Zhang93,
+  author =  {H. Zhang and M. Reggio and J. Y. Trepanier and R. Camerero},
+  title  =  {Discrete Form of the {GCL} for Moving Meshes and its implementation
+              in {CFD} schemes},
+  journal =  {Computers in Fluids},
+  volume  =  22, 
+  number  =  1,
+  pages   =  {9-23},
+  annote  =  {cfd},
+  year    =  1993,
+} 
+
+@Article{Zingg98a,
+  author  =  {Max Blanco and David W. Zingg},
+  title   =  {Fast {N}ewton-{K}rylov Method for Unstructured Grids},
+  journal =  {AIAA Journal},
+  annote  =  {uns gmres},
+  month   =  {April},
+  volume  =  36,
+  number  =  4,
+  pages   =  {607-612},
+  year    =  1998,
+} 
+
+
+@Article{Zingg98b,
+  author  =  {Alberto Pueyo and David W. Zingg},
+  title   =  {Efficient {N}ewton-{K}rylov Solver for Aerodynamic Computations},
+  journal =  {AIAA Journal},
+  annote  =  {uns gmres},
+  month   =  {November},
+  volume  =  36,
+  number  =  11,
+  pages   =  {1991-1997},
+  year    =  1998,
+} 
+
+
+
+@Article{Zwa98,
+  author  =  {Philip J. Zwart and George D. Raithby},
+  title   =  {An Integrated Space-Time Finite Volume Method for Moving Boundary
+             Problems},
+  journal =  {AIAA Paper 98-0518},
+  note    =  {36th Aerospace Sciences Meeting and Exhibit, January 1998, Reno, NV},
+  annote  =  {uns},
+  year    =  1998,
+} 
+
+
+@Misc{ATRI2014,
+	author  =  {W. Ford Torrey and Dan Murray},
+	title   =  {An Analysis of the Operational Costs of Trucking:2014 Update},
+	institution = {American Transport Research Institute},
+	howpublished = {\url{http://www.atri-online.org/wp-content/uploads/2014/09/ATRI-Operational-Costs-of-Trucking-2014-FINAL.pdf}},
+	address =  {950 N. Glebe Road Suite 210, Arlington, VA, 22203},
+	month =  {September},
+	year =  {2014},
+	note = {[accessed Oct. 2017]}
+	
+} 
+
+@Misc{USDT2017,
+	author = {{United States Department of Transportation: Bureau of Transportation Statistics}},
+	title = {National Transportation Statistics [online database]},
+	year = 2017,
+	howpublished = {\url{https://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_statistics/index.html} },
+	note = {[accessed Oct. 2017]}
+}
+
+@Article{Choi2014,
+	author = {Haecheon Choi and Jungil Lee and Hyungmin Park},
+	title = {Aerodynamics of Heavy Vehicles},
+	journal = {Annual Review of Fluid Mechanics},
+	month = {October},
+	volume = 46,
+	pages = {441-468},
+	year = 2014
+	
+}
+
+@Article{Salari2004,
+	author = {Kambiz Salari and Jason M. Ortega and Paul J. Castellucci},
+	title = {Computational Prediction of Aerodynamic Forces for a Simplified Integrated Tractor-Trailer Geometry},
+	journal = {AIAA Paper 2004-2253}, 
+	note = {34th AIAA Fluid Dynamics Conference and Exhibit, Jun-July 2004, Portland, OR},
+	year = 2004
+}
+
+@Article{Salari2018,
+	author = {Kambiz Salari and Jason Ortega},
+	title = {Experimental Investigation of the Aerodynamic Benefits of Truck Platooning},
+	journal = {SAE Paper 2018-01-0732}, 
+	note = {SAE World Congress, April 2018, Detroit, MI},
+	year = 2018
+}
+
+@Article{McAulliffe2018,
+	author = {Brian McAulliffe and Michael Lammert and Xiao-Yun Lu and Stephen Shladover and Marius-Dorin Surcel and Aravind Kailas},
+	title = {Influences on Energy Savings of Heavy Trucks Using Cooperative Adaptive Cruise Control},
+	journal = {SAE Paper 2018-01-1181}, 
+	note = {SAE World Congress, April 2018, Detroit, MI},
+	year = 2018
+}
+
+@Article{Pointer2004,
+	author = {W. David Pointer},
+	title = {Evaluation of Commercial CFD Code Capabilities for Prediction of Heavy Vehicle Drag Coefficients},
+	journal = {AIAA Paper 2004-2254},
+	note = {34th AIAA Fluid Dynamics Conference and Exhibit, Jun-July 2004, Portland, OR},
+	year = 2004
+
+}
+
+@InCollection{Maddox2004,
+	author = {S. Madddox and K. Squires and K.E. Wurtzler},
+	title = {Detached-Eddy Simulation of the Ground Transportation System},
+	booktitle = {The Aerodynamics of Heavy Vehicles: Trucks, Buses and Trains Vol. 1: 89-104},
+	editor = {Rose McCallen and Fred Browand}, 
+	publisher = {Springer Science \& Business Media},
+	year = {2004},
+}
+
+@InCollection{Roy2004,
+	author = {C. Roy and J. Payne and M. McWherter-Payne and others},
+	title = {RANS Simulations of a Simplified Tractor/Trailer Geometry},
+	booktitle = {The Aerodynamics of Heavy Vehicles: Trucks, Buses and Trains Vol. 1: 207-218},
+	editor = {Rose McCallen and Fred Browand}, 
+	publisher = {Springer Science \& Business Media},
+	year = {2004},
+}
+
+@InCollection{Ortega2004,
+	author = {J. Ortega and T. Dunn and R. McCallen and others},
+	title = {Computational Simulation of Heavy Vehicle Trailer Wake},
+	booktitle = {The Aerodynamics of Heavy Vehicles: Trucks, Buses and Trains Vol. 1: 219-233},
+	editor = {Rose McCallen and Fred Browand}, 
+	publisher = {Springer Science \& Business Media},
+	year = {2004}
+}
+
+@Article{Humphreys2016,
+	author = {Hugh Humphreys and David Bevly},
+	title = {Computational Fluid Dynamic Analysis of a Generic 2 Truck Platoon},
+	journal = {SAE Paper 2016-01-8008}, 
+	year = 2016
+}
+
+
+@Misc{McCallen2006,
+	author = {Rose McCallen and others},
+	title = {DOEs Effort to Reduce Truck Aerodynamic Drag Through Joint Experiments and Computations [presentation] },
+	year = 2006,
+	howpublished = {\url{https://www3.nd.edu/~tcorke/w.Truck_papers/DOE_slides.pdf} },
+	note = {[accessed Oct. 2017]}
+}
+
+@Article{Tsugawa2014,
+	author = {Sadayuki Tsugawa},
+	title = {Results and Issues of an Automated Truck Platoon within the Energy ITS Project},
+	journal = {IEEE Paper},
+	note = {2014 IEEE Intelligent Vehicles Symposium (IV)
+	June 8-11, 2014. Dearborn, Michigan, USA},
+	year = 2014
+}
+
+@Article{Bishop2017,
+	author = {Richard Bishop and David Bevly and Luke Humphreys and others},
+	title = {Evaluation and Testing of Driver-Assistive Truck Platooning – Phase 2 Final Results},
+	journal = {Journal of the Transportation Research Board}, 
+	volume = 2615,
+	pages = {11-18},
+	year = 2017
+}
+
+@Article{Siemon2017,
+	author = {Michael Siemon and D. Stephen Nichols},
+	title = {A Numerical Investigation of Vortex Dynamics About a Streamlined Cylinder At Various Aspect Ratios},
+	journal = {AIAA Paper 2017-3307},
+	note = { 47th AIAA Fluid Dynamics Conference, AIAA AVIATION Forum, Denver, CO},
+	year = 2017
+}
+
+@Article{Siemon2018,
+	author = {Michael Siemon and Patrick Smith and Dudley Nichols and David Bevly and Scott Heim},
+	title = {An Integrated CFD and Truck Simulation for 4 Vehicle Platoons},
+	journal = {SAE Paper 2018-01-0797},
+	note = { SAE World Congress, April 2018, Detroit, MI},
+	year = 2018
+}
+
+
+@Article{Fago1991,
+	author = {B. Fago and H. Lidner and O. Mahrenholtz},
+	title = {The Effect of Ground Simulation on the Flow Around Vehicles in Wind Tunnel Testing},
+	journal = {Journal of Wind Engineering and Industrial Aerodynamics},
+	volume = 38,
+	pages = {47-57},
+	year = 1991
+}
+
+@INPROCEEDINGS{Bishop2014,
+	author={R. Bishop and D. Bevly and J. Switkes and L. Park},
+	booktitle={2014 IEEE Intelligent Vehicles Symposium Proceedings},
+	title={Results of initial test and evaluation of a Driver-Assistive Truck Platooning prototype},
+	year={2014},
+	volume={},
+	number={},
+	pages={208-213},
+	keywords={road safety;road vehicles;Auburn University;DATP;Federal Highway Administration Exploratory Advanced Research program;driver-assistive truck platooning prototype;fuel saving potential;heavy truck operation;operational issues;real-world business;trucking industry;Fuels;Industries;Joining processes;Roads;Safety;Vehicles},
+	doi={10.1109/IVS.2014.6856585},
+	ISSN={1931-0587},
+	month={June},}
+
+
+@INPROCEEDINGS{Tsugawa2011,
+	author={S. Tsugawa and S. Kato and K. Aoki},
+	booktitle={2011 IEEE/RSJ International Conference on Intelligent Robots and Systems},
+	title={An automated truck platoon for energy saving},
+	year={2011},
+	volume={},
+	number={},
+	pages={4109-4114},
+	keywords={automated highways;collision avoidance;computer vision;object detection;optical radar;Energy ITS;ITS technologies;automated truck platoon;computer vision;energy saving;fuel consumption measurement;gap measurement;global warming prevention;inter-vehicle communications;lane marker detection;lateral control;longitudinal control;national ITS project;obstacle detection;Automobiles;Control systems;Energy consumption;Safety;Sensors},
+	doi={10.1109/IROS.2011.6094549},
+	ISSN={2153-0858},
+	month={Sept},}
+
+
+@MastersThesis{NorrbyThesis,
+	author  =  {David Norrby},
+	title   =  {A CFD Study Of The Aerodynamic Effects Of Platooning Trucks},
+	school  =  {KTH Royal Institute of Technology},
+	year    =  2014,
+}
+
+
+@MastersThesis{HumphreysThesis,
+	author  =  {Hugh Humphreys IV},
+	title   =  {A Computational Fluid Dynamics Analysis of a Driver-Assistive Truck Platooning System with Lateral Offset},
+	school  =  {Auburn University},
+	year    =  2017,
+}
+
+@article{Schito2012,
+	author={Schito, Paolo and Braghin, Francesco},
+	title={Numerical and Experimental Investigation on Vehicles in Platoon},
+	journal={SAE International Journal of Commercial Vehicles},
+	volume={5},
+	number={1},
+	pages={63-71},
+	month={apr},
+	year={2012},
+	doi={https://doi.org/10.4271/2012-01-0175},
+	url={https://doi.org/10.4271/2012-01-0175},
+	issn={1946-3928},
+}
+@article{Vegendla2015,
+	author={Prasad Vegendla and Tanju Sofu and Rohit Saha and Mahesh Madurai Kumar and Long-Kung Hwang},
+	title={Investigation of Aerodynamic Influence on Truck Platooning},
+	journal={SAE Technical Paper 2015-01-2895},
+	year={2015},
+	doi={https://doi.org/10.4271/2015-01-2895},
+	url={https://doi.org/10.4271/2015-01-2895},
+}
+
+@Book{KaysCrawford2005,
+	author  =  {William Kays and Michael Crawford and Bernhard Weigand},
+	title   =  {Convective Heat and Mass Transfer},
+	publisher = {McGraw-Hill},
+	year    =  2005,
+}
+
+@Article{PrandtlMixingLength,
+	author  =   {Ludwig Prandtl},
+	title   =   {Proceedings of the Second International Congress for Applied Mechanics },
+	journal =   {Proceedings of the Third Osaka Coloquium on Advanced CFD Applicationsto Ship Flow and Hull Form Design},
+	note    =  {Zurich, Switzerland},
+	year    =   1926,
+}
+
+
+@Article{Toro1994,
+	author="Toro, E. F.
+	and Spruce, M.
+	and Speares, W.",
+	title="Restoration of the contact surface in the HLL-Riemann solver",
+	journal="Shock Waves",
+	year="1994",
+	month="Jul",
+	day="01",
+	volume="4",
+	number="1",
+	pages="25--34",
+	abstract="The missing contact surface in the approximate Riemann solver of Harten, Lax, and van Leer is restored. This is achieved following the same principles as in the original solver. We also present new ways of obtaining wave-speed estimates. The resulting solver is as accurate and robust as the exact Riemann solver, but it is simpler and computationally more efficient than the latter, particulaly for non-ideal gases. The improved Riemann solver is implemented in the second-order WAF method and tested for one-dimensional problems with exact solutions and for a two-dimensional problem with experimental results.",
+	issn="1432-2153",
+	doi="10.1007/BF01414629",
+	url="https://doi.org/10.1007/BF01414629"
+}
+
+@article{Hyams2011,
+	title = "Computational simulation of model and full scale Class 8 trucks with drag reduction devices",
+	journal = "Computers \& Fluids",
+	volume = "41",
+	number = "1",
+	pages = "27 - 40",
+	year = "2011",
+	note = "Implicit Solutions of Navier-Stokes Equations. Special Issue Dedicated to Drs. W.R. Briley and H. McDonald",
+	issn = "0045-7930",
+	doi = "https://doi.org/10.1016/j.compfluid.2010.09.015",
+	url = "http://www.sciencedirect.com/science/article/pii/S0045793010002434",
+	author = "Daniel G. Hyams and Kidambi Sreenivas and Ramesh Pankajakshan and D. Stephen Nichols and W. Roger Briley and David L. Whitfield",
+	keywords = "Parallel implicit algorithm, Heavy trucks, Unstructured grid, NavierâStokes, Preconditioning, Drag reduction"
+}
+
+
+@misc{SAE_CFD_2017,
+	title   =  {Surface Vehicle Recommended Practice: Guidelines for Aerodynamic Assesment of Medium and Heavy Commercial Ground Vehicles Using Computational Fluid Dynamics J2966},
+	author = {{{S}{A}{E} {I}nternational}},
+	year    =  2017,
+}
+
+
+@Misc{Peterbilt579,
+    author = {{P}eterbilt {T}rucks {I}nc.},
+	title = {Peterbilt 579},
+	howpublished = {\url{http://www.peterbilt.com/imgs/trucks/579/360/white_001.jpg} },
+	note = {[accessed Oct. 2017]}
+}
+
+
+@Misc{PointwiseCADArticle,
+	author = {Benjamin Urick and Benjamin Marussig},
+	title = {Why CAD Surface Geometry is Inexact},
+	howpublished = {\url{https://blog.pointwise.com/2017/11/29/why-cad-surface-geometry-is-inexact/} },
+	institution = {Pointwise, Inc.},
+	note = {[accessed Jan. 2018]}
+}
+
+@inproceedings{Onishi2018,
+	author={Onishi, Keiji and Ando, Yasunori and Nakasato, Kosuke and Tsubokura, Makoto},
+	title={Evaluation of an Open-grill Vehicle Aerodynamics Simulation Method Considering Dirty CAD Geometries},
+	booktitle={WCX World Congress Experience},
+	publisher={SAE International},
+	month={apr},
+	year={2018},
+	doi={https://doi.org/10.4271/2018-01-0733},
+	url={https://doi.org/10.4271/2018-01-0733},
+	issn={0148-7191},
+}
