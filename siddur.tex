@@ -8,10 +8,8 @@
 
 \usepackage{siddur}
 
-\usepackage[style=authoryear]{biblatex}
-\renewcommand\bibname{References}
-\addbibresource{referenced_texts.bib}
-%1\bibliographystyle{mla}
+\usepackage[backend=bibtex,style=verbose-trad2]{biblatex}
+\bibliography{referenced_texts}
 
 \begin{document}
 
@@ -53,7 +51,7 @@ Full \XeLaTeX \quad source and PDF can be found at\\ \textcolor{blue}{link tbd}\
 			\end{LARGE}
 		\end{center}
 		
-		This siddur is an attempt to make a siddur that reflects the liturgical practice I've adopted from various communities I've lived in.  It's very much a work in progress at this point, both in mistake-correction and in estabishing the text.  It reflects a mish-mash American pan-Eastern Ashkenaz tradition.  When there are versions of the text used due to variation of tradition, I've put how I daven in the main text and the alternate in the footnotes.\\
+		This siddur is an attempt to make a siddur that reflects the liturgical practice I've adopted from various communities I've lived in. While the siddur it is based on is Western Ashkenazi, this texts reflects a mish-mash American pan-Eastern Ashkenaz tradition (based primarily on Birnbaum, but also other sources mentioned in the bibliography).  When there are versions of the text used due to variation of tradition, I've put how I daven in the main text and the alternate in the footnotes.\\
 		
 		In order to save space and weight, this siddur omits some items in most "complete" siddurim, to reflect how I daven rather than a picture of the complete liturgy.  For example, the Korbanot have been abbreviated, and the pesukim in ma'ariv for the conclusion of Shabbat have been omitted.  So to are Shir haShirim and Pirkei Avot, which are printed in many siddurim but are better count in separate volumes.\\
 		
@@ -73,7 +71,9 @@ Full \XeLaTeX \quad source and PDF can be found at\\ \textcolor{blue}{link tbd}\
 	\end{center}
 	
 	\begin{english}
-	The most important acknowledgment for this siddur is to Aaron Wolf, for his siddur Olas Tamid.  This is a derivative of his work, with various changes to reflect the mostly Eastern Ashkenazi liturgical tradition I've received.  In large part this is "old wine in new vessels" (though the inevitable errors are largely due to my own mistakes).  His work, in turn, is largely derived from Rabbi Rallis Weisenthal's work.  Both these people did a great service to the Jewish community by making their work open-source, and I hope to continue that by making an open-source Eastern Ashkenazi siddur text.  I am also grateful to the Opensiddur community for supporting opensource liturgical ventures.\\
+	The most important acknowledgment for this siddur is to Aaron Wolf, for his \textit{Siddur Olas Tamid}.  This is a derivative of his work, with various changes to reflect the mostly Eastern Ashkenazi liturgical tradition I've received.  His work, in turn, is largely derived from Rabbi Rallis Weisenthal's work \textit{Siddur Sefas Yisroel}.  Both these people did a great service to the Jewish community by making their work open-source, and I hope to continue that by making an open-source Eastern Ashkenazi siddur text.  I am also grateful to the Opensiddur community for supporting opensource liturgical ventures.\\
+	
+	This work would not have been possible without the help of other individuals who assisted me with the technical aspects of creating this siddur.  Noah Liebman, Benjamin Epstein, and Steven DuBois helped me learn the Python and \TeX  skills necessary for this work.\\
 
 	I would also like to thank my father, for bringing me to shul growing up, and for giving me an appreciation for the Jewish liturgical tradition in general.  And of course my wife, for supporting my siddur-making interests.
 
@@ -2017,13 +2017,9 @@ text={תמאב והארקי רשא לכל ויארק־לכל יי בורק},text
 \newcommand{\yehalelu}{
 	\shatz
 	\begin{large}
-		\textbf{
-			יְהַלְל֤וּ ׀ אֶת־שֵׁ֬ם יְהֹוָ֗ה כִּֽי־נִשְׂגָּ֣ב שְׁמ֣וֹ לְבַדּ֑וֹ
-			
-		}
-	\end{large}\source{תהלים קמח}
+		\textbf{יְהַלְל֤וּ ׀ אֶת־שֵׁ֬ם יְהֹוָ֗ה כִּֽי־נִשְׂגָּ֣ב שְׁמ֣וֹ לְבַדּ֑וֹ}\source{תהלים קמח}
+	\end{large}
 	
-%
 	\kahal
 	ה֝וֹד֗וֹ עַל־אֶ֥רֶץ וְשָׁמָֽיִם׃ וַיָּ֤רֶם קֶ֨רֶן ׀ לְעַמּ֡וֹ תְּהִלָּ֤ה לְֽכׇל־חֲסִידָ֗יו לִבְנֵ֣י יִ֭שְׂרָאֵל עַ֥ם קְרֹב֗וֹ הַֽלְלוּ־יָֽהּ׃ 
 }
@@ -4513,45 +4509,37 @@ text={תמאב והארקי רשא לכל ויארק־לכל יי בורק},text
 יְחַדְּֿשֵׁהוּ הַקָּדוֹשׁ בָּרוּךְ הוּא, עָלֵינוּ וְֿעַל כָּל עַמּוֹ בֵּית יִשְׂרָאֵל, לְֿחַיִּים וּלְשָׁלוֹם, לְֿשָׂשׂוֹן וּלְשִׂמְחָה, לִישׁוּעָה וּלְנֶחָמָה, וְֿנֹאמַר אָמֵן.
 
 \begin{sometimes}
-	
-\instruction{ביו״ט שלא חל בשבת יש מוספים:}
-יָהּ אֵלִי וְגוֹאֲלִי
-אֶתְיַצְבָה לִקְרָאתֶֽךָ
-הָיָה וְיִהְיֶה
-הָיָה וְהֹוֶה
-כׇּל גּוֹי אַדְמָתֶֽךָ
+	\negline
+\begin{narrow}
+\instruction{ביו״ט שלא חל בשבת יש מוספים:}\\
+יָהּ אֵלִי\hfill וְגוֹאֲלִי\hfill אֶתְיַצְבָה לִקְרָאתֶֽךָ\\
+הָיָה וְיִהְיֶה\hfill הָיָה וְהֹוֶה\hfill כׇּל־גּוֹי אַדְמָתֶֽךָ\\
 
-וְתוֹדָה וְלָעוֹלָה וְלַמִּנְחָה וְלַחַטָּאת וְלָאָשָׁם וְלַשְּׁלָמִים וְלַמִּלוּאִים כׇּל קׇרְבָּנֶֽךָ
-זְכוֹר נִלְאָה אֲשֶׁר נָשְׂאָה וְהָשִׁיבָה לְאַדְמָתֶֽךָ
+וְתוֹדָה וְלָעוֹלָה וְלַמִּנְחָה וְלַחַטָּאת וְלָאָשָׁם \\
+וְלַשְּׁלָמִים וְלַמִּלוּאִים כׇּל־קׇרְבָּנֶֽךָ\\
+זְכוֹר נִלְאָה אֲשֶׁר נָשְׂאָה וְהָשִׁיבָה לְאַדְמָתֶֽךָ\\
+סֶֽלָה אֲהַלְלֶֽךָּ בְּאַשְׁרֵי יוֹשְׁבֵי בֵיתֶֽךָ\\
+
+דַּק עַל דַּק\hfill עַד אֵין נִבְדַק\hfill וְלִתְבוּנָתוֹ אֵין חֵֽקֶר\\
+הָאֵל נוֹרָא\hfill בְּאַחַת סְקִירָה\hfill בֵּין טוֹב לָרַע יְבַקֵּר\\
+
+וְתוֹדָה וְלָעוֹלָה וְלַמִּנְחָה וְלַחַטָּאת וְלָאָשָׁם \\
+וְלַשְּׁלָמִים וְלַמִּלוּאִים כׇּל־קׇרְבָּנֶֽךָ\\
+זְכוֹר נִלְאָה אֲשֶׁר נָשְׂאָה וְהָשִׁיבָה לְאַדְמָתֶֽךָ\\
+סֶֽלָה אֲהַלְלֶֽךָּ בְּאַשְׁרֵי יוֹשְׁבֵי בֵיתֶֽךָ\\
+
+אֲדוֹן צְבָאוֹת\hfill בְּרוֹב פְּלָאוֹת\hfill חִבֵּר כׇּל־אׇהֳלוֹ\\
+בִּנְתִיבוֹת לֵב\hfill לִבְלֵב\hfill הַצּוּר תָּמִים פׇּעֳלוֹ\\
+
+וְתוֹדָה וְלָעוֹלָה וְלַמִּנְחָה וְלַחַטָּאת וְלָאָשָׁם \\
+וְלַשְּׁלָמִים וְלַמִּלוּאִים כׇּל־קׇרְבָּנֶֽךָ\\
+זְכוֹר נִלְאָה אֲשֶׁר נָשְׂאָה וְהָשִׁיבָה לְאַדְמָתֶֽךָ\\
 סֶֽלָה אֲהַלְלֶֽךָּ בְּאַשְׁרֵי יוֹשְׁבֵי בֵיתֶֽךָ
+\end{narrow}
 
-דַּק עַל דַּק עַד אֵין נִבְדַק
-וְלִתְבוּנָתוֹ אֵין חֵֽקֶר הָאֵל נוֹרָא
-בְּאַחַת סְקִירָה בֵּין טוֹב לָרַע יְבַקֵּר
-
-וְתוֹדָה וְלָעוֹלָה וְלַמִּנְחָה וְלַחַטָּאת וְלָאָשָׁם וְלַשְּׁלָמִים
-וְלַמִּלוּאִים כׇּל קׇרְבָּנֶֽךָ
-זְכוֹר נִלְאָה
-אֲשֶׁר נָשְׂאָה
-וְהָשִׁיבָה לְאַדְמָתֶֽךָ
-סֶֽלָה אֲהַלְלֶֽךָּ
-בְּאַשְׁרֵי יוֹשְׁבֵי בֵיתֶֽךָ
-
-אֲדוֹן צְבָאוֹת
-בְּרוֹב פְּלָאוֹת
-חִבֵּר כׇּל אׇהֳלוֹ
-בִּנְתִיבוֹת לֵב לִבְלֵב
-הַצּוּר תָּמִים פׇּעֳלוֹ
-
-וְתוֹדָה וְלָעוֹלָה וְלַמִּנְחָה וְלַחַטָּאת וְלָאָשָׁם וְלַשְּׁלָמִים
-וְלַמִּלוּאִים כׇּל קׇרְבָּנֶֽךָ
-זְכוֹר נִלְאָה
-אֲשֶׁר נָשְׂאָה
-וְהָשִׁיבָה לְאַדְמָתֶֽךָ
-סֶֽלָה אֲהַלְלֶֽךָּ
-בְּאַשְׁרֵי יוֹשְׁבֵי בֵיתֶֽךָ 
 \end{sometimes}
 
+\instruction{א״א אב הרחמים ביו״ט בשבת מברכים (אבל אומרים בימי ספירה ובר״ח אב)}\\
 \firstword{אַב הָרַחֲמִים}
 שׁוֹכֵן מְֿרוֹמִים בְּֿרַחֲמָיו הָעֲצוּמִים הוּא יִפְקוֹד בְּֿרַחֲמִים הַחֲסִידִים וְֿהַיְשָׁרִים וְֿהַתְּֿמִימִים קְֿהִילּוֹת הַקֹּֽדֶשׁ שֶׁמָּסְֿרוּ נַפְשָׁם עַל קְֿדֻשַּׁת הַשֵּׁם \source{שמואל ב' א}הַנֶּאֱהָבִ֤ים וְֿהַנְּֿעִימִם֙ בְּֿחַיֵּיהֶ֔ם וּבְמוֹתָ֖ם לֹ֣א נִפְרָ֑דוּ׃ מִנְּֿשָׁרִים קַֽלּוּ וּמֵאֲרָיוֹת גָּבֵֽרוּ לַעֲשׂוֹת רְֿצוֹן קוֹנָם וְֿחֵֽפֶץ צוּרָם: יִזְכְּֿרֵם אֱלֹהֵֽינוּ לְֿטוֹבָה עִם שְֿׁאָר צַדִּיקֵי עוֹלָם וְֿיִנְקוֹם בְּֿיָמֵֽינוּ לְֿעֵינֵֽינוּ נִקְמַת דַּם עֲבָדָיו הַשָּׁפוּךְ כַּכָּתוּב בְּֿתוֹרַת מֹשֶׁה אִישׁ הָאֱלֹהִים: \source{דברים לב}הַרְנִ֤ינוּ גוֹיִם֙ עַמּ֔וֹ כִּ֥י דַם־עֲבָדָ֖יו יִקּ֑וֹם וְֿנָקָם֙ יָשִׁ֣יב לְֿצָרָ֔יו וְֿכִפֶּ֥ר אַדְמָת֖וֹ עַמּֽוֹ׃ וְֿעַל יְֿדֵי עֲבָדֶֽיךָ הַנְּֿבִיאִים כָּתוּב לֵאמֹר: \source{יואל ד}וְנִקֵּ֖יתִי דָּמָ֣ם לֹֽא־נִקֵּ֑יתִי וַֽיְיָ֖ שֹׁכֵ֥ן בְּֿצִיּֽוֹן׃ וּבְכִתְבֵי הַקֹּֽדֶשׁ נֶאֱמַר: \source{תהלים עט}לׇׇׇׇׇׇָ֤מָּה יֹֽאמְֿר֣וּ הַגּוֹיִם֘ אַיֵּ֢ה אֱלֹֽהֵ֫יהֶ֥ם יִוָּדַ֣ע בַּגֹּייִ֣ם לְֿעֵינֵ֑ינוּ נִ֝קְמַ֗ת דַּם־עֲבָדֶ֥יךָ הַשָּׁפֽוּךְ׃ וְֿאוֹמֵר: \source{תהלים ט}כִּ֤י דֹרֵ֣שׁ דָּ֭מִים אֹתָ֣ם זָכָ֑ר לֹ֥א שָׁ֝כַ֗ח צַֽעֲקַ֥ת עֲנָוִֽים׃ וְֿאוֹמֵר: \source{תהלים קי}יָדִ֣ין בַּ֭גּוֹיִם מָלֵ֣א גְֿוִיּ֑וֹת מָ֥חַץ רֹ֝֗אשׁ עַל־אֶ֥רֶץ רַבָּֽה׃ מִ֭נַּחַל בַּדֶּ֣רֶךְ יִשְׁתֶּ֑ה עַל־כֵּ֝֗ן יָרִ֥ים רֹֽאשׁ׃
 
@@ -4560,7 +4548,6 @@ text={תמאב והארקי רשא לכל ויארק־לכל יי בורק},text
 \sepline
 
 \ashrei
-
 
 \yehalelu
 
@@ -7085,29 +7072,26 @@ text={תמאב והארקי רשא לכל ויארק־לכל יי בורק},text
 
 
 \chapter{Bibliography}
-\begin{minipage}{\textwidth}
+%\begin{minipage}{\textwidth}
 	\begin{english}
-		This siddur is based on:
-		\cite{olastamid}
-		testtesttest
+		\nocite{artcant}
+		\nocite{artscroll}
+		\nocite{avodasyisroel}
+		\nocite{birnbaum}
+		\nocite{korenyt}
+		\nocite{mapm}
+		\nocite{olastamid}
+		\nocite{levshalem}
+		\nocite{sacks_koren_2016}
+		\nocite{simshalom}
+		\nocite{simshalomweekday}
+		\nocite{tefillatyesharim}
+
 		\printbibliography
-		%Wolf, Aaron.  2018.  \textit{Olas Tamid}.  Opensiddur.  
-		%This text was forked from the draft of the second edition, at \textcolor{blue}{https://github.com/wolf-math/Olat_Tamid_2.0}.
-		%\bibliography{referenced_texts}
-
-
-		Which is in turn based on:
-
-		All biblical quotations are from:
-
-		Other liturgical material sourced from:
-
-		Other texts referenced in the creation include:
-
 		Rabbanit Leah Sarna made the additions to Hatarat Nedarim to include women.  Please see the acknowledgments for others who contributed to this siddur.
 		
 	\end{english}
 	
-\end{minipage}
+%\end{minipage}
 
 \end{document}
