@@ -1,0 +1,11 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: siddur_converted.aux
+The style file: biblatex.bst
+Database file #1: siddur_converted-blx.bib
+Database file #2: referenced_texts.bib
+I was expecting a `,' or a `}'---line 61 of file referenced_texts.bib
+ :  
+ :  url = {https://he.wikisource.org/wiki/%D7%94%D7%A1%D7%99%D7%93%D7%95%D7%A8_%D7%94%D7%A9%D7%9C%D7%9D_(%D7%91%D7%99%D7%A8%D7%A0%D7%91%D7%95%D7%99%D7%9D)}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Biblatex version: 3.13
+(There was 1 error message)
