@@ -68,9 +68,9 @@
 \RequirePackage{fontspec}
 \setmainfont[
 	BoldFont={Shlomo Bold},
-	ItalicFont={Shlomo semiStam}		
+	ItalicFont={Shlomo semiStam}	
 	]{Shlomo}
-	\setsansfont{FreeSans}
+	\setsansfont{Mekorot-Rashi}
 \RequirePackage{bidi}
 \makeatletter
 \makeatother
@@ -177,7 +177,7 @@
 	\end{tiny}
 	}
 
-\newcommand{\instruction}[1]{\begin{scriptsize} \textsf{#1} \end{scriptsize}}
+\newcommand{\instruction}[1]{\begin{scriptsize}\textsf{#1}\end{scriptsize}}
 
 \newenvironment{instructionpar}
 	{\begin{scriptsize}\begin{textsf}}
@@ -208,16 +208,16 @@
 
 
 
-\newcommand{\shatz}{\instruction{ש"ץ: }}
+\newcommand{\shatz}{\instruction{ש״ץ: }}
 \newcommand{\chazzan}{\instruction{חזן: }} %changed to be same as shatz for consistency
-%\newcommand{\chazzan}{\instruction{ש"ץ: }}
+%\newcommand{\chazzan}{\instruction{ש״ץ: }}
 \newcommand{\kahal}{\instruction{קהל: }}
-\newcommand{\shatzvkahal}{\instruction{קהל וש"ץ: }}
-\newcommand{\vshatzkahal}{\instruction{וש"ץ: קהל }} %for kedusha inside longtable
+\newcommand{\shatzvkahal}{\instruction{קהל וש״ץ: }}
+\newcommand{\vshatzkahal}{\instruction{וש״ץ: קהל }} %for kedusha inside longtable
 %\newcommand{\chazzanvkahal}{\instruction{חזן וקהל: }}
-\newcommand{\chazzanvkahal}{\instruction{קהל וש"ץ: }}
+\newcommand{\chazzanvkahal}{\instruction{קהל וש״ץ: }}
 %\newcommand{\vkahalchazzan}{\instruction{וקהל: חזן }} %for kedusha inside longtable
-\newcommand{\vkahalchazzan}{\instruction{וש"ץ: קהל }}
+\newcommand{\vkahalchazzan}{\instruction{וש״ץ: קהל }}
 \newcommand{\shabbos}{\instruction{בשבת: }}
 
 \endinput
