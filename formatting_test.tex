@@ -1,0 +1,227 @@
+%% This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. %%
+
+
+\documentclass[twoside, openany, parskip=half, 11pt]{book}
+
+\usepackage[paperheight=8.5in,paperwidth=5.5in,top=.7in,bottom=.5in, inner=.875in, outer=.75in, marginparsep=.1in, headsep=16pt]{geometry}
+\setlength{\marginparwidth}{.5in}
+
+\usepackage{siddur}
+
+
+\begin{document}
+
+\title{ \adforn{54} סדור \adforn{26}\\
+לשון ישרים
+\vspace{.5in}
+%\includegraphics[scale=.5]{wolf_shofar_bitmap.png}
+}
+
+\author{מסודר ע״י
+\\
+\textbf{ﭏיעזר בן זאב וואלף קזימיר}}
+\date{נוסח אשכנז}
+
+\maketitle
+
+\begin{minipage}{\textwidth}
+\begin{english}
+\raggedright
+
+©Nathan Kasimer, 20XX (578X). Shared under a Creative Commons Attribution 4.0 license.\\
+\textcolor{blue}{https://creativecommons.org/licenses/by/4.0/}\\ \vspace{\baselineskip}
+
+
+Shlomo font created by Shlomo Orbach and Ralph Hancock.\\ \textcolor{blue}{https://sites.google.com/site/orlaeinayim/download}\\ \vspace{\baselineskip}
+
+Full \XeLaTeX \quad source and PDF can be found at\\ \textcolor{blue}{link tbd}\\ \vspace{\baselineskip}
+
+
+\end{english}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+	
+	\begin{english}
+		\begin{center} %regular chapter (which I don't want in the TOC anyways) doesn't center.
+			\begin{LARGE}
+				Introduction
+			\end{LARGE}
+		\end{center}
+		
+		This siddur is an attempt to make a siddur that reflects the liturgical practice I've adopted from various communities I've lived in--a mish-mash American pan-Eastern Ashkenaz tradition. This siddur is a work in progress.  I hope to add a bit more instructions in the future. In order to save space and weight, this siddur omits some items in most "complete" siddurim, to reflect how I daven rather than a picture of the complete liturgy.  Shir haShirim and Pirkei Avot have been omitted, which are printed in many siddurim but are better found in separate volumes.\\
+		
+		The most important acknowledgment for this siddur is to Aaron Wolf, for his \textit{Siddur Olas Tamid}.  This is a derivative of his work, with various changes to reflect the mostly Eastern Ashkenazi liturgical tradition I've received.  His work, in turn, is largely derived from Rabbi Rallis Weisenthal's work \textit{Siddur Sefas Yisroel}.  All biblical quotations are from Miqra Al Pi Masora, a remarkable project whose accurate and free text of Tanakh has helped me a great deal.  I am also grateful to the Opensiddur community for supporting opensource liturgical ventures.  The individuals behind these project have helped out the world of Jewish text distribution enormously.\\
+		
+		This work would not have been possible without the help of other individuals who assisted me with the technical aspects of creating this siddur.  Noah Liebman, Benjamin Epstein, and Steven DuBois helped me learn the Python and \LaTeX{} skills necessary for this work. I would also like to thank my father, for bringing me to shul growing up, and for giving me an appreciation for the Jewish liturgical tradition.  And my wife, for supporting my siddur-making interests. I hope this siddur is useful for others to daven from and repurpose.
+		
+	\end{english}
+	
+\end{minipage}
+
+\renewcommand{\contentsname}{}
+\tableofcontents
+
+\clearpage
+
+\pagenumbering{arabic}
+
+\setstretch{1.5}
+
+\setcounter{page}{0}
+
+\topskip0pt
+\vspace*{\fill}
+
+\thispagestyle{empty}
+\begin{Large}
+\begin{center}
+\begin{tikzpicture}
+\draw[-latex,white,postaction={decorate},decoration={text along path,
+text={תמאב והארקי רשא לכל ויארק־לכל יי בורק},text align=center}]
+(4,0) arc [start angle=180,end angle=0,radius=4];
+\end{tikzpicture}
+\end{center}
+\end{Large}
+
+
+\vspace*{\fill}
+
+\setstretch{1.5}
+
+\centerlast
+
+\chapter[ברכות השחר]{\adforn{47} ברכות השחר \adforn{19}}
+
+\renewcommand{\thefootnote}{\roman{footnote}} % makes footnote lower-case Roman Numeral
+\setlength{\parskip}{0.75em}
+
+\newcommand{\na}{\begin{large}
+		‏‍ְ
+\end{large}}
+
+\newcommand{\halfkaddish}{\begin{kaddish}
+		
+		\firstword{יִתְגַּדַּל} 
+		וְיִתְקַדַּשׁ שְׁמֵיהּ רַבָּא בְּעָלְֿמָא דִּי בְרָא כִרְעוּתֵהּ וְיַמְלִיךְ מַלְכוּתֵהּ בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן וּבְחַיֵּי דְכׇל־בֵּית יִשְׂרָאֵל בַּעֲגָלָא וּבִזְמַן קָרִיב - וְאִמְרוּ 
+		\textbf{אָמֵן}׃
+		\textbf{:יְהֵא שְׁמֵיהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְֿמֵי עָלְֿמַיָּא}\\
+		יִתְבָּרַךְ וְיִשְׁתַּבַּח וְיִתְפָּאַר וְיִתְרוֹמַם וְיִתְנַשֵּׂא וְיִתְהַדַּר וְיִתְעַלֶּה וְיִתְהַלַּל שְׁמֵיהּ דְּקֻדְשָׁא 
+		\textbf{בְּרִיךְ הוּא}
+		׃ *לְעֵֽלָּא מִן כׇּל־בִּרְכָתָא
+		(*\instruction{בעשי״ת:}
+		לְעֵֽלָּא לְעֵֽלָּא מִכׇּל־בִּרְכָתָא) וְשִׁירָתָא תֻּשְׁבְּֿחָתָא וְנֶחָמָתָא דַּאֲמִירָן בְּעָלְֿמָא וְאִמְרוּ אָמֵן׃
+\end{kaddish}}
+
+
+\newcommand{\fullkaddish}{\begin{kaddish}
+		
+		\firstword{יִתְגַּדַּל}
+		וְיִתְקַדַּשׁ שְׁמֵיהּ רַבָּא בְּעָלְֿמָא דִּי בְרָא כִרְעוּתֵהּ וְיַמְלִיךְ מַלְכוּתֵהּ בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן וּבְחַיֵּי דְכׇל־בֵּית יִשְׂרָאֵל בַּעֲגָלָא וּבִזְמַן קָרִיב׃ וְאִמְרוּ אָמֵן׃
+		\textbf{יְהֵא שְׁמֵיהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְֿמֵי עָלְֿמַיָּא} 
+		יִתְבָּרַךְ וְיִשְׁתַּבַּח וְיִתְפָּאַר וְיִתְרוֹמַם וְיִתְנַשֵּׂא וְיִתְהַדַּר וְיִתְעַלֶּה וְיִתְהַלַּל שְׁמֵיהּ דְּקֻדְשָׁא
+		\textbf{בְּרִיךְ הוּא}׃
+		*לְעֵֽלָּא מִן כׇּל־בִּרְכָתָא
+		(*\instruction{בעשי״ת:}
+		לְעֵֽלָּא לְעֵֽלָּא מִכׇּל־בִּרְכָתָא) וְשִׁירָתָא תֻּשְׁבְּֿחָתָא וְנֶחָמָתָא דַּאֲמִירָן בְּעָלְֿמָא׃ וְאִמְרוּ אָמֵן׃\\
+%		(\kahal
+%		\begin{footnotesize} 
+%			קַבֵּל בְּרַחֲמִים וּבְרָצוֹן אֶת תְּפִלָּתֵֽינוּ׃)\\
+%		\end{footnotesize}
+		תִּתְקַבַּל צְלוֹתְֿהוֹן וּבָעוּתְֿהוֹן דְּכׇל־יִשְׂרָאֵל קֳדָם אֲבוּהוֹן דִּי בִשְׁמַיָּא׃ וְאִמְרוּ \textbf{אָמֵן}
+		׃ \\
+%		(\kahal
+%		\begin{footnotesize}
+		%יְהִ֤י
+%			\source{תהלים קיג}%
+		%	שֵׁ֣ם יְיָ֣ מְבֹרָ֑ךְ מֵֽ֝עַתָּ֗ה וְעַד־עוֹלָֽם׃)\\
+%		\end{footnotesize}
+		יְהֵא שְׁלָמָא רַבָּא מִן שְׁמַיָּא וְחַיִּים עָלֵֽינוּ וְעַל כׇּל־יִשְׂרָאֵל׃ וְאִמְרוּ \textbf{אָמֵן}
+		׃ \\
+%		(\kahal
+%		\begin{footnotesize}
+		%	עֶ֭זְרִי
+%			\source{תהלים קכא}%
+			%מֵעִ֣ם יְיָ֑ עֹ֝שֵׂ֗ה שָׁמַ֥יִם וָאָֽרֶץ׃) \\ 
+%		\end{footnotesize} 
+		עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו הוּא יַעֲשֶׂה שָׁלוֹם עָלֵֽינוּ וְעַל כׇּל־יִשְׂרָאֵל׃ וְאִמְרוּ \textbf{אָמֵן}
+		׃
+\end{kaddish}}
+
+\newcommand{\mournerskaddish}{\begin{kaddish}
+		
+		\instruction{קדיש יתום}\\
+		\firstword{יִתְגַּדַּל}
+		וְיִתְקַדַּשׁ שְׁמֵיהּ רַבָּא בְּעָלְֿמָא דִּי בְרָא כִרְעוּתֵהּ 
+		וְיַמְלִיךְ מַלְכוּתֵהּ בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן וּבְחַיֵּי דְכׇל־בֵּית יִשְׂרָאֵל בַּעֲגָלָא וּבִזְמַן קָרִיב׃ וְאִמְרוּ אָמֵן׃
+		\textbf{
+			יְהֵא שְׁמֵיהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְֿמֵי עָלְֿמַיָּא
+		}
+		יִתְבָּרַךְ וְיִשְׁתַּבַּח וְיִתְפָּאַר וְיִתְרוֹמַם וְיִתְנַשֵּׂא וְיִתְהַדַּר וְיִתְעַלֶּה וְיִתְהַלַּל שְׁמֵיהּ דְּקֻדְשָׁא 
+		\textbf{בְּרִיךְ הוּא}׃
+		*לְעֵֽלָּא מִן כׇּל־בִּרְכָתָא
+		(*\instruction{בעשי״ת:}
+		לְעֵֽלָּא לְעֵֽלָּא מִכׇּל־בִּרְכָתָא)
+		וְשִׁירָתָא תֻּשְׁבְּֿחָתָא וְנֶחָמָתָא דַּאֲמִירָן בְּעָלְמָא׃ וְאִמְרוּ
+		\textbf{אָמֵן}׃\\
+		יְהֵא שְׁלָמָא רַבָּא מִן שְׁמַיָּא וְחַיִּים עָלֵֽינוּ וְעַל כׇּל־יִשְׂרָאֵל׃ וְאִמְרוּ
+		\textbf{אָמֵן}׃\\
+		עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו הוּא יַעֲשֶׂה שָּׁלוֹם עָלֵֽינוּ וְעַל כׇּל־יִשְׂרָאֵל׃ וְאִמְרוּ
+		\textbf{אָמֵן}׃
+\end{kaddish}}
+
+\newcommand{\rabbiskaddish}{\begin{kaddish}
+		
+		\instruction{קדיש דרבנן}\\
+		\firstword{יִתְגַּדַּל}
+		וְיִתְקַדַּשׁ שְׁמֵיהּ רַבָּא בְּעָלְֿמָא דִּי בְרָא כִרְעוּתֵהּ 
+		וְיַמְלִיךְ מַלְכוּתֵהּ בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן וּבְחַיֵּי דְכׇל־בֵּית יִשְׂרָאֵל בַּעֲגָלָא וּבִזְמַן קָרִיב׃ וְאִמְרוּ אָמֵן׃
+		\textbf{
+			יְהֵא שְׁמֵיהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְֿמֵי עָלְֿמַיָּא
+		}
+		יִתְבָּרַךְ וְיִשְׁתַּבַּח וְיִתְפָּאַר וְיִתְרוֹמַם וְיִתְנַשֵּׂא וְיִתְהַדַּר וְיִתְעַלֶּה וְיִתְהַלַּל שְׁמֵיהּ דְּקֻדְשָׁא 
+		\textbf{בְּרִיךְ הוּא}׃
+		*לְעֵֽלָּא מִן כָּל־בִּרְכָתָא
+		(*\instruction{בעשי״ת:}
+		לְעֵֽלָּא לְעֵֽלָּא מִכָּל בִּרְכָתָא)
+		וְשִׁירָתָא תֻּשְׁבְּֿחָתָא וְנֶחָמָתָא דַּאֲמִירָן בְּעָלְמָא׃ וְאִמְרוּ
+		\textbf{אָמֵן}׃\\
+		עַל יִשְׂרָאֵל וְעַל רַבָּנָן וְעַל תַּלְמִידֵיהוֹן וְעַל כׇּל־תַלְמִידֵי תַלְמִידֵיהוֹן וְעַל כׇּל־מָאן דְּעָסְֿקִין בְּאוֹרַיְתָא דִּי בְאַתְרָא הָדֵן וְדִי בְּכׇל־אֲתַר וַאֲתַר. יְהֵא לְהוֹן וּלְכוֹן שְׁלָמָא רַבָּא חִנָּא וְחִסְדָּא וְרַחֲמִין וְחַיִּין אֲרִיכִין וּמְזוֹנֵי רְוִיחֵי וּפֻרְקָנָא מִן־קֳדָם אֲבוּהוׂן דִּי בִשְׁמַיָּא׃ וְאִמְרוּ
+		\textbf{אָמֵן}׃\\
+		יְהֵא שְׁלָמָא רַבָּא מִן שְׁמַיָּא וְחַיִּים עָלֵֽינוּ וְעַל כׇּל־יִשְׂרָאֵל׃ וְאִמְרוּ
+		\textbf{אָמֵן}׃\\
+		עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו הוּא יַעֲשֶׂה שָּׁלוֹם עָלֵֽינוּ וְעַל כׇּל־יִשְׂרָאֵל׃ וְאִמְרוּ
+		\textbf{אָמֵן}׃
+\end{kaddish}}
+
+\firstword{מוֹדֶה/מוֹדָה}
+אֲנִי לְֿפָנֶיךָ מֶלֶךְ חַי וְֿקַיָּם שֶׁהֶחֱזַרְתָּ בִּי נִשְׁמָתִי בְּֿחֶמְלָה, רַבָּה אֱמוּנָתֶךָ:
+\firstword{בָּרוּךְ}
+אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם אֲשֶׁר קִדְּֿשָֽׁנוּ בְּֿמִצְוֹתָיו וְֿצִוָּֽנוּ עַל נְֿטִילַת יָדָֽיִם׃
+
+\firstword{בָּרוּךְ}
+אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם אֲשֶׁר יָצַר אֶת־הָאָדָם בְּֿחׇכְמָה וּבָרָא בוֹ נְֿקָבִים נְֿקָבִים חֲלוּלִים חֲלוּלִים׃ גָּלוּי וְֿיָדֽוּעַ לִפְנֵי כִסֵּא כְֿבוֹדֶֽךָ שֶׁאִם יִפָּתֵֽחַ אֶחָד מֵהֶם אוֹ יִסָּתֵם אֶחָד מֵהֶם אִי אֶפְשַׁר לְֿהִתְקַיֵּם וְֿלַעֲמוֹד לְֿפָנֶֽיךָ׃ בָּרוּךְ אַתָּה יְיָ רוֹפֵא כׇל־בָּשָׂר וּמַפְלִיא לַעֲשׂוֹת׃
+
+
+\firstword{אֱלֹהַי}
+נְֿשָׁמָה שֶׁנָּתַֽתָּ בִּי טְֿהוֹרָה הִיא׃ אַתָּה בְֿרָאתָהּ אַתָּה יְֿצַרְתָּהּ אַתָּה נְֿפַחְתָּהּ בִּי וְֿאַתָּה מְֿשַׁמְּֿרָהּ בְּֿקִרְבִּי וְֿאַתָּה עָתִיד לִטְּֿלָהּ מִמֶּֽנִּי וּלְהַחֲזִירָהּ בִּי לֶעָתִיד לָבוֹא׃ כׇּל־זְֿמַן שֶׁהַנְּֿשָׁמָה בְּֿקִרְבִּי מוֹדֶה/מוֹדָה אֲנִי לְֿפָנֶֽיךָ יְיָ אֱלֹהַי וֵאלֹהֵי אֲבוֹתַי רִבּוֹן כׇּל־הַמַּעֲשִׂים אֲדוֹן כׇּל־הַנְּֿשָׁמוֹת׃ בָּרוּךְ אַתָּה יְיָ הַמַּחֲזִיר נְֿשָׁמוֹת לִפְגָרִים מֵתִים׃\\
+\instruction{מי שלא לובש טלית גדול מתלבש טלית קטן ומברך:}
+\firstword{בָּרוּךְ}
+אַתָּה יְהֹוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ עַל מִצְוַת צִיצִית:
+
+\firstword{בָּרוּךְ}
+אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם אֲשֶׁר קִדְּֿשָֽֿׁנוּ בְּֿמִצְוֹתָיו וְֿצִוָּֽנוּ לַעֲסוֹק בְּֿדִבְרֵי תוֹרָה: וְֿהַעֲרֶב־נָא יְיָ אֱלֹהֵֽינוּ אֶת־דִּבְרֵי תוֹרָתְֿךָ בְּֿפִֽינוּ וּבְפִיפִיּוֹת עַמְּֿךָ בֵּית יִשְׂרָאֵל וְֿנִהְיֶה אֲנַֽחְנוּ וְֿצֶאֱצָאֵֽינוּ וְֿצֶאֱצָאֵי עַמְּֿךָ בֵּית יִשְׂרָאֵל כֻּלָּֽנוּ יוֹדְֿעֵי שְֿׁמֶֽךָ וְֿלוֹמְֿדֵי תוֹרָתֶֽךָ לִשְׁמָהּ: בָּרוּךְ אַתָּה יְיָ הַמְֿלַמֵּד תּוֹרָה לְֿעַמּוֹ יִשְׂרָאֵל:
+
+\firstword{בָּרוּךְ}
+אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם אֲשֶׁר בָּֽחַר־בָּֽנוּ מִכׇּל־הָעַמִּים וְֿנָֽתַן־לָֽנוּ אֶת־תּוֹרָתוֹ: בָּרוּךְ אַתָּה יְיָ נוֹתֵן הַתּוֹרָה:
+
+
+
+יְֿבָֽרֶכְֿךָ֥ יְיָ֖ וְֿיִשְׁמְֿרֶֽךָ׃ \source{במדבר ו}יָאֵ֨ר יְיָ֧ פָּנָ֛יו אֵלֶ֖יךָ וִֽיחֻנֶּֽךָּ׃ יִשָּׂ֨א יְיָ֤ פָּנָיו֙ אֵלֶ֔יךָ וְֿיָשֵׂ֥ם לְֿךָ֖ שָׁלֽוֹם׃\\
+אֵֽלּוּ דְֿבָרִים שֶׁאֵין לָהֶם שִׁעוּר׃ \source{משנה פאה א}הַפֵּאָה וְֿהַבִּכּוּרִים וְֿהָרֵאָיוֹן וּגְמִילוּת חֲסָדִים וְֿתַלְמוּד תּוֹרָה׃\\
+אֵֽלּוּ \source{שבת קכז}דְבָרִים שֶׁאָדָם אוֹכֵל פֵּירוֹתֵיהֶם בָּעוֹלָם הַזֶּה וְֿהַקֶּֽרֶן קַיֶּֽמֶת לוֹ לָעוֹלָם הַבָּא: וְֿאֵֽלּוּ הֵן - כִּבּוּד אָב וָאֵם וּגְמִילוּת חֲסָדִים וְֿהַשְׁכָּמַת בֵּית הַמִּדְרָשׁ שַׁחֲרִית וְֿעַרְבִית וְֿהַכְנָסַת אוֹרְֿחִים וּבִקּוּר חוֹלִים וְֿהַכְנָסַת כַּלָּה וְֿהַלְוָיַת הַמֵּת וְֿעִיּוּן תְּֿפִלָּה וַהֲבָאַת שָׁלוֹם בֵּין אָדָם לַחֲבֵרוֹ - וְֿתַלְמוּד תּוֹרָה כְּֿנֶֽגֶד כֻּלָּם:
+
+
+
+
+\end{document}
