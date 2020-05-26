@@ -44,11 +44,11 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>siddur_converted.aux</file>
-      <file>siddur_converted-blx.bib</file>
+      <file>siddur_script.aux</file>
+      <file>siddur_script-blx.bib</file>
     </provides>
     <requires type="dynamic">
-      <file>siddur_converted.bbl</file>
+      <file>siddur_script.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -69,20 +69,20 @@
     <cmdline>
       <binary>bibtex</binary>
       <option>-min-crossrefs 2</option>
-      <infile>siddur_converted</infile>
+      <infile>siddur_script</infile>
     </cmdline>
     <input>
-      <file>siddur_converted.aux</file>
+      <file>siddur_script.aux</file>
     </input>
     <output>
-      <file>siddur_converted.bbl</file>
+      <file>siddur_script.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>siddur_converted.bbl</file>
+      <file>siddur_script.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>siddur_converted.aux</file>
-      <file>siddur_converted-blx.bib</file>
+      <file>siddur_script.aux</file>
+      <file>siddur_script-blx.bib</file>
     </requires>
     <requires type="editable">
       <file>referenced_texts.bib</file>
