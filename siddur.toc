@@ -20,23 +20,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{ברכות השחר}{1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{כניסה לבהכ״נ}{11}%
+\contentsline {section}{כניסה לבהכ״נ}{12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{פסוקי דזמרא}{15}%
+\contentsline {chapter}{פסוקי דזמרא}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{שחרית לחול}{32}%
+\contentsline {chapter}{שחרית לחול}{33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{תפילת העמידה}{37}%
+\contentsline {section}{תפילת העמידה}{38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{אבינו מלכנו}{44}%
+\contentsline {section}{אבינו מלכנו}{45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{תחנון}{47}%
+\contentsline {section}{תחנון}{48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{סדר קריאת התורה}{52}%
+\contentsline {section}{סדר קריאת התורה}{53}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{סיום התפילה}{59}%
+\contentsline {section}{סיום התפילה}{60}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{שיר של יום}{63}%
+\contentsline {section}{שיר של יום}{64}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{מוסף לראש חודש}{70}%
 \defcounter {refsection}{0}\relax 

@@ -67,6 +67,61 @@
     \field{year}{1939}
   \endentry
 
+  \entry{birkat_haminim}{article}{}
+    \name{author}{2}{}{%
+      {{hash=EU}{%
+         family={Ehrlich},
+         familyi={E\bibinitperiod},
+         given={Uri},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Langer},
+         familyi={L\bibinitperiod},
+         given={Ruth},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Hebrew Union College - Jewish Institute of Religion}%
+    }
+    \strng{namehash}{EULR1}
+    \strng{fullhash}{EULR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{abstract}{%
+    The birkat haminim petitions God to doom groups of people deemed harmful to
+  the Jewish community, both Jews and gentiles. The blessing's text
+  consequently was often adapted to reflect new realities. Throughout its
+  history, it has attracted attention from those, especially Christians,
+  concerned about Jewish attitudes to them. This concern led to extensive
+  censorship of the text. However, modern scholars pondering the early history
+  of the blessing had only limited evidence for its actual formulations. This
+  article presents a panoramic study of the text of the birkat haminim from the
+  earliest preserved manuscripts (from the Cairo geniza) until official
+  Catholic censorship began in the sixteenth century. The six centuries plus of
+  texts presented here allows us to document the medieval development of the
+  blessing. Across the regional variants, we find an extremely stable structure
+  together with significant openness to addition, deletion, or rearrangement of
+  the parts. This data and its analysis provide a firm basis for understanding
+  the prayer's subsequent developments and a firmer basis than previously
+  available for reconstructing its earlier history. This evidence will serve,
+  we hope, as a resource for scholarly discussion about the place of the birkat
+  haminim in the complex array of relationships between Jews and gentiles.%
+    }
+    \field{issn}{03609049}
+    \field{pages}{63\bibrangedash 112}
+    \field{title}{The Earliest Texts of the Birkat Haminim}
+    \verb{url}
+    \verb http://www.jstor.org/stable/23508929
+    \endverb
+    \field{volume}{76}
+    \field{journaltitle}{Hebrew Union College Annual}
+    \field{year}{2005}
+  \endentry
+
   \entry{levshalem}{book}{}
     \name{editor}{2}{}{%
       {{hash=FE}{%
