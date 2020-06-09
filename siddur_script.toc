@@ -32,6 +32,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{תחנון}{47}%
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{נפילת אפים}{50}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{סדר קריאת התורה}{52}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{סיום התפילה}{59}%
