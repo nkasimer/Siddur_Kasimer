@@ -20,7 +20,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{ברכות השחר}{1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{כניסה לבהכ״נ}{12}%
+\contentsline {section}{כניסה לבהכ״נ}{11}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{פסוקי דזמרא}{15}%
 \defcounter {refsection}{0}\relax 
@@ -42,101 +42,101 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{מוסף לראש חודש}{69}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{קדיש דרבנן}{75}%
+\contentsline {chapter}{קדיש דרבנן}{76}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{מנחה לחול}{76}%
+\contentsline {chapter}{מנחה לחול}{77}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{תחנון}{86}%
+\contentsline {section}{תחנון}{87}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{עירוב תבשילין}{90}%
+\contentsline {chapter}{עירוב תבשילין}{91}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{הדלקת הנרות שבת ויום טוב}{90}%
+\contentsline {chapter}{הדלקת הנרות שבת ויום טוב}{91}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{קבלת שבת}{91}%
+\contentsline {chapter}{קבלת שבת}{92}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{ערבית לשבת ויו״ט}{98}%
+\contentsline {chapter}{ערבית לשבת ויו״ט}{99}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{תפילת העמידה}{102}%
+\contentsline {section}{תפילת העמידה}{103}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{קידוש ליל שבת}{112}%
+\contentsline {chapter}{קידוש ליל שבת}{113}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{קידוש ליל יום טוב}{115}%
+\contentsline {chapter}{קידוש ליל יום טוב}{116}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{שחרית לשבת ויו״ט}{117}%
+\contentsline {chapter}{שחרית לשבת ויו״ט}{118}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{תפילת העמידה}{126}%
+\contentsline {section}{תפילת העמידה}{127}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{נטילת הלולב}{132}%
+\contentsline {section}{נטילת הלולב}{133}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{הלל‎}{133}%
+\contentsline {section}{הלל‎}{134}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{שיר של יום}{137}%
+\contentsline {section}{שיר של יום}{138}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{סדר קריאת התורה}{145}%
+\contentsline {chapter}{סדר קריאת התורה}{146}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{מוסף לשבת ויו״ט}{161}%
+\contentsline {chapter}{מוסף לשבת ויו״ט}{162}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{קידושא רבא לשבת}{173}%
+\contentsline {chapter}{קידושא רבא לשבת}{174}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{מוסף לשלש רגלים}{174}%
+\contentsline {chapter}{מוסף לשלש רגלים}{175}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{תפילת טל}{184}%
+\contentsline {section}{תפילת טל}{185}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{תפילת גשם}{186}%
+\contentsline {section}{תפילת גשם}{187}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{ברכת כהנים}{188}%
+\contentsline {section}{ברכת כהנים}{189}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{קידושא רבא ליו״ט}{197}%
+\contentsline {chapter}{קידושא רבא ליו״ט}{198}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{הושענות}{199}%
+\contentsline {chapter}{הושענות}{200}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{הושענות להושענא רבא}{204}%
+\contentsline {section}{הושענות להושענא רבא}{205}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{הקפות לשמחת תורה}{214}%
+\contentsline {chapter}{הקפות לשמחת תורה}{215}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{יזכור}{216}%
+\contentsline {chapter}{יזכור}{217}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{מנחה לשבת ויו״ט}{217}%
+\contentsline {chapter}{מנחה לשבת ויו״ט}{218}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{ערבית לחול}{232}%
+\contentsline {chapter}{ערבית לחול}{233}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{הבדלה}{247}%
+\contentsline {section}{הבדלה}{248}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{ספירת העמר}{248}%
+\contentsline {section}{ספירת העמר}{249}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{קדוש הלבנה}{250}%
+\contentsline {section}{קדוש הלבנה}{251}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{קריאת שמע שעל המיטה}{254}%
+\contentsline {chapter}{קריאת שמע שעל המיטה}{255}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{בדיקת וביטול חמץ}{257}%
+\contentsline {chapter}{בדיקת וביטול חמץ}{258}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{התרת נדרים}{258}%
+\contentsline {chapter}{התרת נדרים}{259}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{וידוי}{261}%
+\contentsline {chapter}{וידוי}{262}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{חנוכה}{265}%
+\contentsline {chapter}{חנוכה}{266}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{פורים}{267}%
+\contentsline {chapter}{פורים}{268}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{ברית מילה}{269}%
+\contentsline {chapter}{ברית מילה}{270}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{פדיון הבן}{271}%
+\contentsline {chapter}{פדיון הבן}{272}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{ברכת המזון}{273}%
+\contentsline {chapter}{ברכת המזון}{274}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{זמון לנשואין}{280}%
+\contentsline {section}{זמון לנשואין}{281}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{שבע ברכות}{280}%
+\contentsline {section}{שבע ברכות}{281}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{ברכת המזון בבית אבל}{282}%
+\contentsline {section}{ברכת המזון בבית אבל}{283}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{ברכה מעין שלש}{282}%
+\contentsline {section}{ברכה מעין שלש}{283}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{תפלת הדרך}{284}%
+\contentsline {chapter}{תפלת הדרך}{285}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{הביננו}{285}%
+\contentsline {chapter}{הביננו}{286}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{286}%
+\contentsline {chapter}{Bibliography}{287}%
 \defcounter {refsection}{0}\relax 
 \bgroup 
 \defcounter {refsection}{0}\relax 
