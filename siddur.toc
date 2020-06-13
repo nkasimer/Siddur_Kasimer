@@ -20,25 +20,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{ברכות השחר}{1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{כניסה לבהכ״נ}{12}%
+\contentsline {section}{כניסה לבהכ״נ}{11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{פסוקי דזמרא}{16}%
+\contentsline {chapter}{פסוקי דזמרא}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{שחרית לחול}{33}%
+\contentsline {chapter}{שחרית לחול}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{תפילת העמידה}{38}%
+\contentsline {section}{תפילת העמידה}{37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{אבינו מלכנו}{45}%
+\contentsline {section}{אבינו מלכנו}{44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{תחנון}{48}%
+\contentsline {section}{תחנון}{47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{סדר קריאת התורה}{53}%
+\contentsline {subsection}{נפילת אפים}{50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{סיום התפילה}{60}%
+\contentsline {section}{סדר קריאת התורה}{52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{שיר של יום}{64}%
+\contentsline {section}{סיום התפילה}{59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{מוסף לראש חודש}{70}%
+\contentsline {section}{שיר של יום}{63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{מוסף לראש חודש}{69}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{קדיש דרבנן}{76}%
 \defcounter {refsection}{0}\relax 
@@ -102,7 +104,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{ספירת העמר}{249}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{ברכת הלבנה}{251}%
+\contentsline {section}{קדוש הלבנה}{251}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{קריאת שמע שעל המיטה}{255}%
 \defcounter {refsection}{0}\relax 
@@ -125,6 +127,8 @@
 \contentsline {section}{זמון לנשואין}{281}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{שבע ברכות}{281}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ברכת המזון בבית אבל}{283}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{ברכה מעין שלש}{283}%
 \defcounter {refsection}{0}\relax 
