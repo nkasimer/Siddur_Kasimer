@@ -17,6 +17,39 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{albeck_kodashim}{book}{}
+    \name{editor}{2}{}{%
+      {{hash=AC}{%
+         family={Albeck},
+         familyi={A\bibinitperiod},
+         given={Chanoch},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=YH}{%
+         family={Yalon},
+         familyi={Y\bibinitperiod},
+         given={Henoch},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Mosad Byalik ; Devir}%
+    }
+    \strng{namehash}{ACYH1}
+    \strng{fullhash}{ACYH1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{isbn}{978-965-01-0208-1 978-965-01-0209-8 978-965-01-0210-4
+  978-965-01-0211-1 978-965-01-0212-8 978-965-01-0213-5}
+    \field{title}{Shishah sidre Mishnah Seder Kodashim}
+    \list{location}{1}{%
+      {Yerushalayim : Tel-Aviv}%
+    }
+    \field{year}{1952}
+  \endentry
+
   \entry{avodasyisroel}{book}{}
     \name{author}{1}{}{%
       {{hash=BS}{%
