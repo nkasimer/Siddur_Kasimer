@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2020.1.25)  28 JUN 2020 17:34
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2020.1.25)  28 JUN 2020 17:42
 entering extended mode
 **./siddur.tex
 (siddur.tex
@@ -3327,38 +3327,8 @@ Requested font "Shlomo/OT" at 10.94997pt
 Requested font "Shlomo/OT:script=hebr;language=;" at 10.95pt
  -> C:/Users/nkasimer/AppData/Local/Microsoft/Windows/Fonts/Shlomo.ttf
 
-Package scrbase Warning: Usage of deprecated command `\ifthispageodd'.
-(scrbase)                The command has been renamed because of a
-(scrbase)                recommendation of The LaTeX Project Team.
-(scrbase)                Please replace `\ifthispageodd' by `\Ifthispageodd' on
- input line 277.
-
-Requested font "Shlomo/OT" at 10.94997pt
- -> C:/Users/nkasimer/AppData/Local/Microsoft/Windows/Fonts/Shlomo.ttf
-Requested font "Shlomo/OT:script=hebr;language=;" at 10.95pt
- -> C:/Users/nkasimer/AppData/Local/Microsoft/Windows/Fonts/Shlomo.ttf
-
-Underfull \hbox (badness 2772) in paragraph at lines 267--278
- []\TU/Shlomo(1)/bx/n/10.95 הָאֱלֹהִֽים׃ בַּיּ֣וֹם הַשְּׁלִישִׁ֗י וַיִּשָּׂ֨א א
-ַבְרָהָ֧ם אֶת־עֵינָ֛יו וַיַּ֥רְא[] 
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 267--278
- []\TU/Shlomo(1)/bx/n/10.95 אֶת־הַמָּק֖וֹם מֵרָחֹֽק׃ וַיֹּ֨אמֶר אַבְרָהָ֜ם אֶל־
-נְעָרָ֗יו שְׁבוּ־לָכֶ֥ם[] 
- []
-
-
-Underfull \hbox (badness 1460) in paragraph at lines 267--278
- []\TU/Shlomo(1)/bx/n/10.95 וַיִּקַּ֣ח בְּיָד֔וֹ אֶת־הָאֵ֖שׁ וְאֶת־הַֽמַּאֲכֶ֑ל
-ֶת וַיֵּלְכ֥וּ שְׁנֵיהֶ֖ם יַחְדָּֽו׃[] 
- []
-
-
-Underfull \hbox (badness 1152) in paragraph at lines 267--278
- []\TU/Shlomo(1)/bx/n/10.95 וַיֹּ֨אמֶר יִצְחָ֜ק אֶל־אַבְרָהָ֤ם אָבִיו֙ וַיֹּ֣אמ
-ֶר אָבִ֔י וַיֹּ֖אמֶר הִנֶּ֣נִּֽי[] 
+Underfull \hbox (badness 10000) in paragraph at lines 267--274
+ [][] 
  []
 
 
@@ -3373,6 +3343,42 @@ Requested font "Shlomo/OT" at 8.99997pt
 Requested font "Shlomo/OT:script=hebr;language=;" at 9.0pt
  -> C:/Users/nkasimer/AppData/Local/Microsoft/Windows/Fonts/Shlomo.ttf
  [3]
+
+Package scrbase Warning: Usage of deprecated command `\ifthispageodd'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifthispageodd' by `\Ifthispageodd' on
+ input line 277.
+
+Requested font "Shlomo/OT" at 10.94997pt
+ -> C:/Users/nkasimer/AppData/Local/Microsoft/Windows/Fonts/Shlomo.ttf
+Requested font "Shlomo/OT:script=hebr;language=;" at 10.95pt
+ -> C:/Users/nkasimer/AppData/Local/Microsoft/Windows/Fonts/Shlomo.ttf
+
+Underfull \hbox (badness 2772) in paragraph at lines 275--278
+ []\TU/Shlomo(1)/bx/n/10.95 הָאֱלֹהִֽים׃ בַּיּ֣וֹם הַשְּׁלִישִׁ֗י וַיִּשָּׂ֨א א
+ַבְרָהָ֧ם אֶת־עֵינָ֛יו וַיַּ֥רְא[] 
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 275--278
+ []\TU/Shlomo(1)/bx/n/10.95 אֶת־הַמָּק֖וֹם מֵרָחֹֽק׃ וַיֹּ֨אמֶר אַבְרָהָ֜ם אֶל־
+נְעָרָ֗יו שְׁבוּ־לָכֶ֥ם[] 
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 275--278
+ []\TU/Shlomo(1)/bx/n/10.95 וַיִּקַּ֣ח בְּיָד֔וֹ אֶת־הָאֵ֖שׁ וְאֶת־הַֽמַּאֲכֶ֑ל
+ֶת וַיֵּלְכ֥וּ שְׁנֵיהֶ֖ם יַחְדָּֽו׃[] 
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 275--278
+ []\TU/Shlomo(1)/bx/n/10.95 וַיֹּ֨אמֶר יִצְחָ֜ק אֶל־אַבְרָהָ֤ם אָבִיו֙ וַיֹּ֣אמ
+ֶר אָבִ֔י וַיֹּ֖אמֶר הִנֶּ֣נִּֽי[] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Requested font "Shlomo/OT" at 10.94997pt
@@ -3395,6 +3401,11 @@ Requested font "Shlomo/OT" at 10.94997pt
  -> C:/Users/nkasimer/AppData/Local/Microsoft/Windows/Fonts/Shlomo.ttf
 Requested font "Shlomo/OT:script=hebr;language=;" at 10.95pt
  -> C:/Users/nkasimer/AppData/Local/Microsoft/Windows/Fonts/Shlomo.ttf
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--282
+ [][] 
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
