@@ -101,6 +101,19 @@ text={תמאב והארקי רשא לכל ויארק־לכל יי בורק},text
 
 \newcommand{\halfline}{\vspace{0.5\baselineskip}}
 
+\newtoggle{includeshabbat}
+\newtoggle{includefestival}
+\newtoggle{includeChM}
+\newtoggle{includeweekday}
+\newtoggle{includeRCh}
+\newtoggle{includeAYT}
+\toggletrue{includeshabbat}
+\toggletrue{includeweekday}
+\toggletrue{includeRCh}
+\toggletrue{includeAYT}
+\togglefalse{includefestival}
+\togglefalse{includeChM}
+
 \let\clearpage\relax{
 
 \include{chapters/birkhothashachar}\\

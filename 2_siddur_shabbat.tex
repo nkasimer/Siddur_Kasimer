@@ -101,8 +101,24 @@ text={תמאב והארקי רשא לכל ויארק־לכל יי בורק},text
 
 \newcommand{\halfline}{\vspace{0.5\baselineskip}}
 
-\include{chapters/birkhothashachar}	
-\include{chapters/PDZ_shab}
+\newtoggle{includeshabbat}
+\newtoggle{includefestival}
+\newtoggle{includeChM}
+\newtoggle{includeweekday}
+\newtoggle{includeRCh}
+\newtoggle{includeAYT}
+\toggletrue{includeshabbat}
+\togglefalse{includeweekday}
+\toggletrue{includeRCh}
+\toggletrue{includeAYT}
+\togglefalse{includefestival}
+\togglefalse{includeChM}
+
+\let\clearpage\relax{\include{chapters/birkhothashachar}}
+\clearpage	
+\let\clearpage\relax{\include{chapters/PDZ}}
+\clearpage
+%\include{chapters/PDZ_shab}
 
 \chapter[שחרית לשבת]{\adforn{47} שחרית לשבת ויום טוב \adforn{19}}
 
@@ -272,8 +288,18 @@ text={תמאב והארקי רשא לכל ויארק־לכל יי בורק},text
 
 \include{chapters/hallel}
 \nextpage
-\include{chapters/shabbat_musaf}
+\fullkaddish
+\firstword{הַיּוֹם שַּׁבָּת קֹֽדֶשׁ שֶׁבּוֹ הָיוּ הַלְוִיִּם אוֹמְרִים בְּבֵית־הַמִּקְדָּשׁ׃}
+\\\mizmorshabbat
+
+\RChBarekhi\\
+
+\instruction{קדיש יתום}
+
+\include{chapters/torah_shabbatYT}
 \nextpage
+\include{chapters/shabbat_musaf}\\
+\clearpage
 \include{chapters/minchaShabYT}
 \nextpage
 
