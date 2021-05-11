@@ -135,7 +135,7 @@
 \instruction{א״א מזמור לתודה בשבת, ביו״ט, בערב יום כפור, בערב פסח, בחול המועד פסח}
 \todah
 \end{narrow}
-}{\ifboolexpr{togl {includeweekday} and not togl{includeshabbat} and not togl {includefestival}}{\today}{}
+}{\ifboolexpr{togl {includeweekday} and not togl{includeshabbat} and not togl {includefestival}}{\todah}{}}
 
 \ifboolexpr{(togl {includeshabbat} or togl {includefestival}) and (togl {includeweekday} or togl {includeChM})} {\instruction{בשבת וביו״ט ובהשענא רבא אומרים פסד״ז ארוך, בשאר ימים ממשיכים בעמ׳ \pageref{yehikvod}}
 	\begin{narrow}	\longPDZ\end{narrow}} {
