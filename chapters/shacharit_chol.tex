@@ -113,10 +113,16 @@
 \instruction{בימים אלו אומרים קדיש עמ׳ \pageref{hatzi_kaddish}}\\
 \instruction{כשאומרים תחנון ביום ב׳ וביום ה׳ אומרים תחנון עמ׳ \pageref{tachanun mon thurs}},
 \instruction{ביום א׳ ג׳ ד׳ ו׳ נופלים על פניהם עמ׳ \pageref{nefilas_apayim}}\\
-\instruction{בסוכות נוטלים הלולב עמ׳ \pageref{lulav}}\\
+\ifboolexpr{togl{includeChM}}{\instruction{בסוכות נוטלים הלולב עמ׳ \pageref{lulav}}\\}{}
 \instruction{ בחול המועד, חנוכה, וראש חודש אומרים הלל עמ׳\pageref{hallel}}\\
 \instruction{ בעשי״ת אומרים אבינו מלכנו עמ׳ \pageref{avinu malkeinu}}\\
 \instruction{ בת״צ אומרים סליחות ואח״כ אבינו מלכנו עמ׳ \pageref{avinu malkeinu}}
+
+\ifboolexpr{not togl{includeshabbat} and not togl{includefestival}}{
+\let\clearpage\relax{
+	\input{chapters/hallel}
+}
+}{}
 
 \section[אבינו מלכנו]{\adforn{53} אבינו מלכנו \adforn{25}}
 \label{avinu malkeinu}
