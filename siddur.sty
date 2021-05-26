@@ -75,7 +75,7 @@
 \makeatletter
 \makeatother
 
-
+\usepackage{etoolbox}
 \makeatletter
 \@addtoreset{footnote}{chapter}
 \makeatother
@@ -219,5 +219,7 @@
 %\newcommand{\vkahalchazzan}{\instruction{וקהל: חזן }} %for kedusha inside longtable
 \newcommand{\vkahalchazzan}{\instruction{ קהל וש״ץ׃ }}
 \newcommand{\shabbos}{\instruction{ בשבת׃ }}
+
+\newcommand{\negline}{\vspace{-\baselineskip}}
 
 \endinput
