@@ -107,12 +107,14 @@ text={תמאב והארקי רשא לכל ויארק־לכל יי בורק},text
 \newtoggle{includeweekday}
 \newtoggle{includeRCh}
 \newtoggle{includeAYT}
+\newtoggle{minchainshacharit}
 \togglefalse{includeshabbat}
 \toggletrue{includeweekday}
 \toggletrue{includeRCh}
 \toggletrue{includeAYT}
 \togglefalse{includefestival}
 \togglefalse{includeChM}
+\togglefalse{minchainshacharit}
 
 \let\clearpage\relax{
 
@@ -123,6 +125,8 @@ text={תמאב והארקי רשא לכל ויארק־לכל יי בורק},text
 }
 
 \include{chapters/shacharit_chol}
+\clearpage
+\let\clearpage\relax{\include{chapters/mincha_chol}}
 \clearpage
 \let\clearpage\relax{\include{chapters/maariv_chol}}
 \clearpage

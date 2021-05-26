@@ -76,12 +76,11 @@
 
 \weekdaysatzadikim
 
-%\weekdaysayerushelayim
-\yerushwithnachem
+\ifboolexpr{togl {minchainshacharit}}{\yerushwithnachem}{\weekdaysayerushelayim}
 
 \weekdaysamalchus
 
-\weekdaysashemakoleinu{\footnote{\instruction{בת״צ במנחה היחיד מוסיף׃}\\\aneinubasetext}}
+\ifboolexpr{togl {minchainshacharit}}{\weekdaysashemakoleinu{\footnote{\instruction{בת״צ במנחה היחיד מוסיף׃}\\\aneinubasetext}}}{\weekdaysashemakoleinu{}}
 
 \retzeh
 
@@ -103,7 +102,7 @@
 \shatzbrikaskohanim
 
 %\simshalom{\ayt}
-\simshalomrav
+\ifboolexpr{togl {minchainshacharit}}{\simshalomrav}{\simshalom{\ayt}}
 
 \tachanunim
 
