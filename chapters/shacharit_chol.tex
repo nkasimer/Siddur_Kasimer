@@ -92,10 +92,17 @@
 %\bircaskohanim{ בחזרת הש״ץ בארץ ישראל אם יש כוהנים, הם מברכים את הקהל׃}{בחזרת הש״ץ בחו״ל או בא״י עם אין כהנים׃} \label{bk}
 
 
-\shatzbrikaskohanim
+
 
 %\simshalom{\ayt}
-\ifboolexpr{togl {minchainshacharit}}{\simshalomrav}{\simshalom{\ayt}}
+\ifboolexpr{togl {minchainshacharit}}{
+	
+	\shatzbirkaskohanim{בחזרת הש״ץ בשחרית ומנחה בת״צ׃}
+	
+	\simshalomrav}{
+	\shatzbirkaskohanim{בחזרת הש״ץ׃}
+	
+	\simshalom{\ayt}}
 
 \tachanunim
 
