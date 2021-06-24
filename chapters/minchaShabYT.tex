@@ -1,5 +1,8 @@
 \vspace{0.2in}
-\chapter[מנחה לשבת ויו״ט]{\adforn{47} מנחה לשבת ויום טוב \adforn{19}}
+\ifboolexpr{togl {includeshabbat} and togl {includefestival}}{\chapter[מנחה לשבת ויו״ט]{\adforn{47} מנחה לשבת ויו״ט \adforn{19}}}{
+	\ifboolexpr{togl {includeshabbat}}{\chapter[מנחה לשבת]{\adforn{47} מנחה לשבת \adforn{19}}}{}
+	\ifboolexpr{togl {includefestival}}{\chapter[מנחה ליו״ט]{\adforn{47} מנחה ליו״ט \adforn{19}}}{}}
+	
 \vspace{0.5in}
 \ashrei
 
@@ -7,7 +10,8 @@
 
 \halfkaddish
 
-\instruction{ביום טוב שאין בשבת אומרים תפילת יום טוב עמ׳ \pageref{shabYTamidah}}
+\ifboolexpr{togl {includeshabbat}}{
+\ifboolexpr{togl {includefestival}}{\instruction{ביום טוב שאין בשבת אומרים תפילת יום טוב עמ׳ \pageref{shabYTamidah}}}{}
 
 \textbf{
 וַאֲנִ֤י תְפִלָּֽתִי־לְךָ֨ ׀ יְיָ֡ עֵ֤ת רָצ֗וֹן אֱלֹהִ֥ים בְּרׇב־חַסְדֶּ֑ךָ עֲ֝נֵ֗נִי בֶּאֱמֶ֥ת יִשְׁעֶֽךָ׃ } \source{תהלים סט}
@@ -41,7 +45,7 @@
 \nextpage
 \etzchaim
 
-\instruction{סוגרים הארון}
+\instruction{סוגרים הארון}}{}
 \label{shabYTamidah}
 \halfkaddish
 
@@ -54,21 +58,23 @@
 
 \sepline
 
-\instruction{ביו״ט ממשיכים בעמ׳ \pageref{ytmincha}}
+\ifboolexpr{togl {includeshabbat}}{
+	\ifboolexpr{togl {includefestival}}{\instruction{ביו״ט ממשיכים בעמ׳ \pageref{ytmincha}}}{}
 
 \firstword{אַתָּה}
 אֶחָד וְשִׁמְךָ אֶחָד \source{דה״א יז}וּמִי֙ כְּעַמְּךָ֣ יִשְׂרָאֵ֔ל גּ֥וֹי אֶחָ֖ד בָּאָ֑רֶץ תִּפְאֶֽרֶת גְּדֻלָּה וַעֲטֶֽרֶת יְשׁוּעָה, יוֹם מְנוּחָה וּקְדֻשָּׁה לְעַמְּךָ נָתַֽתָּ, אַבְרָהָם יָגֵל יִצְחָק יְרַנֵּן יַעֲקֹב וּבָנָיו יָנֽוּחוּ בוֹ מְנוּחַת אַהֲבָה וּנְדָבָה מְנוּחַת אֱמֶת וֶאֱמוּנָה מְנוּחַת שָׁלוֹם וְשַׁלְוָה וְהַשְׁקֵט וָבֶֽטַח מְנוּחָה שְׁלֵמָה שָׁאַתָּה רוֹצֶה בָּהּ יַכִּֽירוּ בָנֶֽיךָ וְיֵדְעוּ כִּי מֵאִתְּךָ הִיא מְנוּחָתָם וְעַל מְנוּחָתָם יַקְדִּֽישׁוּ אֶת־שְׁמֶֽךָ׃
 
 %\shabboskiddushhayom{\footnote{\instruction{נ״א:} (שַׁבּתוֹת קׇדְשֶׁךָ) וְיָנוּחוּ בָם}} \instruction{רצה וכו׳}
-\shabboskiddushhayom{} \instruction{רצה וכו׳}
+\shabboskiddushhayom{} \ifboolexpr{togl {includefestival}}{\instruction{רצה וכו׳}}{}
 
 
-\sepline
+\sepline}{}
 
-\label{ytmincha}
+\ifboolexpr{togl {includefestival}}{\label{ytmincha}
 \ytkiddushhayom{}
 
-\sepline
+\ifboolexpr{togl {includeshabbat}}{\sepline}{}
+}{}
 
 \retzeh
 
@@ -78,30 +84,21 @@
 
 \modim
 
-\shabboschanukah
+\ifboolexpr{togl {includeshabbat}}{\shabboschanukah
 
 \shabboshodos
 
-\firstword{שָׁלוֹם}
-רָב עַל יִשְׂרָאֵל עַמְּךָ תָּשִׂים לְעוֹלָם כִּי אַתָּה הוּא מֶֽלֶךְ אָדוֹן לְכׇל־הַשָּׁלוֹם׃ וְטוֹב בְּעֵינֶֽיךָ לְבָרֵךְ אֶת־עַמְּךָ יִשְׂרָאֵל בְּכׇל־עֵת וּבְכׇל־שָׁעָה בִּשְׁלוֹמֶךָ׃
-\vspace{-0.4\baselineskip}
-\columnratio{0.7}
-\begin{paracol}{2}
-
-\instruction{בשבת שובה:}
-\begin{small}
-בְּסֵֽפֶר חַיִּים בְּרָכָה וְשָׁלוֹם וּפַרְנָסָה טוֹבָה נִזָּכֵר וְנִכָּתֵב לְפָנֶֽיךָ אָֽנוּ וְכׇל־עַמְּךָ בֵּית יִשְׂרָאֵל לְחַיִּים וּלְשָׁלוֹם׃ בָּרוּךְ אַתָּה יְיָ עוֹשֵׂה הַשָּׁלוֹם׃
-
-\end{small}
-\switchcolumn
-בָּרוּךְ אַתָּה יְיָ הַמְבָרֵךְ אֶת־עַמּוֹ יִשְׂרָאֵל בַּשָּׁלוֹם׃
-
-\end{paracol}
+\shabbossimshalom
 
 \tachanunim
 
 \instruction{בימי שאין אומרים תחנון בחול אין אומרים צו״צ בשבת.}\\
 צִדְקָתְךָ֣ \source{תהלים קיט}צֶ֣דֶק לְעוֹלָ֑ם וְֽתוֹרָתְךָ֥ אֱמֶֽת׃ \source{תהלים עא}וְצִדְקָתְךָ֥ אֱלֹהִ֗ים עַד־מָ֫ר֥וֹם אֲשֶׁר־עָשִׂ֥יתָ גְדֹל֑וֹת אֱ֝לֹהִ֗ים מִ֣י כָמֽוֹךָ׃ \source{תהלים לו}צִדְקָתְךָ֨ ׀ כְּֽהַרְרֵי־אֵ֗ל מִ֭שְׁפָּטֶיךָ תְּה֣וֹם רַבָּ֑ה אָ֤דָֽם וּבְהֵמָ֖ה תוֹשִׁ֣יעַ יְיָ׃
+}{
+\simshalomplain
+
+\tachanunim
+}
 
 \fullkaddish
 

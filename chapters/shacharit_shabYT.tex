@@ -1,4 +1,6 @@
-\chapter[שחרית לשבת ויו״ט]{\adforn{47} שחרית לשבת ויום טוב \adforn{19}}
+\ifboolexpr{togl {includeshabbat} and togl {includefestival}}{\chapter[שחרית לשבת ויו״ט]{\adforn{47} שחרית לשבת ויו״ט \adforn{19}}}{
+\ifboolexpr{togl {includeshabbat}}{\chapter[שחרית לשבת]{\adforn{47} שחרית לשבת \adforn{19}}}{}
+\ifboolexpr{togl {includefestival}}{\chapter[שחרית ליו״ט]{\adforn{47} שחרית ליו״ט \adforn{19}}}{}}
 
 \label{nishmas}
 \firstword{נִשְׁמַת}
