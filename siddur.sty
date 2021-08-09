@@ -71,6 +71,14 @@
 	ItalicFont={Shlomo semiStam}	
 	]{Shlomo}
 	\setsansfont{Mekorot-Rashi}
+	
+\newfontfamily\diamondfont{Arial}
+
+\newenvironment{diamondfont}{\diamondfont}{\par}
+
+%\newcommand{\mark}{{.}}
+%♦
+
 \RequirePackage{bidi}
 \makeatletter
 \makeatother
@@ -178,6 +186,8 @@
 	}
 
 \newcommand{\instruction}[1]{\begin{scriptsize}\textsf{#1}\end{scriptsize}}
+
+\newcommand{\englishinst}[1]{\begin{minipage}{\textwidth}\begin{English}\begin{scriptsize}\textit{#1}\end{scriptsize}\end{english}\end{minipage}}
 
 \newenvironment{instructionpar}
 	{\begin{scriptsize}\begin{textsf}}
