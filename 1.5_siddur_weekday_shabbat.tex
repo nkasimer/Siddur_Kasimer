@@ -53,7 +53,7 @@ Introduction
 \end{LARGE}
 \end{center}
 
-This siddur is an attempt to make a siddur that reflects the liturgical practice I've adopted from various communities I've lived in--a mish-mash American pan-Eastern Ashkenaz tradition. This siddur is a work in progress. I hope to add a bit more instructions in the future, including instructions in English.  This siddur omits some customary texts which are now recited privately and can be found easily in other texts, such as Pirkei Avot.
+This siddur is an attempt to make a siddur that reflects the liturgical practice I've adopted from various communities I've lived in--a mish-mash American pan-Ashkenaz tradition. This siddur is a work in progress. I hope to add a bit more instructions in the future, including instructions in English.  This siddur omits some customary texts which are now recited privately and can be found easily in other texts, such as Pirkei Avot.
 
 The most important acknowledgment for this siddur is to Aaron Wolf, for his \textit{Siddur Olas Tamid}. This is a derivative of his work, with various changes to reflect the mostly Eastern Ashkenazi liturgical tradition I've received. His work, in turn, is largely derived from Rabbi Rallis Weisenthal's work \textit{Siddur Sefas Yisroel}. All biblical quotations are from Miqra Al Pi Masora, a remarkable project whose accurate and free text of Tanakh has helped me a great deal. I am also grateful to the Opensiddur community for supporting opensource liturgical ventures. The individuals behind these project have helped out the world of Jewish text distribution enormously. I would also like to thank Rabbanit Leah Sarna, for both highlighting the need for siddurim to include the text of Hatarat Nedarim for women, and for furnishing me with the text of it used in this siddur.\\
 
@@ -116,13 +116,11 @@ text={תמאב והארקי רשא לכל ויארק־לכל יי בורק},text
 \toggletrue{includefestival}
 \togglefalse{includeChM}
 
-\newtoggle{festivalsinsupplement}
-\toggletrue{festivalsinsupplement}
-
 \let\clearpage\relax{\include{chapters/birkhothashachar}}
-\clearpage
-\let\clearpage\relax{\include{chapters/PDZ}}
-\clearpage
+%\clearpage
+%\let\clearpage\relax{\include{chapters/PDZ}}
+\include{chapters/PDZ}
+%\clearpage
 \let\clearpage\relax{\include{chapters/shacharit_chol}}
 
 
@@ -186,10 +184,9 @@ text={תמאב והארקי רשא לכל ויארק־לכל יי בורק},text
 %
 %\firstword{בָּרוּךְ}
 % אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, שֶׁהֶחֱיָנוּ וְקִיְּמָנוּ וְהִגִּיעָנוּ לַזְמַן הַזֶּה׃
+\togglefalse{includefestival}
 
 \include{chapters/shacharit_shabYT}
-
-\togglefalse{includefestival}
 
 \include{chapters/torah_shabbatYT}
 
