@@ -79,6 +79,8 @@
 %\newcommand{\mark}{{.}}
 %♦
 
+\newfontfamily\englishfont{Georgia}
+
 \RequirePackage{bidi}
 \makeatletter
 \makeatother
@@ -187,7 +189,13 @@
 
 \newcommand{\instruction}[1]{\begin{scriptsize}\textsf{#1}\end{scriptsize}}
 
-\newcommand{\englishinst}[1]{\begin{minipage}{\textwidth}\begin{English}\begin{scriptsize}\textit{#1}\end{scriptsize}\end{english}\end{minipage}}
+\newcommand{\englishinst}[1]{
+	\begin{minipage}{\textwidth}
+		\begin{english}\raggedright\centering
+			\textit{#1}\\
+		\end{english}
+	\end{minipage}
+}
 
 \newenvironment{instructionpar}
 	{\begin{scriptsize}\begin{textsf}}
