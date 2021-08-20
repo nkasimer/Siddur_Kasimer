@@ -62,6 +62,7 @@
 \newcommand{\todah}{
 מִזְמ֥וֹר\source{תהילים ק} לְתוֹדָ֑ה הָרִ֥יעוּ לַ֝ייָ֗ כׇּל־הָאָֽרֶץ׃ עִבְד֣וּ אֶת־יְיָ֣ בְּשִׂמְחָ֑ה בֹּ֥אוּ לְ֝פָנָ֗יו בִּרְנָנָֽה׃ דְּע֗וּ כִּֽי־יְיָ ה֤וּא אֱלֹ֫הִ֥ים הֽוּא־עָ֭שָׂנוּ \qk{וְל֣וֹ}{ולא} אֲנַ֑חְנוּ עַ֝מּ֗וֹ וְצֹ֣אן מַרְעִיתֽוֹ׃ בֹּ֤אוּ שְׁעָרָ֨יו ׀ בְּתוֹדָ֗ה חֲצֵרֹתָ֥יו בִּתְהִלָּ֑ה הוֹדוּ־ל֝֗וֹ בָּרְכ֥וּ שְׁמֽוֹ׃ כִּי־ט֣וֹב יְיָ֭ לְעוֹלָ֣ם חַסְדּ֑וֹ וְעַד־דֹּ֥ר וָ֝דֹ֗ר אֱמוּנָתֽוֹ׃}
 
+\englishinst{Some say the following Psalm, and follow it with mourner's kaddish:}
 \instruction{יש אומרים מזמור זו ואח״כ קדיש יתום}\\\chanukat
 
 \firstword{בָּרוּךְ שֶׁאָמַר}
@@ -131,12 +132,13 @@
 
 \ifboolexpr{togl {includeweekday} and (togl {includeshabbat} or togl {includefestival})}{ 
 \begin{narrow}
+\englishinst{The following Psalm is not recited on Shabbat, festivals, the Eve of Yom Kippur or Passover, or on the intermediate days of Passover:}
 \instruction{א״א מזמור לתודה בשבת, ביו״ט, בערב יום כפור, בערב פסח, בחול המועד פסח}
 \todah
 \end{narrow}
 }{\ifboolexpr{togl {includeweekday} and not togl{includeshabbat} and not togl {includefestival}}{\todah}{}}
 
-\ifboolexpr{(togl {includeshabbat} or togl {includefestival}) and (togl {includeweekday} or togl {includeChM})} {\instruction{בשבת וביו״ט ובהשענא רבא אומרים פסד״ז ארוך, בשאר ימים ממשיכים בעמ׳ \pageref{yehikvod}}
+\ifboolexpr{(togl {includeshabbat} or togl {includefestival}) and (togl {includeweekday} or togl {includeChM})} {\englishinst{The following Psalms are added on Shabbat, festivals, and Hoshana Rabba.  On other days, continue on page \pageref{yehikvod}.}\instruction{בשבת וביו״ט ובהשענא רבא אומרים פסד״ז ארוך, בשאר ימים ממשיכים בעמ׳ \pageref{yehikvod}}
 	\begin{narrow}	\longPDZ\end{narrow}} {
 \ifboolexpr{(togl {includeshabbat} or togl {includefestival}) and not togl {includeweekday}} {\longPDZ} {}}
 
@@ -316,7 +318,8 @@
 		\enlargethispage{\baselineskip}
 		
 		\vspace{1.25\baselineskip}}{\ifboolexpr{togl {includeweekday} and (togl {includeshabbat} or togl {includefestival}}{
-		
+
+\englishinst{On Shabbat and festivals continue on page \pageref{nishmas}.}		
 \instruction{בשבת וביו״ט ממשיכים בעמ׳ \pageref{nishmas}}\\
 
 \yishtabach
@@ -348,7 +351,8 @@
 \firstword{הַמֶּֽלֶךְ}
 הַיּוֹשֵׁב עַל כִּסֵּא רָם וְנִשָּׂא׃
 
-\instruction{החזן מתחיל כאן:}\\
+\englishinst{The reader for Shacharit begins here}
+\instruction{החזן מתחיל כאן השבת׃}\\
 \firstword{שׁוֹכֵן}
 עַד מָרוֹם וְקָדוֹשׁ שְׁמוֹ וְכָתוּב׃ רַֽנֲנ֣וּ \source{תהלים לג}צַ֭דִּיקִים בַּֽיְיָ֑ לַ֝יְשָׁרִ֗ים נָאוָ֥ה תְהִלָּֽה׃ בְּפִי יְשָׁרִים תִּתְהַלָּל׃ וּבְדִבְרֵי צַדִּיקִים תִּתְבָּרַךְ׃ וּבִלְשׁוֹן חֲסִידִים תִּתְרוֹמָם׃ וּבְקֶֽרֶב קְדוֹשִׁים תִּתְקַדָּשׁ׃
 

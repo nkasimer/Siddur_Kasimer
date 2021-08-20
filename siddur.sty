@@ -192,9 +192,17 @@
 \newcommand{\englishinst}[1]{
 	\begin{minipage}{\textwidth}
 		\begin{english}\raggedright\centering
-			\textit{#1}\\
+			\begin{footnotesize}\textit{#1}
+			
+		\end{footnotesize}
 		\end{english}
 	\end{minipage}
+}
+
+\newcommand{\englishshort}[1]{
+\begin{english}\begin{footnotesize}\raggedright
+		\textit{#1}
+	\end{footnotesize}\end{english}
 }
 
 \newenvironment{instructionpar}
