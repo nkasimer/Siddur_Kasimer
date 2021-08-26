@@ -79,7 +79,7 @@
 %\newcommand{\mark}{{.}}
 %♦
 
-\newfontfamily\englishfont{Georgia}
+\newfontfamily\englishfont{Times New Roman}
 
 \RequirePackage{bidi}
 \makeatletter
@@ -204,6 +204,12 @@
 		\textit{#1}
 	\end{footnotesize}\end{english}
 }
+
+\newcommand{\hebineng}[1]{\begin{hebrew}\begin{footnotesize}\beginL\textup{#1}\endL\end{footnotesize}\end{hebrew}}
+
+\newcommand{\ayin}{ȝ}
+\newcommand{\bigAyin}{Ȝ}
+\newcommand{\thav}{ṯ}
 
 \newenvironment{instructionpar}
 	{\begin{scriptsize}\begin{textsf}}
