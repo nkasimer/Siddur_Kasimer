@@ -193,17 +193,18 @@
 	\begin{minipage}{\textwidth}
 		\begin{english}\raggedright\centering
 			\begin{footnotesize}\textit{#1}
-			
+				
+			\vspace{4pt}
 		\end{footnotesize}
 		\end{english}
 	\end{minipage}
 }
 
-\newcommand{\englishshort}[1]{
-\begin{english}\begin{footnotesize}\raggedright
-		\textit{#1}
-	\end{footnotesize}\end{english}
-}
+\newcommand{\longenginst}[1]{\begin{english}\raggedright
+	
+	\begin{itshape}#1\end{itshape}
+
+\end{english}}
 
 \newcommand{\hebineng}[1]{\begin{hebrew}\begin{footnotesize}\beginL\textup{#1}\endL\end{footnotesize}\end{hebrew}}
 
