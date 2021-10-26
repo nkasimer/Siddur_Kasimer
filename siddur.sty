@@ -46,6 +46,8 @@
 \RequirePackage[all]{nowidow}
 \allsectionsfont{\centering}
 
+\usepackage{hyperref}
+
 \RequirePackage{titlesec}
 \titlespacing*{\section}{0pt}{-0.1em}{-0.1em}
 %\titlespacing*{\chapter}{0pt}{-50pt}{0.1em}
@@ -71,15 +73,9 @@
 	ItalicFont={Shlomo semiStam}	
 	]{Shlomo}
 	\setsansfont{Mekorot-Rashi}
-	
-%\newfontfamily\diamondfont{Arial}
-%
-%\newenvironment{diamondfont}{\diamondfont}{\par}
 
-%\newcommand{\mark}{{.}}
-%♦
 
-\newfontfamily\englishfont{Times New Roman}
+\newfontfamily\englishfont{EB Garamond}
 
 \RequirePackage{bidi}
 \makeatletter
@@ -208,9 +204,13 @@
 
 \newcommand{\hebineng}[1]{\begin{hebrew}\begin{footnotesize}\beginL\textup{#1}\endL\end{footnotesize}\end{hebrew}}
 
-\newcommand{\ayin}{ȝ}
-\newcommand{\bigAyin}{Ȝ}
-\newcommand{\thav}{ṯ}
+
+\newcommand{\disj}{\begin{english}\raggedright♦\end{english}\raggedleft\centering\space}
+
+
+\newcommand{\ayin}{}%{ȝ}
+\newcommand{\bigAyin}{}%{Ȝ}
+\newcommand{\thav}{t}%{ṯ}
 
 \newenvironment{instructionpar}
 	{\begin{scriptsize}\begin{textsf}}
