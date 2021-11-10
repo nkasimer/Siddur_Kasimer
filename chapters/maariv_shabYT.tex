@@ -191,7 +191,6 @@
 
 \ifboolexpr{togl {includefestival}}{\englishinst{On Festivals, Kabbalat Shabbat begins here.}}{}
 }{\englishinst{When a Festival falls on Friday evening, the following Psalms are said:}}
-
 \ifboolexpr{togl {includefestival}}{\englishinst{}}{}
 
 \mizmorshabbat
@@ -273,7 +272,9 @@
 \amidaopening{\shabbosshuva}{}
 
 %\shabboskiddushhashem
-\ifboolexpr{togl {includeshabbat} and togl {includefestival}}{\instruction{ביו״ט ממשיכים בעמ׳ \pageref{maarivyt}}}{}\\
+\ifboolexpr{togl {includeshabbat} and togl {includefestival}}{
+	\englishinst{On festivals, continue on page \pageref{maarivyt}.}
+}{}\\
 \ifboolexpr{togl {includeshabbat}}{\firstword{אַתָּה קִדַּֽשְׁתָּ}
 אֶת־יוֹם הַשְּׁבִיעִי לִשְׁמֶֽךָ תַּכְלִית מַעֲשֵׂה שָׁמַֽיִם וָאָֽרֶץ וּבֵרַכְתּוֹ מִכׇּל־הַיָּמִים וְקִדַּשְׁתּוֹ מִכׇּל־הַזְּמַנִּים וְכֵן כָּתוּב בְּתוֹרָתֶֽךָ׃
 
@@ -324,17 +325,17 @@
 
 \tachanunim
 
-\ifboolexpr{togl {includefestival}}{\instruction{בשבת׃}}{}
+\ifboolexpr{togl {includefestival}}{\englishinst{On Shabbat, the congregation stands and says the following together:}}{\englishinst{The congregation stands and says the following together:}}
 \label{vayachulu}
-\instruction{הקהל ביחד:}\\
+
 \firstword{וַיְכֻלּ֛וּ} \source{בראשית ב}
 הַשָּׁמַ֥יִם וְהָאָ֖רֶץ וְכׇל־צְבָאָֽם׃ וַיְכַ֤ל אֱלֹהִים֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מְלַאכְתּ֖וֹ אֲשֶׁ֣ר עָשָׂ֑ה וַיִּשְׁבֹּת֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מִכׇּל־מְלַאכְתּ֖וֹ אֲשֶׁ֥ר עָשָֽׂה׃ וַיְבָ֤רֶךְ אֱלֹהִים֙ אֶת־י֣וֹם הַשְּׁבִיעִ֔י וַיְקַדֵּ֖שׁ אֹת֑וֹ כִּ֣י ב֤וֹ שָׁבַת֙ מִכׇּל־מְלַאכְתּ֔וֹ אֲשֶׁר־בָּרָ֥א אֱלֹהִ֖ים לַעֲשֽׂוֹת׃
 
 
 \ssubsection{\adforn{48} מעין שבע \adforn{22}}\\
-\instruction{אין אומרים בליל ראשון של פסח:}\\
+\englishinst{The following is not said on the first nights of Pesa\d{h}.}
 בָּרוּךְ אַתָּה יְיָ אֱלֹהֵֽינוּ וֵאלֹהֵי אֲבוֹתֵֽינוּ אֱלֹהֵי אַבְרָהָם אֱלֹהֵי יִצְחָק וֵאלֹהֵי יַעֲקֹב הָאֵל הַגָּדוֹל הַגִּבּוֹר וְהַנּוֹרָא אֵל עֶלְיוֹן קֹנֵה שָׁמַֽיִם וָאָֽרֶץ׃\\
-\instruction{קהל ואח״כ החזן:}\\
+\englishinst{The congregation says, and the leader repeats:}
 מָגֵן אָבוֹת בִּדְבָרוֹ מְחַיֵּה מֵתִים בְּמַאֲמָרוֹ הָאֵל
 (\instruction{בשבת שובה:} הַמֶּֽלֶךְ)
 הַקָּדוֹשׁ שֶׁאֵין כָּמֽוֹהוּ הַמֵּנִֽיחַ לְעַמּוֹ בְּיוֹם שַׁבַּת קָדְשׁוֹ כִּי בָם רָצָה לְהָנִֽיחַ לָהֶם׃ לְפָנָיו נַעֲבוֹד בְּיִרְאָה וָפַֽחַד וְנוֹדֶה לִשְׁמוֹ בְּכׇל־יוֹם תָּמִיד מֵעֵין הַבְּרָכוֹת׃ אֵל הַהוֹדָאוֹת אֲדוֹן הַשָּׁלוֹם מְקַדֵּשׁ הַשַּׁבָּת וּמְבָרֵךְ שְׁבִיעִי וּמֵנִֽיחַ בִּקְדֻשָּׁה לְעַם מְדֻשְּׁנֵי עֹֽנֶג זֵֽכֶר לְמַעֲשֵׂה בְרֵאשִׁית׃
@@ -367,7 +368,7 @@
 	
 	\begin{sometimes}
 		
-		\instruction{במוצאי שבת אומרים הבדלה:}\\
+		\englishinst{On Saturday night, include Havdalah:}
 		בָּרוּךְ אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם בּוֹרֵא מְאוֹרֵי הָאֵשׁ׃
 		
 		בָּרוּךְ אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם הַמַּבְדִיל בֵּין קֹֽדֶשׁ לְחוֹל בֵּין אוֹר לְחֹֽשֶׁךְ בֵּין יִשְׂרָאֵל לָעַמִּים בֵּין יוֹם הַשְּׁבִיעִי לְשֵֽׁשֶׁת יְמֵי הַמַּעֲשֶׂה׃ בֵּין קְדֻשַּׁת שַׁבָּת לִקְדֻשַּׁת יוֹם טוֹב הִבְדַּֽלְתָּ וְאֶת־יוֹם הַשְּׁבִיעִי מִשֵּֽׁשֶׁת יְמֵי הַמַּעֲשֶׂה קִדַּֽשְׁתָּ הִבְדַּֽלְתָּ וְקִדַּֽשְׁתָּ אֶת־עַמְּךָ יִשְׂרָאֵל בִּקְדֻשָּׁתֶֽךָ׃ בָּרוּךְ אַתָּה יְיָ הַמַּבְדִּיל בֵּין קֹֽדֶשׁ לְקֹֽדֶשׁ׃
@@ -377,13 +378,14 @@
 \firstword{בָּרוּךְ}
 אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם בּוֹרֵא פְּרִי הַגָּֽפֶן׃
 
-\ifboolexpr{togl {includefestival} and togl {includeshabbat}}{בשבת׃}
+\ifboolexpr{togl {includefestival} and togl {includeshabbat}}{\instruction{בשבת׃}}{}
 \ifboolexpr{togl {includeshabbat}}{\kiddushshabbateve}{}
 
 \ifboolexpr{togl {includefestival} and togl {includeshabbat}}{\instruction{ביו״ט׃}}{}
 \ifboolexpr{togl {includefestival}}{\kiddushYTeve}{}
 
-\instruction{בימי ספירה, סופרים כאן את העומר בעמ׳ \pageref{sefiras haomer}}
+\englishinst{Between Pesa\d{h} and Shavu'ot, count the Omer on page \pageref{sefiras haomer}.}
+%\instruction{בימי ספירה, סופרים כאן את העומר בעמ׳ \pageref{sefiras haomer}}
 
 \aleinu
 
@@ -423,7 +425,7 @@
 \begin{tabular}{>{\centering\arraybackslash}m{.4\textwidth} | >{\centering\arraybackslash}m{.4\textwidth}}
 \instruction{לבנים} & \instruction{לבנות}\\
 יְשִֽׂמְךָ֣ אֱלֹהִ֔ים כְּאֶפְרַ֖יִם וְכִמְנַשֶּׁ֑ה׃ \mdsource{בראשית מח}&
-יְשִׂמֵךְ אֱלׂהִים [כְּשָׂרָה, רִבְקָה,] רָחֵל, וְלֵאָה [אֲשֶׁר בָּנוּ [שְׁתֵּיהֶן] אֶת־בֵּית יִשְׂרָאֵל׃] \mdsource{רות ד}׃
+יְשִׂמֵךְ אֱלׂהִים כְּשָׂרָה, רִבְקָה, רָחֵל, וְלֵאָה [אֲשֶׁר בָּנוּ אֶת־בֵּית יִשְׂרָאֵל׃] \mdsource{רות ד}׃
 \end{tabular}
 
 יְבָרֶכְךָ֥ יְיָ֖ וְיִשְׁמְרֶֽךָ׃\\ \source{במידבר ו}
@@ -496,6 +498,8 @@
 
 \end{sometimes}
 
+\adforn{43}\quad\adforn{4}\quad\adforn{42}\\
+
 \chapter[קידוש ליל יום טוב]{\adforn{53} קידוש ליל יום טוב \adforn{25}}
 \label{kiddush leil yom tov}
 \instruction{בשבת׃}
@@ -545,3 +549,6 @@
 %
 %\firstword{בָּרוּךְ}
 % אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, שֶׁהֶחֱיָנוּ וְקִיְּמָנוּ וְהִגִּיעָנוּ לַזְמַן הַזֶּה׃
+
+\adforn{43}\quad\adforn{4}\quad\adforn{42}\\
+
