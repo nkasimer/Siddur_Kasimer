@@ -11,8 +11,8 @@
 נְהַלֶּלְךָ וּנְשַׁבֵּחֲךָ וּנְפָאֶרְךָ וּנְבָרֵךְ אֶת־שֵׁם קׇדְשֶׁךָ כָּאָמוּר׃
 לְדָוִ֨ד \source{תהלים קג} ׀ בָּרְכִ֣י נַ֭פְשִׁי אֶת־יְיָ֑ וְכׇל־קְ֝רָבַ֗י אֶת־שֵׁ֥ם קׇדְשֽׁוֹ׃
 
-\ifboolexpr{togl {includefestival} and togl {includeshabbat}}{\instruction{בשלש רגלים החזן מתחיל כאן}}{}
-\ifboolexpr{togl {includefestival} and not togl {includeshabbat}}{\instruction{החזן מתחיל כאן}}{}
+%\ifboolexpr{togl {includefestival} and togl {includeshabbat}}{\englishinst{On festivals, the leader for Sha\d{h}arit begins here.}}{}
+%\ifboolexpr{togl {includefestival} and not togl {includeshabbat}}{}{}
 
 \firstword{הָאֵל}
 בְּתַעֲצֻמוֹת עֻזֶּֽךָ׃\\
@@ -22,6 +22,7 @@
 לָנֶֽצַח וְהַנּוֹרָא בְּנוֹרְאוֹתֶֽיךָ׃\\
 \firstword{הַמֶּֽלֶךְ}
 הַיּוֹשֵׁב עַל כִּסֵּא רָם וְנִשָּׂא׃
+
 \ifboolexpr{togl {includefestival} and togl {includeshabbat}}{\instruction{בשבת החזן מתחיל כאן}}{}
 
 \firstword{שׁוֹכֵן}
@@ -106,14 +107,13 @@
 
 \ezrasavoseinu
 
-\gaalyisroel
+\gaalyisroel\\
 
-\nextpage
-
+%\nextpage
 
 \section[תפילת העמידה]{\adforn{53} תפילת העמידה \adforn{25}}
 
-\amidaopening{\shabbosshuva}{}
+\amidaopening{\shabbosshuva}{\englishinst{During the repetition of the Amidah, Kedusha is said here}}
 \nextpage
 \ssubsection{\adforn{48} קדושה \adforn{22}}
 
@@ -146,8 +146,9 @@
 \end{footnotesize}
 \sepline
 
-\ifboolexpr{togl {includefestival} and togl {includeshabbat}}{\instruction{ביו״ט ממשיכים בעמ׳ \pageref{ytshacharit}}}{}
-
+\ifboolexpr{togl {includefestival} and togl {includeshabbat}}{%\instruction{ביו״ט ממשיכים בעמ׳ \pageref{ytshacharit}}
+	\englishinst{On Festivals, including when they fall on Shabbat, continue on page \pageref{ytshacharit}.}
+}{}
 \ifboolexpr{togl {includeshabbat}}{
 \firstword{יִשְׂמַח}
 מֹשֶׁה בְּמַתְּנַת חֶלְקוֹ כִּי עֶבֶד נֶאֶמָן קָרָאתָ לּוֹ׃ כְּלִיל תִּפְאֶרֶת בְּרֹאשׁוֹ נָתַתָּ בְּעָמְדוֹ לְפָנֶיךָ עַל הַר סִינַי׃ וּשְׁנֵי לֻחֹת אֲבָנִים הוֹרִיד בְּיָדוֹ וְכָתוּב בָּהֶם שְׁמִירַת שַׁבָּת וְכֵן כָּתוּב בְּתוֹרָתֶךָ׃
@@ -166,7 +167,7 @@
 
 \label{ytshacharit}
 
-
+\ytkiddushhayom
 
 \sepline
 
@@ -214,9 +215,9 @@
 \instruction{ביום הראשון של סוכת מברך גם שהחיינו:}\\
 בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, שֶׁהֶחֱיָנוּ וְקִיְּמָנוּ וְהִגִּיעָנוּ לַזְמַן הַזֶּה׃
 \\}{}
-\let\clearpage\relax{
+%\let\clearpage\relax{
 \input{chapters/hallel}
-}
+%}
 
 \instruction{בחנוכה הש״ץ אומר חצי קדיש, וקראים התורה עמ׳ \pageref{weekday torah}}
 
@@ -226,9 +227,7 @@
 \section[שיר של יום]{\adforn{53} שיר של יום‎ \adforn{25}}
 
 \ifboolexpr{togl {includefestival}}{\weekdayshir}{}
-
-\firstword{הַיּוֹם שַּׁבָּת קֹֽדֶשׁ שֶׁבּוֹ הָיוּ הַלְוִיִּם אוֹמְרִים בְּבֵית־הַמִּקְדָּשׁ׃}
-
+\begin{small}הַיּוֹם שַּׁבָּת קֹֽדֶשׁ שֶׁבּוֹ הָיוּ הַלְוִיִּם אוֹמְרִים בְּבֵית־הַמִּקְדָּשׁ׃\end{small}\\
 \mizmorshabbat\\
 
 \ifboolexpr{togl {includeshabbat}}{

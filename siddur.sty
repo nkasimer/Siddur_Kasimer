@@ -46,6 +46,8 @@
 \RequirePackage[all]{nowidow}
 \allsectionsfont{\centering}
 
+\usepackage{hyperref}
+
 \RequirePackage{titlesec}
 \titlespacing*{\section}{0pt}{-0.1em}{-0.1em}
 %\titlespacing*{\chapter}{0pt}{-50pt}{0.1em}
@@ -71,15 +73,9 @@
 	ItalicFont={Shlomo semiStam}	
 	]{Shlomo}
 	\setsansfont{Mekorot-Rashi}
-	
-%\newfontfamily\diamondfont{Arial}
-%
-%\newenvironment{diamondfont}{\diamondfont}{\par}
 
-%\newcommand{\mark}{{.}}
-%♦
 
-\newfontfamily\englishfont{Georgia}
+\newfontfamily\englishfont{EB Garamond}
 
 \RequirePackage{bidi}
 \makeatletter
@@ -193,17 +189,28 @@
 	\begin{minipage}{\textwidth}
 		\begin{english}\raggedright\centering
 			\begin{footnotesize}\textit{#1}
-			
+				
+			\vspace{2pt}
 		\end{footnotesize}
 		\end{english}
 	\end{minipage}
 }
 
-\newcommand{\englishshort}[1]{
-\begin{english}\begin{footnotesize}\raggedright
-		\textit{#1}
-	\end{footnotesize}\end{english}
-}
+\newcommand{\longenginst}[1]{\begin{english}\raggedright
+	
+	\begin{itshape}#1\end{itshape}
+
+\end{english}}
+
+\newcommand{\hebineng}[1]{\begin{hebrew}\begin{footnotesize}\beginL\textup{#1}\endL\end{footnotesize}\end{hebrew}}
+
+
+\newcommand{\disj}{\begin{english}\raggedright♦\end{english}\raggedleft\centering\space}
+
+
+\newcommand{\ayin}{}%{ȝ}
+\newcommand{\bigAyin}{}%{Ȝ}
+\newcommand{\thav}{t}%{ṯ}
 
 \newenvironment{instructionpar}
 	{\begin{scriptsize}\begin{textsf}}
@@ -211,7 +218,7 @@
 
 
 
-\newcommand{\aliyah}[1]{\begin{scriptsize} \textsf{(\textbf{#1})} \end{scriptsize}}
+\newcommand{\aliyah}[1]{\begin{scriptsize} \textsf{\textbf{#1}} \end{scriptsize}}
 \newcommand{\firstword}[1]{\begin{large}\textbf{#1}\end{large}} 
 \newcommand{\ssubsection}[1]{\firstword{#1}}
 
@@ -228,8 +235,8 @@
 \newenvironment{kaddish}[1]{
 	\begin{footnotesize}
 		\centerlast
-	}{
 	
+	}{
 	\end{footnotesize}}
 
 
