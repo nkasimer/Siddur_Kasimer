@@ -146,8 +146,9 @@
 \end{footnotesize}
 \sepline
 
-\ifboolexpr{togl {includefestival} and togl {includeshabbat}}{\instruction{ביו״ט ממשיכים בעמ׳ \pageref{ytshacharit}}}{}
-
+\ifboolexpr{togl {includefestival} and togl {includeshabbat}}{%\instruction{ביו״ט ממשיכים בעמ׳ \pageref{ytshacharit}}
+	\englishinst{On Festivals, including when they fall on Shabbat, continue on page \pageref{ytshacharit}.}
+}{}
 \ifboolexpr{togl {includeshabbat}}{
 \firstword{יִשְׂמַח}
 מֹשֶׁה בְּמַתְּנַת חֶלְקוֹ כִּי עֶבֶד נֶאֶמָן קָרָאתָ לּוֹ׃ כְּלִיל תִּפְאֶרֶת בְּרֹאשׁוֹ נָתַתָּ בְּעָמְדוֹ לְפָנֶיךָ עַל הַר סִינַי׃ וּשְׁנֵי לֻחֹת אֲבָנִים הוֹרִיד בְּיָדוֹ וְכָתוּב בָּהֶם שְׁמִירַת שַׁבָּת וְכֵן כָּתוּב בְּתוֹרָתֶךָ׃
@@ -226,9 +227,7 @@
 \section[שיר של יום]{\adforn{53} שיר של יום‎ \adforn{25}}
 
 \ifboolexpr{togl {includefestival}}{\weekdayshir}{}
-
-\firstword{הַיּוֹם שַּׁבָּת קֹֽדֶשׁ שֶׁבּוֹ הָיוּ הַלְוִיִּם אוֹמְרִים בְּבֵית־הַמִּקְדָּשׁ׃}
-
+\begin{small}הַיּוֹם שַּׁבָּת קֹֽדֶשׁ שֶׁבּוֹ הָיוּ הַלְוִיִּם אוֹמְרִים בְּבֵית־הַמִּקְדָּשׁ׃\end{small}\\
 \mizmorshabbat\\
 
 \ifboolexpr{togl {includeshabbat}}{
