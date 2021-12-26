@@ -35,7 +35,7 @@ Min\d{h}a, the afternoon prayer, is contained in selections from sha\d{h}ari\tha
 
 \weekdaysageulah
 
-\weekdaysaanneinu
+\ifboolexpr{togl {includeweekday}}{\weekdaysaanneinu}{}
 
 \weekdaysarefuah
 
@@ -49,7 +49,7 @@ Min\d{h}a, the afternoon prayer, is contained in selections from sha\d{h}ari\tha
 
 \weekdaysatzadikim
 
-\yerushwithnachem
+\ifboolexpr{togl {includeweekday}}{\yerushwithnachem}{\weekdaysayerushelayim}
 
 \weekdaysamalchus
 
@@ -88,7 +88,7 @@ Min\d{h}a, the afternoon prayer, is contained in selections from sha\d{h}ari\tha
 \shalomravbase
 \end{paracol}
 \vetov
-}{\shalomrav \vetov}
+}{\shalomravbase \vetov}
 	\shalomendingAYT{בעשי״ת׃}
 
 \firstword{אֱלֹהַי}
