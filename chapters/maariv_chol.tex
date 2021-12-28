@@ -1,6 +1,7 @@
 %\chapter[ערבית לחול Evening Prayer]{\adforn{47} Evening Prayer \adforn{19}ערבית לחול}
 \chapter[ערבית לחול]{\adforn{47} ערבית לחול \adforn{19}}
 \vspace{0.25in}
+\ifboolexpr{togl {includeshabbat}}{
 \begin{small}
 	\englishinst{Some say the following two Psalms at the conclusion of Shabba\thav :}
 	%\instruction{יש אומרים שני תהלים אלו במוצ״ש׃}\\
@@ -8,10 +9,12 @@
 
 \lamenatzeachbinginot
 
-\sepline
+\end{small}
+\sepline}{}
 
-%\instruction{כשמתפללים ערבית בזמנה יש נוגים לומר׃}\\
-\englishinst{Some say the following Psalm and verses when reading the Evening Prayer after nightfall:}
+\ifboolexpr{togl {includeweekday}}{
+	\begin{small}
+\englishinst{Some say the following Psalm and verses when reading the Evening Prayer after nightfall.  It is followed by a Half Kaddish.}
 שִׁ֗יר\source{תהילים קלד} הַֽמַּ֫עֲל֥וֹת הִנֵּ֤ה ׀ בָּרְכ֣וּ אֶת־יְיָ֭ כׇּל־עַבְדֵ֣י יְיָ֑ הָעֹמְדִ֥ים בְּבֵית־יְ֝יָ֗ בַּלֵּילֽוֹת׃ שְׂאֽוּ־יְדֵכֶ֥ם קֹ֑דֶשׁ וּ֝בָרְכ֗וּ אֶת־יְיָ׃ יְבָרֶכְךָ֣ יְיָ֭ מִצִּיּ֑וֹן עֹ֝שֵׂ֗ה שָׁמַ֥יִם וָאָֽרֶץ׃\\
 \instruction{ג׳ פעמים׃}
  יְיָ֣\source{תהילים מו} צְבָא֣וֹת עִמָּ֑נוּ מִשְׂגָּֽב־לָ֨נוּ אֱלֹהֵ֖י יַֽעֲקֹ֣ב סֶֽלָה׃\hfill\break
@@ -19,8 +22,8 @@
 יְיָ֥\source{תהילים פד} צְבָא֑וֹת אַֽשְׁרֵ֥י אָ֝דָ֗ם בֹּטֵ֥חַ בָּֽךְ׃\hfill\break
 \instruction{ג׳ פעמים׃}
 יְיָ֥\source{תהילים כ} הוֹשִׁ֑יעָה הַ֝מֶּ֗לֶךְ יַעֲנֵ֥נוּ בְיוֹם־קׇרְאֵֽנוּ׃\hfill\break
-\instruction{ואח״כ ח״ק}\\
-\end{small}
+\sepline
+\end{small}}{}
 
 \textbf{וְה֤וּא רַח֨וּם}\source{תהלים עט}
 ׀ יְכַפֵּ֥ר עָוֺן֮ וְֽלֹא־יַֽ֫שְׁחִ֥ית וְ֭הִרְבָּה לְהָשִׁ֣יב אַפּ֑וֹ וְלֹא־יָ֝עִ֗יר כׇּל־חֲמָתֽוֹ׃
