@@ -148,7 +148,8 @@ The front two fringes of the talli\thav\space are gathered for the following par
 	\begin{narrow}\vspace{-24pt}\longPDZ\end{narrow}}{
 \ifboolexpr{(togl {includeshabbat} or togl {includefestival}) and not togl {includeweekday}}{\longPDZ}{}}
 
-\englishinst{On all days, continue here:}\label{yehikvod}
+\ifboolexpr{togl {includeweekday} and (togl {includeshabbat} or togl {includefestival}}{\englishinst{On all days, continue here:}}{}
+\label{yehikvod}
 \firstword{יְהִ֤י כְב֣וֹד}\source{תהלים קד}
 יְיָ֣ לְעוֹלָ֑ם יִשְׂמַ֖ח יְיָ֣ בְּמַעֲשָֽׂיו׃
 \source{תהלים קיג}יְהִ֤י שֵׁ֣ם יְיָ֣ מְבֹרָ֑ךְ מֵ֝עַתָּ֗ה וְעַד־עוֹלָֽם׃
