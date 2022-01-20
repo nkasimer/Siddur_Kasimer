@@ -187,9 +187,11 @@
 \tachanunim
 
 
-\ifboolexpr{togl {includefestival}}{\instruction{בסוכת (אבל לא בשבת) נוטלים הלולב:}\\}{}
-\ifboolexpr{togl {includeshabbat}}{\instruction{בראש חודש, ביום טוב, בחול המועד, ובחנוכה אומרים הלל}\\
-\instruction{בשאר שבתות השנה ממשיכים עם קדיש תתקבל עמ׳ \pageref{shacharitShabbatYTtitkabel}}}{}
+\ifboolexpr{togl {includefestival} and togl {includeshabbat}}{\englishinst{On Sukkot (when not Shabbat) the Lulav is taken before Hallel. Hallel is recited on Festivals, Rosh \d{H}odesh, and \d{H}anukka.}}{
+\ifboolexpr{togl {includeshabbat}}{\englishinst{On \d{H}anukka and Rosh \d{H}odesh Hallel is recited.  On other days, continue with Full Kaddish on page \pageref{shacharitShabbatYTtitkabel}.}{}
+}{
+\englishinst{On Sukkot (when not Shabbat) the Lulav is taken before Hallel.}
+}}
 
 \ifboolexpr{togl {includefestival}}{
 \section[נטילת הלולב]{\adforn{53} נטילת הלולב \adforn{25}}
