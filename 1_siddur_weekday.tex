@@ -116,19 +116,19 @@ text={תמאב והארקי רשא לכל ויארק־לכל יי בורק},text
 \togglefalse{includeChM}
 \toggletrue{minchainshacharit}
 
-\let\clearpage\relax{
-
+\begingroup
+\let\clearpage\relax
 \include{chapters/birkhothashachar}
 
 \include{chapters/PDZ}
-%\include{chapters/PDZ_weekday}
-}
-
 \include{chapters/shacharit_chol}
+\endgroup
 \clearpage
-\let\clearpage\relax{\include{chapters/mincha_chol}}
-\clearpage
-\let\clearpage\relax{\include{chapters/maariv_chol}}
+\begingroup
+\let\clearpage\relax
+\include{chapters/mincha_chol}
+\include{chapters/maariv_chol}
+\endgroup
 \clearpage
 \toggletrue{includeshabbat}
 \toggletrue{includefestival}
