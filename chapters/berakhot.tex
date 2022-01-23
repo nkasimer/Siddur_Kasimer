@@ -175,7 +175,7 @@
 הָרַחֲמָן הוּא יְחַדֵּשׁ עָלֵֽינוּ אֶת־הַשָּׁנָה הַזֹּאת לְטוֹבָה וְלִבְרָכָה׃ \\
 
 \instruction{בסכות:} &
-הָרַחֲמָן הוּא יָקִים לָֽנוּ אֶת־סֻכַּ֥ת\source{עמוס ט} דָּוִ֖יד הַנֹּפֶ֑לֶת׃
+הָרַחֲמָן הוּא יָקִים לָֽנוּ אֶת־סֻכַּ֥ת דָּוִ֖יד הַנֹּפֶ֑לֶת׃ \mdsource{עמוס ט}
 
 \end{longtable}
 
@@ -241,12 +241,11 @@
 
 \section[ברכה מעין שלש]{\adforn{53} ברכה מעין שלש \adforn{25}}
 
-
+\englishinst{After eating foods made from the five grains (besides bread), grapes, figs, pomegranate, olives, dates, or drinking wine, recite the following blessing.}
 \firstword{בָּרוּךְ}
 אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם עַל
 
-\begin{tabular}{>{\centering\arraybackslash}m{.3\textwidth} | >{\centering\arraybackslash}m{.3\textwidth} | >{\centering\arraybackslash}m{.3
-\textwidth}}
+\begin{tabular}{>{\centering\arraybackslash}m{.3\textwidth} | >{\centering\arraybackslash}m{.3\textwidth} | >{\centering\arraybackslash}m{.3\textwidth}}
 
 הָעֵץ וְעַל פְּרִי הָעֵץ
 &
@@ -273,7 +272,7 @@
 
 \instruction{שלוש רגלים:}&
 וְשַׂמְּחֵֽנוּ בְּיוֹם
-חַג הַמַּצּוֹת \textbackslash הַשָּׁבֻעוֹת \textbackslash הַסֻּכּוֹת \textbackslash שְׁמִינִי חַג הָעֲצֶֽרֶת הַזֶּה׃\\
+חַג הַמַּצּוֹת \textbackslash \space הַשָּׁבֻעוֹת \textbackslash \space הַסֻּכּוֹת \textbackslash \space שְׁמִינִי חַג הָעֲצֶֽרֶת הַזֶּה׃\\
 
 
 \instruction{ראש השנה:}&
@@ -294,96 +293,96 @@
 \begin{tabular}{c|c|c}
 וְעַל הַפֵּרוֹת׃ & וְעַל הַמִּחְיָה׃ & וְעַל פְּרִי הַגָּֽפֶן׃
 \end{tabular}
-\medskip
 
-\sepline
-
-\vspace{\baselineskip}
-
+\englishinst{After all other foods:}
 \firstword{בָּרוּךְ}
 אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם בּוֹרֵא נְפָשׁוֹת רַבּוֹת וְחֶסְרוֹנָן
 עַל כׇּל־מַה שֶּׁבָּרָא לְהַחֲיוֹת בָּהֶם נֶֽפֶשׁ כׇּל־חָי׃ בָּרוּךְ חַי הָעוֹלָמִים׃\\
 
 \chapter[ברכות]{\adforn{47} ברכות \adforn{19}}
 
-\newcommand{\berakha}[2]{\instruction{#1׃}
-	
-
+\newcommand{\berakha}[2]{\englishinst{#1}
 בָּרוּךְ אַתָּה יְיָ אֱלֺהֵֽינוּ מֶֽלֶךְ הָעוֹלָם #2׃}
 \newcommand{\berakhamitzva}[2]{\berakha{#1}{אֲשֶׁר קִדְּשָֽׁנוּ בְּמִצְוֺתָיו וְצִוָּֽנוּ #2}}
 
 
 \ssubsection{\adforn{18} ברכות על אכילה \adforn{17}}
 
-\berakha{על הלחם, נוטלים ידיים ומברכים}{הַמּֽוֹצִיא לֶֽחֶם מִן הָאָֽרֶץ}
+\ifboolexpr{not togl {includeweekday}}{
+\berakhamitzva{On washing hands before eating bread:}{עַל נְטִילַת יָדָיִם}
+\berakha{Before eating bread:}{הַמּֽוֹצִיא לֶֽחֶם מִן הָאָֽרֶץ}
+}{
+\berakha{Before eating bread, wash hands and recite its blessing in the following section, then recite the following blessing before eating:}{הַמּֽוֹצִיא לֶֽחֶם מִן הָאָֽרֶץ}
+}
 
-\berakha{על שאר מאכלים העשויים מחמשת מיני דגן, ועל אורז}{בּוֹרֵא מִינֵי מְזוֹנוֹת}
+\berakha{On food made from grains besides bread (e.g. crackers or cake):}{בּוֹרֵא מִינֵי מְזוֹנוֹת}
 
-\berakha{על היין}{בּוֹרֵא פְּרִי הַגָּֽפֶן}
+\berakha{Before drinking wine:}{בּוֹרֵא פְּרִי הַגָּֽפֶן}
 
-\berakha{על פרות האילן}{בּוֹרֵא פְּרִי הָעֵץ}
+\berakha{Before eating fruit that grows on trees:}{בּוֹרֵא פְּרִי הָעֵץ}
 
-\berakha{על שאר ירקות}{בּוֹרֵא פְּרִי הָאֲדָמָה}
+\berakha{Before eating fruits or vegetables:}{בּוֹרֵא פְּרִי הָאֲדָמָה}
 
-\berakha{על שאר מאכלים}{שֶׁהַכֹּל נִהְיֶה בִּדְבָרוֹ}
+\berakha{On all other foods:}{שֶׁהַכֹּל נִהְיֶה בִּדְבָרוֹ}
 
 \ssubsection{\adforn{18} ברכות הריח \adforn{17}}
 
-\berakha{על ריח טוב של עץ}{בּוֹרֵא עֲצֵי בְשָׂמִים}
+\berakha{On pleasant-smelling products from trees:}{בּוֹרֵא עֲצֵי בְשָׂמִים}
 
-\berakha{על ריח טוב של עשב}{בּוֹרֵא עִשְׂבֵי בְשָׂמִים}
+\berakha{On fragrant shrubs and grasses:}{בּוֹרֵא עִשְׂבֵי בְשָׂמִים}
 
-\berakha{על ריח טוב של פירות}{הַנּוֹתֵן רֵֽיחַ טוֹב בַּפֵּרוֹת}
+\berakha{On fragrant fruits:}{הַנּוֹתֵן רֵֽיחַ טוֹב בַּפֵּרוֹת}
 
-\berakha{על שמן אפרסמון}{בּוֹרֵא שֶֽׁמֶן עָרֵב}
+\berakha{On balsam oil:}{בּוֹרֵא שֶֽׁמֶן עָרֵב}
 
-\berakha{על שאר בשמים}{בּוֹרֵא מִינֵי בְשָׂמִים}
+\berakha{On other pleasant scents:}{בּוֹרֵא מִינֵי בְשָׂמִים}
 
 \ssubsection{\adforn{18} ברכות הראייה והשמיעה \adforn{17}}
 
-\berakha{כשרואה נפלאות בטבע}{עֹשֶׂה מַעֲשֵׂה בְרֵאשִׁית}
+\berakha{On seeing natural phenomena, such as lightning, mountains, or canyons:}{עֹשֶׂה מַעֲשֵׂה בְרֵאשִׁית}
 
-\berakha{כששומע ברק או רואה סערה}{שֶׁכֹּחוֹ וּגְבוּרָתוֹ מָלֵא עוֹלָם}
+\berakha{On hearing thunder or experiencing very strong winds:}{שֶׁכֹּחוֹ וּגְבוּרָתוֹ מָלֵא עוֹלָם}
 
-\berakha{כשרואה קשת}{זוֹכֵר הַבְּרִית וְנֶאֱמָן בִּבְרִיתוֹ וְקַיָּם בְּמַאֲמָרוֹ}
+\berakha{On seeing a rainbow:}{זוֹכֵר הַבְּרִית וְנֶאֱמָן בִּבְרִיתוֹ וְקַיָּם בְּמַאֲמָרוֹ}
 
-\berakha{כשרואה את הים הגדול}{שֶׁעָשָׂה אֶת הַיָּם הַגָּדוֹל}
+\berakha{On seeing the ocean, for the first time in thirty days:}{שֶׁעָשָׂה אֶת הַיָּם הַגָּדוֹל}
 
-\berakha{כשרואה מראה נאה בטבע}{שֶׁכָּֽכָה לּוֹ בְּעוֹלָמוֹ}
+\berakha{On seeing beautiful animals:}{שֶׁכָּֽכָה לּוֹ בְּעוֹלָמוֹ}
 
-\berakha{כשרואה בפעם ראשונה אילנות עם פרחים בחודש ניסן}{שֶׁלֹּא חִסַּר בְּעוֹלָמוֹ דָּבָר, וּבָרָא בוֹ בְּרִיּוֹת טוֹבוֹת וְאִילָנוֹת טוֹבִים לְהַנּוֹת בָּהֶם בְּנֵי אָדָם}
+\berakha{On seeing trees blooming for the first time in spring:}{שֶׁלֹּא חִסַּר בְּעוֹלָמוֹ דָּבָר, וּבָרָא בוֹ בְּרִיּוֹת טוֹבוֹת וְאִילָנוֹת טוֹבִים לְהַנּוֹת בָּהֶם בְּנֵי אָדָם}
 
-\berakha{כשרואה מראה משונה בטבע}{מְשַׁנֶּה הַבְּרִיּוֹת}
+\berakha{On seeing unusual animals:}{מְשַׁנֶּה הַבְּרִיּוֹת}
 
-\berakha{כשרואה מלך}{שֶׁנָּתַן מִכְּבוֹדוֹ לַבָּשָׂר וָדָם}
+\berakha{On seeing a monarch:}{שֶׁנָּתַן מִכְּבוֹדוֹ לַבָּשָׂר וָדָם}
 
-\berakha{כשרואה חכם בתורה}{שֶׁחָלַק מֵחׇכְמָתוֹ לִירֵאָיו}
+\berakha{On seeing a Torah scholar}{שֶׁחָלַק מֵחׇכְמָתוֹ לִירֵאָיו}
 
-\berakha{כשרואה חכם בשאר חכמות}{שֶׁנָּתַן מֵחׇכְמָתוֹ לְבָשָׂר וָדָם}
+\berakha{On seeing scholars of other subjects:}{שֶׁנָּתַן מֵחׇכְמָתוֹ לְבָשָׂר וָדָם}
 
-\berakha{על שמועות טובות}{הַטוֹב וְהַמֵּטִיב}
+\berakha{On news that is good for multiple people}{הַטוֹב וְהַמֵּטִיב}
 
-\berakha{על שמועות טובות ליחיד או על פרי חדש}{שֶׁהֶחֱיָֽנוּ וְקִיְּמָֽנוּ וְהִגִּיעָֽנוּ לַזְּמַן הַזֶּה}
+\berakha{On good news for an individual:}{שֶׁהֶחֱיָֽנוּ וְקִיְּמָֽנוּ וְהִגִּיעָֽנוּ לַזְּמַן הַזֶּה}
 
-\berakha{על שמועות רעות}{דַּיַּן הָאֱמֶת}
+\berakha{On hearing bad news}{דַּיַּן הָאֱמֶת}
 
-\berakha{על בגד חדש}{מַלְבִּישׁ עַרֻמִּים}
+\berakha{On wearing a significant item of new clothing:}{מַלְבִּישׁ עַרֻמִּים}
 
 \ifboolexpr{togl {includeweekday}}{
 \ssubsection{\adforn{18} ברכות המצוה \adforn{17}}
 
-\berakhamitzva{כשרוצחים הידיים לפני אכילת לחם}{עַל נְטִילַת יָדָיִם}
+\berakhamitzva{On washing hands before eating bread:}{עַל נְטִילַת יָדָיִם}
 
-\berakhamitzva{על טבילה}{עַל הַטְּבִילָה}
+\berakhamitzva{On ritual immersion:}{עַל הַטְּבִילָה}
 
-\berakhamitzva{על טבילת כלים}{עַל טְבִילַת כֵּלִים}
+\berakhamitzva{On immersion of vessels:}{עַל טְבִילַת כֵּלִים}
 
-\berakhamitzva{על קביעת מזוזה}{לִקְבּֽוֹעַ מְזוּזָה}
+\berakhamitzva{On fixing a mezuza to a doorpost:}{לִקְבּֽוֹעַ מְזוּזָה}
 
-\berakhamitzva{על שחיטה}{עַל הַשְּׁחִיטָה}
+\berakhamitzva{On performing she\d{h}ita:}{עַל הַשְּׁחִיטָה}
 
-\berakhamitzva{על כיסוי דם}{עַל כִּיסוּי הַדָּם}
+\berakhamitzva{On covering the blood of she\d{h}ted fowl or deer:}{עַל כִּיסוּי הַדָּם}
 
 \section[תפלת הדרך]{\adforn{47} תפלת הדרך \adforn{19}}
 
+\englishinst{On embarking on a journey:}
 יְהִי רָצוֹן מִלְּפָנֶֽיךָ יְיָ אֱלֹהֵֽינוּ וֵאלֹהֵי אֲבוֹתֵֽינוּ שֶׁתּוֹלִיכֵֽנוּ לְשָׁלוֹם וְתַצְעִידֵֽנוּ לְשָׁלוֹם וְתַדְרִיכֵֽנוּ לְשָׁלוֹם׃ וְתַגִּיעֵֽנוּ לִמְחוֹז חֶפְצֵֽנוּ לְחַיִּים וּלְשִׂמְחָה וּלְשָׁלוֹם וְתַצִּילֵֽנוּ מִכַּף כׇּל־אוֹיֵב וְאוֹרֵב בַּדֶּֽרֶךְ וְתִתְּנֵֽנוּ לְחֵן וּלְחֶֽסֶד וּלְרַחֲמִים בְּעֵינֶֽיךָ וּבְעֵינֵי כׇל־רוֹאֵֽנוּ וְתִשְׁמַע קוֹל תַּחֲנוּנֵֽינוּ כִּי אֵל שׁוֹמֵֽעַ תְּפִלָה וְתַחֲנוּן אַֽתָּה׃ בָּרוּךְ אַתָּה יְיָ שׁוֹמֵֽעַ תְּפִלָּה׃}{}
