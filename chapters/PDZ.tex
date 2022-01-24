@@ -133,22 +133,16 @@ The front two fringes of the talli\thav\space are gathered for the following par
 אַשְׁרֵ֣י\source{תהילים קמד} הָ֭עָם שֶׁכָּ֣כָה לּ֑וֹ אַֽשְׁרֵ֥י הָ֝עָ֗ם שֱׁייָ֥ אֱלֹהָֽיו׃
 וַאֲנִ֤י\source{תהילים יג} ׀ בְּחַסְדְּךָ֣ בָטַחְתִּי֮ יָ֤גֵ֥ל לִבִּ֗י בִּֽישׁוּעָ֫תֶ֥ךָ אָשִׁ֥ירָה לַֽייָ֑ כִּ֖י גָמַ֣ל עָלָֽי׃
 
-\ifboolexpr{togl {includeweekday} and (togl {includeshabbat} or togl {includefestival})}{ 
-	\englishinst{The following Psalm is not recited on Shabbat, festivals, the Eve of Yom Kippur or Passover, or on the intermediate days of Passover. It is said standing.}
-	%\instruction{א״א מזמור לתודה בשבת, ביו״ט, בערב יום כפור, בערב פסח, בחול המועד פסח}
-\begin{narrow}\vspace{-24pt}\todah\end{narrow}
+\ifboolexpr{togl {includeweekday}}{
+	\englishinst{The following Psalm is omitted on Shabbat, Festivals, the intermediate days of Passover, the day before Passover, and the day before Yom Kippur.}
+\todah
 }{}
 
-\ifboolexpr{togl {includeweekday} and not togl{includeshabbat} and not togl {includefestival}}{
-\englishinst{The following Psalm is not recited on the Eve of Yom Kippur or Passover, or on the intermediate days of Passover.\vspace{-16pt}
-		\todah}}{}
-
 \ifboolexpr{(togl {includeshabbat} or togl {includefestival}) and (togl {includeweekday} or togl {includeChM})}{\englishinst{The following Psalms are added on Shabbat, festivals, and Hoshana Rabba.  On other days, continue on page \pageref{yehikvod}.}
-	%\instruction{בשבת וביו״ט ובהשענא רבא אומרים פסד״ז ארוך, בשאר ימים ממשיכים בעמ׳ \pageref{yehikvod}}
 	\begin{narrow}\vspace{-24pt}\longPDZ\end{narrow}}{
 \ifboolexpr{(togl {includeshabbat} or togl {includefestival}) and not togl {includeweekday}}{\longPDZ}{}}
 
-\ifboolexpr{togl {includeweekday} and (togl {includeshabbat} or togl {includefestival}}{\englishinst{On all days, continue here:}}{}
+\ifboolexpr{togl {includeweekday} and (togl {includeshabbat} or togl {includefestival})}{\englishinst{On all days, continue here:}}{}
 \label{yehikvod}
 \firstword{יְהִ֤י כְב֣וֹד}\source{תהלים קד}
 יְיָ֣ לְעוֹלָ֑ם יִשְׂמַ֖ח יְיָ֣ בְּמַעֲשָֽׂיו׃
