@@ -181,27 +181,17 @@
 \tachanunim
 
 
-\ifboolexpr{togl {includefestival} and togl {includeshabbat}}{\englishinst{On Sukkot (when not Shabbat) the Lulav is taken before Hallel. Hallel is recited on Festivals, Rosh \d{H}odesh, and \d{H}anukka.}}{
-\ifboolexpr{togl {includeshabbat}}{\englishinst{On \d{H}anukka and Rosh \d{H}odesh Hallel is recited.  On other days, continue with Full Kaddish on page \pageref{shacharitShabbatYTtitkabel}.}{}
-}{
-\englishinst{On Sukkot (when not Shabbat) the Lulav is taken before Hallel.}
-}}
+\ifboolexpr{togl {includefestival} and togl {includeshabbat}}{\englishinst{Hallel is recited on Festivals, Rosh \d{H}odesh, and \d{H}anukka. On Sukkot (when not Shabbat) the Lulav is taken before Hallel.}
 
-\ifboolexpr{togl {includefestival}}{
-\section[נטילת הלולב]{\adforn{53} נטילת הלולב \adforn{25}}
-\label{lulav}
-\instruction{בסוכת לפני הלל:}\\
-בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ עַל נְטִילַת לוּלָב׃
+\input{chapters/hallel}
 
-
-
-\instruction{ביום הראשון של סוכת מברך גם שהחיינו:}\\
-בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם שֶׁהֶחֱיָנוּ וְקִיְּמָנוּ וְהִגִּיעָנוּ לַזְמַן הַזֶּה׃
+}{}
+\ifboolexpr{togl {includeshabbat} and not togl {includeweekday}}{\englishinst{On \d{H}anukka and Rosh \d{H}odesh Hallel is recited.  On other days, continue with Full Kaddish on page \pageref{shacharitShabbatYTtitkabel}.}
+	
+\input{chapters/hallel}
 }{}
 
-%\let\clearpage\relax{
-\input{chapters/hallel}
-%}
+\ifboolexpr{togl {includeshabbat} and togl {includeweekday} and not togl {includefestival}}{On \d{H}anukka and Rosh \d{H}odesh Hallel is recited on page \pageref{hallel}.}{}
 
 %\vfill
 \label{shacharitShabbatYTtitkabel}

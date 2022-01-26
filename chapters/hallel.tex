@@ -1,4 +1,29 @@
-\section[הלל‎]{\adforn{53} הלל‎ \adforn{25}}
+\ifboolexpr{togl {includefestival} or togl {includeChM}}{
+\section[נטילת הלולב]{\adforn{53} נטילת הלולב \adforn{25}}
+\label{lulav}
+
+בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ עַל נְטִילַת לוּלָב׃
+
+\englishinst{When first taking Lulav, add the following blessing:}
+בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם שֶׁהֶחֱיָנוּ וְקִיְּמָנוּ וְהִגִּיעָנוּ לַזְמַן הַזֶּה׃
+}{}
+
+\newcommand{\diluginst}{\englishinst{}}
+\ifboolexpr{(togl {includeweekday} or togl {includeshabbat}) and not togl {includefestival} and not togl {includeChM}}{
+	\renewcommand{\diluginst}{\englishinst{This section is skipped on Rosh \d{H}odesh (except on \d{H}anukka).}}
+	
+	\chapter[הלל‎]{\adforn{53} הלל‎ \adforn{25}}
+}{}
+\ifboolexpr{(togl {includefestival} or togl {includeChM}) and (togl {includeweekday} or togl {includeshabbat})}{
+	\renewcommand{\diluginst}{\englishinst{This section is skipped on Rosh \d{H}odesh (except on \d{H}anukka) and the intermediate and final days of Passover.}}
+	
+	\section[הלל‎]{\adforn{53} הלל‎ \adforn{25}}
+}{}
+\ifboolexpr{(togl {includefestival} or togl {includeChM}) and not togl {includeweekday} and not togl {includeshabbat}}{
+	\renewcommand{\diluginst}{\englishinst{This section is skipped on the intermediate and final days of Passover.}}
+	
+	\section[הלל‎]{\adforn{53} הלל‎ \adforn{25}}
+}{}
 
 \label{hallel}
 
@@ -27,9 +52,9 @@
 מִלִּפְנֵ֣י אָ֭דוֹן ח֣וּלִי אָ֑רֶץ מִ֝לִּפְנֵ֗י אֱל֣וֹהַּ יַעֲקֹֽב׃
 הַהֹפְכִ֣י הַצּ֣וּר אֲגַם־מָ֑יִם חַ֝לָּמִ֗ישׁ לְמַעְיְנוֹ־מָֽיִם׃
 
-\englishinst{This section is skipped on Rosh \d{H}odesh (except on \d{H}anukka) and the intermediate and final days of Passover.}
-%\instruction{מדלגים פרק זו בראש חודש ובימים האחרונים של פסח:}
-\begin{narrow}\vspace{-24pt} \firstword{לֹ֤א לָ֥נוּ}\source{תהלים קטו}
+\diluginst
+\begin{narrow}\vspace{-12pt}
+	\firstword{לֹ֤א לָ֥נוּ}\source{תהלים קטו}
 יְיָ֗ לֹ֫א לָ֥נוּ כִּֽי־לְ֭שִׁמְךָ תֵּ֣ן כָּב֑וֹד עַל־חַ֝סְדְּךָ֗ עַל־אֲמִתֶּֽךָ׃
 לָ֭מָּה יֹאמְר֣וּ הַגּוֹיִ֑ם אַיֵּה־נָ֗֝א אֱלֹהֵיהֶֽם׃
 וֵאלֹהֵ֥ינוּ בַשָּׁמָ֑יִם כֹּ֖ל אֲשֶׁר־חָפֵ֣ץ עָשָֽׂה׃
@@ -51,8 +76,9 @@
 לֹ֣א הַ֭מֵּתִים יְהַֽלְלוּ־יָ֑הּ וְ֝לֹ֗א כׇּל־יֹרְדֵ֥י דוּמָֽה׃
 וַאֲנַ֤חְנוּ ׀ נְבָ֘רֵ֤ךְ יָ֗הּ מֵעַתָּ֥ה וְעַד־עוֹלָ֗ם הַֽלְלוּ־יָֽהּ׃
 
-\englishinst{This section is skipped on Rosh \d{H}odesh (except on \d{H}anukka) and the intermediate and final days of Passover.}
-\begin{narrow}\vspace{-24pt} \firstword{אָ֭הַבְתִּי}\source{תהלים קטז}
+\diluginst
+\begin{narrow}\vspace{-12pt}
+	\firstword{אָ֭הַבְתִּי}\source{תהלים קטז}
 כִּי־יִשְׁמַ֥ע ׀ יְיָ֑ אֶת־ק֝וֹלִ֗י תַּחֲנוּנָֽי׃
 כִּי־הִטָּ֣ה אׇזְנ֣וֹ לִ֑י וּבְיָמַ֥י אֶקְרָֽא׃
 אֲפָפ֤וּנִי ׀ חֶבְלֵי־מָ֗וֶת וּמְצָרֵ֣י שְׁא֣וֹל מְצָא֑וּנִי צָרָ֖ה וְיָג֣וֹן אֶמְצָֽא׃
@@ -135,4 +161,4 @@
 \firstword{יְהַלְלֽוּךָ}
 יְיָ אֱלֹהֵֽינוּ כׇּל־מַעֲשֶֽׂיךָ וַחֲסִידֶֽיךָ צַדִּיקִים עוֹשֵׂי רְצֹנֶֽךָ וְכׇל־עַמְּךָ בֵּית יִשְׂרָאֵל בְּרִנָּה יוֹדוּ וִיבָרְכוּ וִישַׁבְּחוּ וִיפָאֲרוּ וִירוֹמֲמוּ וְיַעֲרִֽיצוּ וְיַקְדִּֽישׁוּ וְיַמְלִֽיכוּ אֶת־שִׁמְךָ מַלְכֵּֽנוּ כִּי לְךָ טוֹב לְהוֹדוֹת וּלְשִׁמְךָ נָאֶה לְזַמֵּר כִּי מֵעוֹלָם וְעַד עוֹלָם אַתָּה אֵל׃ בָּרוּךְ אַתָּה יְיָ מֶֽלֶךְ מְהֻלָּל בַּתִּשְׁבָּחוֹת׃\\
 
-
+\ifboolexpr{togl {includeshabbat} and togl {includeweekday} and not togl {includeChM}}{\englishinst{On Shabbat, continue with Full Kaddish on page \pageref{shacharitShabbatYTtitkabel}. On weekday Rosh \d{H}odesh, continue with Full Kaddish on page \pageref{end of shacharis}, followed by the Psalm of the Day as relevant on page \pageref{shir_shel_yom}. On \d{H}anukka that is not Rosh \d{H}odesh, continue with Half Kaddish on page \pageref{hatzi_kaddish}.}}{}
