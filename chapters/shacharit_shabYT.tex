@@ -5,12 +5,7 @@
 \label{nishmas}
 \nishmat
 
-%\ifboolexpr{togl {includefestival} and togl {includeshabbat}}{\englishinst{On festivals, the leader for Sha\d{h}arit begins here.}}{}
-%\ifboolexpr{togl {includefestival} and not togl {includeshabbat}}{}{}
-
 \hael
-
-\ifboolexpr{togl {includefestival} and togl {includeshabbat}}{\instruction{בשבת החזן מתחיל כאן}}{}
 
 \shochenad
 
@@ -28,17 +23,17 @@
 %\instruction{כשאומרים יוצרות:}
 %אוֹר עוֹלָם בְּאוֹצַר חַיִּים אוֹרוֹת מֵאוֹפֶל אָמַר וַיֶהִי׃
 \ifboolexpr{togl {includefestival} and togl {includeshabbat}}{
-\footnote{\instruction{ביום טוב שחל בחול:}\\
-\hameir 
-\instruction{תִּתְבָּרַךְ וכו׳ עמ׳ \pageref{tisbarach}
-}}}{}
-%
+
+\englishinst{On a Festival occurring on a weekday:}
+\hameir \instruction{תִּתְבָּרַךְ וכו׳ עמ׳ \pageref{tisbarach}}
+}{}
+
 \ifboolexpr{togl {includefestival} and not togl {includeshabbat}}{
-\insturction{ביו״ט שחל בחול}\\
+\englishinst{On weekdays:}
 \hameir
 \instruction{תִּתְבָּרַךְ וכו׳ עמ׳ \pageref{tisbarach}}
 
-\instruction{ביו״ט שחל בשבת}}{}
+\englishinst{On Shabbat:}}{}
 \firstword{הַכֹּל יוֹדֽוּךָ}
 וְהַכֹּל יְשַׁבְּחֽוּךָ \middot וְהַכֹּל יֹאמְרוּ אֵין קָדוֹשׁ כַּיָי׃ הַכֹּל יְרוֹמְמֽוּךָ סֶּֽלָה יוֹצֵר הַכֹּל \middot הָאֵל הַפּוֹתֵֽחַ בְּכׇל־יוֹם דַּלְתוֹת שַׁעֲרֵי מִזְרָח \middot וּבוֹקֵֽעַ חַלּוֹנֵי רָקִֽיעַ מוֹצִיא חַמָּה מִמְּקוֹמָהּ וּלְבָנָה מִמְּכוֹן שִׁבְתָּהּ׃ וּמֵאִיר לָעוֹלָם כֻּלּוֹ וּלְיוֹשְׁבָיו שֶׁבָּרָא בְּמִדַּת רַחֲמִים׃ 
 הַמֵּאִיר לָאָֽרֶץ וְלַדָּרִים עָלֶֽיהָ בְּרַחֲמִים \middot וּבְטוּבוֹ מְחַדֵּשׁ בְּכׇל־יוֹם תָּמִיד מַעֲשֵׂה בְרֵאשִׁית׃
@@ -130,7 +125,7 @@
 הַקָּדוֹשׁ׃
 \end{longtable}
 \end{footnotesize}
-\vspace{-24pt}
+%\vspace{-24pt}
 \sepline
 
 \ifboolexpr{togl {includefestival} and togl {includeshabbat}}{%\instruction{ביו״ט ממשיכים בעמ׳ \pageref{ytshacharit}}
@@ -155,7 +150,7 @@
 \label{ytshacharit}
 
 \ytkiddushhayom
-\vspace{16pt}
+%\vspace{16pt}
 \sepline
 
 }{}
@@ -202,7 +197,8 @@
 
 \instruction{ביום הראשון של סוכת מברך גם שהחיינו:}\\
 בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם שֶׁהֶחֱיָנוּ וְקִיְּמָנוּ וְהִגִּיעָנוּ לַזְמַן הַזֶּה׃
-\\}{}
+}{}
+
 %\let\clearpage\relax{
 \input{chapters/hallel}
 %}
@@ -222,5 +218,5 @@
 \instruction{בחנכה׃}
 \chanukat
 
-\ledavid\\}{}
+\ledavid}{}
 \mournerskaddish
