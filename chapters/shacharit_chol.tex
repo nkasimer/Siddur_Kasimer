@@ -108,8 +108,7 @@
 \begin{footnotesize}
 \sepline
 
-\instruction{בשעת הדחק מתפללים ג׳ ברכות רשאונות, הביננו, וג׳ ברכות אחרונות. אומרים הביננו רק בחול כשאין אומרים תן טל ומטר, ולא במוצ״ש או מוציו״ט.}
-
+\englishinst{If it is impossible to recite a complete Amidah, recite the first three blessings, the following text, and the last three blessings. This text cannot be used during the rainy season, or at the conclusion of Shabbat or Festivals.}
 \havineinu
 \instruction{רצה...}
 
@@ -132,11 +131,11 @@
 %\instruction{ בת״צ אומרים סליחות ואח״כ אבינו מלכנו עמ׳ \pageref{avinu malkeinu}}
 \longenginst{Ta\d{h}anun is not recited on the day of a bri\thav\space mila, in a house of mourning, or if a bride or groom is present. It is omitted on Rosh \d{H}odesh, the entire month of Nisan, Pesa\d{h} Sheini, Israeli Independence Day, Lag Ba\bigAyin omer, Jerusalem Reunification Day, from Rosh \d{H}odesh Sivan until the 12th of Sivan, the 9th of Av, the 15th of Av, the day before Rosh HaShana, from the day before Yom Kippur until the beginning of Mar\d{h}eshvan, \d{H}anukka, Purim, Shushan Purim, Purim Katan, Shushan Purim Katan, and other festive occasions.  On all those days, say half-kaddish on page \pageref{hatzi_kaddish}.
 
-On Sukkot the Lulav is taken on page \pageref{lulav}, followed by Hallel.
-
+\ifboolexpr{togl {includefestival} or togl {includeChM}}{On Sukkot the Lulav is taken on page \pageref{lulav}, followed by Hallel.
+}{}
 During the Ten Penitential Days, Avinu Malkeinu is recited on page \pageref{avinu_malkeinu}.  On minor fasts, most congregations recite seli\d{h}ot now, followed by Avinu Malkeinu.
 
-On Intermediate festival days, \d{H}anukka, and Rosh \d{H}odesh, recite Hallel on page \pageref{hallel}.
+\ifboolexpr{togl {includeChM}{On Intermediate festival days, \d{H}anukka, and Rosh \d{H}odesh, recite Hallel on page \pageref{hallel}.}{On \d{H}anukka and Rosh \d{H}odesh, recite Hallel on page \pageref{hallel}.}
 
 When ta\d{h}anun is recited on Monday and Thursday, continue on page \pageref{tachanun mon thurs}.  On other days, continue on page \pageref{nefilas_apayim}.	
 }
@@ -240,7 +239,10 @@ When ta\d{h}anun is recited on Monday and Thursday, continue on page \pageref{ta
 \label{hatzi_kaddish}
 \halfkaddish
 
-\englishinst{On Monday, Thursday, Rosh \d{H}odesh, \d{H}anukka, Purim, and Intermediate Festival Days the Torah is read.  On other days, continue with Ashrei on page \pageref{ashrei}.}
+\ifboolexpr{togl {includeChM}}{\englishinst{On Monday, Thursday, Rosh \d{H}odesh, \d{H}anukka, Purim, and Intermediate Festival Days the Torah is read.  On other days, continue with Ashrei on page \pageref{ashrei}.}}{
+\englishinst{On Monday, Thursday, Rosh \d{H}odesh, \d{H}anukka, and Purim, the Torah is read.  On other days, continue with Ashrei on page \pageref{ashrei}.}
+}
+
 %\instruction{
 %ביום ב׳ ה׳, ראש חודש, חנוכה, פורים, וחול המועד קוראים התורה.
 %בשאר ימים ממשיכים באשרי עמ׳
@@ -250,7 +252,9 @@ When ta\d{h}anun is recited on Monday and Thursday, continue on page \pageref{ta
 %\section[סדר קריאת התורה Torah Service]{\adforn{53} Service Torah \adforn{25}\\ סדר קריאת התורה}
 \label{weekday torah}
 
-\englishinst{The following is not said on Rosh \d{H}odesh, \d{H}anukka, or Intermediate Festival Days.  Most congregations say only one paragraph.}
+\ifboolexpr{togl {includeChM}}{\englishinst{The following is not said on Rosh \d{H}odesh, \d{H}anukka, or Intermediate Festival Days.  Most congregations say only one paragraph.}}{
+\englishinst{The following is not said on Rosh \d{H}odesh or \d{H}anukka.  Most congregations say only one paragraph.}}
+
 \instruction{אאאא״א בראש חודש, חנוכה, וחול המועד:}\\
 \firstword{אֵל אֶֽרֶךְ}
 אַפַּֽיִם וְרַב חֶֽסֶד וֶאֱמֶת אַל בְּאַפְּךָ תּוֹכִיחֵֽנוּ: 
@@ -286,7 +290,7 @@ When ta\d{h}anun is recited on Monday and Thursday, continue on page \pageref{ta
 
 \misheberakhbaby
 
-\misheberakhbarmitzva
+%\misheberakhbarmitzva
 
 
 \end{small}
@@ -295,7 +299,7 @@ When ta\d{h}anun is recited on Monday and Thursday, continue on page \pageref{ta
 
 \sepline
 
-\instruction{לאחר שמסיים קריאת הקורא אומר חצי קדיש:}\\
+\englishinst{After the Torah reading, Half Kaddish is recited:}
 \halfkaddish
 
 
@@ -306,12 +310,11 @@ When ta\d{h}anun is recited on Monday and Thursday, continue on page \pageref{ta
 יְהִי רָצוֹן מִלִּפְנֵי אָבִֽינוּ שֶׁבַּשָּׁמַֽיִם שֶׁנִּשְׁמַע וְנִתְבַּשֵּׂר בְּשׂוֹרוֹת טוֹבוֹת יְשׁוּעוֹת וְנֶחָמוֹת. וִיקַבֵּץ נִדָּחֵֽינוּ מֵאַרְבַּע כַּנְפוֹת הָאָֽרֶץ. וְנֹאמַר אָמֵן׃\\
 אַחֵֽינוּ כׇּל בֵּית יִשְׂרָאֵל הַנְּתוּנִים בְּצָּרָה וּבְשִּׁבְיָה. הָעוֹמְדִים בֵּין בַּיָּם וּבֵין בַּיַּבָּשָׁה. הַמָּקוֹם יְרַחֵם עֲלֵיהֶם וְיוֹצִיאֵם מִצָּרָה לִרְוָחָה וּמֵאֲפֵלָה לְאוֹרָה וּמִשִּׁעְבּוּד לִגְאֻלָּה הַשְׁתָּא בַּעֲגָלָא וּבִזְמַן קָרִיב. וְנֹאמַר אָמֵן׃\\
 \yehalelu
-\instruction{כשחוזרים הספר תורה לארון:}\\
+\englishinst{As the Torah is returned to the ark:}
 \kafdalet
 
 \etzchaim
-
-\instruction{סגורים הארון}\\
+\englishinst{The ark is closed.}
 
 \section[סיום התפילה]{\adforn{53} סיום התפילה \adforn{25}}
 %\section[סיום התפילה Prayers Concluding]{\adforn{53} סיום התפילה Prayers Concluding \adforn{25}}
