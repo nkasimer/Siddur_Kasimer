@@ -1,0 +1,64 @@
+\documentclass[
+coverheight=8.5in,%page height + 0.25"
+coverwidth=5.5in,%page width + 0.125"
+spinewidth=.75in,
+bleedwidth=.75in,
+marklength=0in,
+12pt,
+pagecolor=black,
+]{bookcover}
+
+\usepackage{polyglossia}
+\usepackage{xcolor}
+\definecolor{darkblue}{HTML}{06038D}
+\definecolor{gold}{HTML}{D9911A}
+
+\setdefaultlanguage{english}
+\setotherlanguage{hebrew}
+%\setmainfont[BoldFont = {Shlomo semiStam}]{Shlomo}
+\setmainfont{Shlomo}
+%\setmainfont{Taamey Ashkenaz}
+%\setsansfont{Mekorot-Rashi}
+\newfontfamily\englishfont{EB Garamond}
+
+\newbookcovercomponenttype{center rotate}{
+	\vfill
+	\centering
+	\rotatebox[origin=c]{-90}{#1}
+	\vfill}
+
+\letnamebookcoverpart{bg spine bottom}{bg spine}[,,,\partheight-\bleedwidth-\spinewidth]
+
+\newcommand{\hebtext}[1]{
+\begin{hebrew}
+	#1
+\end{hebrew}
+}
+
+\begin{document}
+	\begin{bookcover}
+	\begin{bookcoverelement}{center rotate}{spine}[,,,-0.25\coverheight]
+		%\color{yellow!60!black}\huge\sffamily\bfseries
+		\LARGE\textcolor{gold}{\hebtext{סדור} }
+	\end{bookcoverelement}
+	\begin{bookcoverelement}{center}{bg spine bottom}
+		\raisebox{\bleedwidth+2\baselineskip}{\textcolor{gold}{Kasimer}}
+	\end{bookcoverelement}
+	\begin{bookcoverelement}{center}{bg spine bottom}
+		\raisebox{\bleedwidth}{\textcolor{gold}{Edition}}
+	\end{bookcoverelement}
+
+	\begin{bookcoverelement}{center}{back}
+		\begin{Huge}
+			\textcolor{gold}{\hebtext{סדור}}
+			
+			\textcolor{gold}{Prayer Book}
+				
+		\end{Huge}
+		\vspace{2\baselineskip}
+		\begin{large}
+			\textcolor{gold}{For weekdays and Shabbat\\Edited by Nathan Kasimer}
+		\end{large}
+	\end{bookcoverelement}
+	\end{bookcover}
+	\end{document}
