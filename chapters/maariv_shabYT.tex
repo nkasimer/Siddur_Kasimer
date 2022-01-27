@@ -1,5 +1,6 @@
-\chapter[ערובין והדלקת נרות]{\adforn{47} ערובין והדלקת נרות \adforn{19}}
 \vspace{0.25in}
+\chapter[ערובין והדלקת נרות]{\adforn{47} ערובין והדלקת נרות \adforn{19}}
+\vspace{0.15in}
 \ifboolexpr{togl {includefestival}}{
 \instruction{עושים עירוב תבשילין כשיו״ט חל ביום ששי}\\
 \instruction{אוחז העירוב ומבורך:}\\
@@ -15,7 +16,7 @@
 \instruction{ערוב חצרות׃ }\firstword{בַּהֲדֵין עֵירוּבָא}
 בַּהֲדֵין עֵירוּבָא יְהֵא שְׁרֵא לָֽנָא לְאַפּוּקֵי וּלְעַיוּלֵי מִבָּתִּים לֶחָצֵר, וּמֵחָצֵר לְבָתִּים, וּמִבַּֽיִת לְבַֽיִת, לָֽנוּ וּלְכׇל־יִשְׂרָאֵל הַדָּרִים בֶּחָצֵר הַזֶּה׃
 
-\ifboolexpr{togl {includeshabbat}}{\shabbos\firstword{בָּרוּךְ}
+\ifboolexpr{togl {includeshabbat}}{\ifboolexpr{togl {includefestival}}{\shabbos}{}\firstword{בָּרוּךְ}
 אַתָּה, יְיָ אֱלֹהֵֽינוּ, מֶֽלֶךְ הָעוֹלָם, אֲשֶׁר קִדְשָֽׁנוּ בְּמִצְוֹתָיו, וְצִוְּֽנוּ לְהַדְלִיק נֵר שֶׁל שַׁבָּת׃\\}{}
 
 \ifboolexpr{togl {includefestival}}{\instruction{בערב יום טוב׃}\\
@@ -471,12 +472,13 @@
 
 \kiddushshabbateve
 
+\ifboolexpr{togl {includefestival} or togl {includeChM}}{
 \begin{sometimes}
 
 \instruction{בחול המועד סוכות:}\\
 בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו, וְצִוָּנוּ לֵישֵׁב בַּסֻּכָּה׃
 
-\end{sometimes}
+\end{sometimes}}{}
 
 \adforn{43}\quad\adforn{4}\quad\adforn{42}\\
 
@@ -496,9 +498,6 @@
 
 \kiddushYTeve
 
-
-
-\vspace{-.5\baselineskip}
 \instruction{בסוכת:}
 בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו, וְצִוָּנוּ לֵישֵׁב בַּסֻּכָּה׃
 
