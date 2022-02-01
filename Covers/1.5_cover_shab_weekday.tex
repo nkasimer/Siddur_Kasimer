@@ -6,6 +6,7 @@ bleedwidth=.125in,
 marklength=0in,
 12pt,
 pagecolor=black,
+%trimmed
 ]{bookcover}
 
 \usepackage{polyglossia}
@@ -13,6 +14,7 @@ pagecolor=black,
 \usepackage{adforn}
 \definecolor{darkblue}{HTML}{06038D}
 \definecolor{gold}{HTML}{D9911A}
+\usepackage{fontspec}
 
 \setdefaultlanguage{english}
 \setotherlanguage{hebrew}
@@ -50,12 +52,16 @@ pagecolor=black,
 	%\color{yellow!60!black}\huge\sffamily\bfseries
 	\textcolor{gold}{\hebtext{ולשבת}}
 	\end{bookcoverelement}
-	\begin{bookcoverelement}{center}{bg spine bottom}
-		\raisebox{\bleedwidth+2\baselineskip}{\textcolor{gold}{Kasimer}}
+	\begin{bookcoverelement}{normal}{bg spine bottom}
+		\includegraphics[width=0.8\spinewidth,height=0.8\spinewidth]{kasimer_logo.png}
 	\end{bookcoverelement}
-	\begin{bookcoverelement}{center}{bg spine bottom}
-		\raisebox{\bleedwidth}{\textcolor{gold}{Edition}}
-	\end{bookcoverelement}
+		
+%	\begin{bookcoverelement}{center}{bg spine bottom}
+%		\raisebox{\bleedwidth+2\baselineskip}{\textcolor{gold}{Kasimer}}
+%	\end{bookcoverelement}
+%	\begin{bookcoverelement}{center}{bg spine bottom}
+%		\raisebox{\bleedwidth}{\textcolor{gold}{Edition}}
+%	\end{bookcoverelement}
 
 	\begin{bookcoverelement}{center}{back}
 		\begin{Huge}
