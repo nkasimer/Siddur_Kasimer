@@ -1,8 +1,8 @@
 \documentclass[
-coverheight=8.5in,%page height + 0.25"
-coverwidth=5.5in,%page width + 0.125"
-spinewidth=.75in,
-bleedwidth=.75in,
+coverheight=8.5in,
+coverwidth=5.5in,
+spinewidth=.659in,
+bleedwidth=.125in,
 marklength=0in,
 12pt,
 pagecolor=black,
@@ -10,6 +10,7 @@ pagecolor=black,
 
 \usepackage{polyglossia}
 \usepackage{xcolor}
+\usepackage{adforn}
 \definecolor{darkblue}{HTML}{06038D}
 \definecolor{gold}{HTML}{D9911A}
 
@@ -39,7 +40,7 @@ pagecolor=black,
 	\begin{bookcover}
 	\begin{bookcoverelement}{center rotate}{spine}[,,,-0.34\coverheight]
 		%\color{yellow!60!black}\huge\sffamily\bfseries
-		\LARGE\textcolor{gold}{\hebtext{סדור} }
+		\LARGE\textcolor{gold}{\hebtext{ישרים לשון סדור} }
 	\end{bookcoverelement}
 	\begin{bookcoverelement}{center}{spine}[,,,0.2\coverheight]
 	%\color{yellow!60!black}\huge\sffamily\bfseries
@@ -58,8 +59,8 @@ pagecolor=black,
 
 	\begin{bookcoverelement}{center}{back}
 		\begin{Huge}
-			\textcolor{gold}{\hebtext{סדור}}
-			
+			\textcolor{gold}{\hebtext{\adforn{54} סדור \adforn{26}}}\\
+			\textcolor{gold}{\hebtext{ישרים לשון}}\\
 			\textcolor{gold}{Prayer Book}
 				
 		\end{Huge}
