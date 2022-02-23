@@ -74,7 +74,13 @@
 	\setsansfont{Mekorot-Rashi}
 
 
-\newfontfamily\englishfont{EB Garamond}
+\newfontfamily\englishfont{EBGaramond}[
+Path=./EBGaramond-0.016/otf/,
+Extension=.otf,
+UprightFont=*08-Regular,
+ItalicFont=*08-Italic,
+RawFeature={+cv11,+liga,+clig,+dlig,+calt}
+]
 
 \RequirePackage{bidi}
 \makeatletter
@@ -187,7 +193,7 @@
 \newcommand{\englishinst}[1]{
 	\begin{minipage}{\textwidth}
 		\begin{english}\raggedright\centering
-			\begin{footnotesize}\textit{#1}
+			\begin{footnotesize}\textit{\addfontfeatures{RawFeature=+swsh}#1}
 				
 			\vspace{2pt}
 		\end{footnotesize}
@@ -197,7 +203,7 @@
 
 \newcommand{\longenginst}[1]{\begin{english}\raggedright
 	
-	\begin{itshape}#1\end{itshape}
+	\begin{itshape}\addfontfeatures{RawFeature=+swsh} #1\end{itshape}
 
 \end{english}}
 
