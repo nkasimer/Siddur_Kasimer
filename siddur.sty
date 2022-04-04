@@ -193,7 +193,7 @@ RawFeature={+cv11,+liga,+clig,+dlig,+calt}
 \newcommand{\englishinst}[1]{
 	\begin{minipage}{\textwidth}
 		\begin{english}\raggedright\centering
-			\begin{footnotesize}\textit{\addfontfeatures{RawFeature=+swsh}#1}
+			\begin{footnotesize}\textit{#1}
 				
 			\vspace{2pt}
 		\end{footnotesize}
@@ -201,9 +201,18 @@ RawFeature={+cv11,+liga,+clig,+dlig,+calt}
 	\end{minipage}
 }
 
+\newcommand{\engliturgy}[1]{
+\begin{minipage}{\textwidth}
+	\begin{english}\raggedright\centering
+		#1
+
+	\end{english}
+\end{minipage}
+}
+
 \newcommand{\longenginst}[1]{\begin{english}\raggedright
 	
-	\begin{itshape}\addfontfeatures{RawFeature=+swsh} #1\end{itshape}
+	\begin{itshape} #1\end{itshape}
 
 \end{english}}
 
