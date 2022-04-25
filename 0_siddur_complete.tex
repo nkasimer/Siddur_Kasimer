@@ -16,11 +16,11 @@
 \begin{document}
 
 \title{ \adforn{54} סדור \adforn{26}\\
-לשון ישרים
+לשון ישרים\\
 \vspace{.5in}
+\normalsize 
 %\includegraphics[scale=.5]{wolf_shofar_bitmap.png}
 }
-
 \include{chapters/introduction}
 
 \newtoggle{includeshabbat}
@@ -59,30 +59,36 @@
 
 \clearpage
 
-\begingroup
-\let\clearpage\relax
-\include{chapters/YT_musaf}
-\endgroup
+%\begingroup
+%\let\clearpage\relax
+%\include{chapters/YT_musaf}
+%\endgroup
+
+\clearpage
 
 \begingroup
 \let\clearpage\relax
 \include{chapters/minchaShabYT}
 \include{chapters/maariv_chol}
 \include{chapters/bedtime_shema}
-\endgroup
 
+\include{chapters/omer}
+\endgroup
+\clearpage
 \begingroup
 \let\clearpage\relax
-\include{chapters/omer}
+\include{chapters/hallel}
 \include{chapters/holidays_weekday}
 \endgroup
 \begingroup
 \let\clearpage\relax
 \include{chapters/berakhot}
 \endgroup
-
+\clearpage
+\begingroup
+\let\clearpage\relax
 \include{chapters/weekday_torah_readings}
-
-\include{chapters/make_bibliography}
+\endgroup
+%\include{chapters/make_bibliography}
 
 \end{document}
