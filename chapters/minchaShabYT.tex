@@ -52,6 +52,8 @@
 
 \halfkaddish
 
+\englishinst{On Festivals, recite the Amidah on page \pageref{YTamidah}.}
+
 \section[תפילת העמידה]{\adforn{53} תפילת העמידה \adforn{25}}
 
 
@@ -59,26 +61,28 @@
 
 \weekdaysakedusha
 
-\sepline
-
-\ifboolexpr{togl {includeshabbat}}{
-	\ifboolexpr{togl {includefestival}}{\instruction{ביו״ט ממשיכים בעמ׳ \pageref{ytmincha}}}{}
+%\sepline
+%
+%\ifboolexpr{togl {includeshabbat}}{
+%	\ifboolexpr{togl {includefestival}}{\instruction{ביו״ט ממשיכים בעמ׳ \pageref{ytmincha}}}{}
 
 \firstword{אַתָּה}
 אֶחָד וְשִׁמְךָ אֶחָד \source{דה״א יז}וּמִי֙ כְּעַמְּךָ֣ יִשְׂרָאֵ֔ל גּ֥וֹי אֶחָ֖ד בָּאָ֑רֶץ תִּפְאֶֽרֶת גְּדֻלָּה וַעֲטֶֽרֶת יְשׁוּעָה \middot יוֹם מְנוּחָה וּקְדֻשָּׁה לְעַמְּךָ נָתַֽתָּ׃ אַבְרָהָם יָגֵל יִצְחָק יְרַנֵּן יַעֲקֹב וּבָנָיו יָנֽוּחוּ בוֹ \middot מְנוּחַת אַהֲבָה וּנְדָבָה מְנוּחַת אֱמֶת וֶאֱמוּנָה מְנוּחַת שָׁלוֹם וְשַׁלְוָה וְהַשְׁקֵט וָבֶֽטַח מְנוּחָה שְׁלֵמָה שָׁאַתָּה רוֹצֶה בָּהּ׃ יַכִּֽירוּ בָנֶֽיךָ וְיֵדְעוּ כִּי מֵאִתְּךָ הִיא מְנוּחָתָם וְעַל מְנוּחָתָם יַקְדִּֽישׁוּ אֶת־שְׁמֶֽךָ׃
 
 %\shabboskiddushhayom{\footnote{\instruction{נ״א:} (שַׁבּתוֹת קׇדְשֶׁךָ) וְיָנוּחוּ בָם}} \instruction{רצה וכו׳}
-\shabboskiddushhayom{} \ifboolexpr{togl {includefestival}}{\instruction{רצה וכו׳}}{}
+%\shabboskiddushhayom{} \ifboolexpr{togl {includefestival}}{\instruction{רצה וכו׳}}{}
+%
+%}{}
+%
+%\ifboolexpr{togl{includeshabbat} and togl {includefestival}}{\sepline}{}
+%
+%\ifboolexpr{togl {includefestival}}{\label{ytmincha}
+%\ytkiddushhayom{}
+%
+%\ifboolexpr{togl {includeshabbat} and togl {includefestival}}{\sepline}{}
+%}{}
 
-}{}
-
-\ifboolexpr{togl{includeshabbat} and togl {includefestival}}{\sepline}{}
-
-\ifboolexpr{togl {includefestival}}{\label{ytmincha}
-\ytkiddushhayom{}
-
-\ifboolexpr{togl {includeshabbat} and togl {includefestival}}{\sepline}{}
-}{}
+\shabboskiddushhayom{}
 
 \retzeh
 

@@ -269,32 +269,36 @@
 
 \halfkaddish
 
+\englishinst{On Festivals, recite the Amidah on page \pageref{YTamidah}.}
+
 \section[תפילת העמידה]{\adforn{53} תפילת העמידה \adforn{25}}
 
 \amidaopening{\shabbosshuva}{}
 
 %\shabboskiddushhashem
-\ifboolexpr{togl {includeshabbat} and togl {includefestival}}{
-	\englishinst{On festivals, continue on page \pageref{maarivyt}.}
-}{}
-
-\ifboolexpr{togl {includeshabbat}}{\firstword{אַתָּה קִדַּֽשְׁתָּ}
+%\ifboolexpr{togl {includeshabbat} and togl {includefestival}}{
+%	\englishinst{On festivals, continue on page \pageref{maarivyt}.}
+%}{}
+%
+%\ifboolexpr{togl {includeshabbat}}{
+\firstword{אַתָּה קִדַּֽשְׁתָּ}
 אֶת־יוֹם הַשְּׁבִיעִי לִשְׁמֶֽךָ תַּכְלִית מַעֲשֵׂה שָׁמַֽיִם וָאָֽרֶץ וּבֵרַכְתּוֹ מִכׇּל־הַיָּמִים וְקִדַּשְׁתּוֹ מִכׇּל־הַזְּמַנִּים וְכֵן כָּתוּב בְּתוֹרָתֶֽךָ׃
 
 \firstword{וַיְכֻלּ֛וּ}\source{בראשית ב}
 הַשָּׁמַ֥יִם וְהָאָ֖רֶץ וְכׇל־צְבָאָֽם׃ וַיְכַ֤ל אֱלֹהִים֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מְלַאכְתּ֖וֹ אֲשֶׁ֣ר עָשָׂ֑ה וַיִּשְׁבֹּת֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מִכׇּל־מְלַאכְתּ֖וֹ אֲשֶׁ֥ר עָשָֽׂה׃ וַיְבָ֤רֶךְ אֱלֹהִים֙ אֶת־י֣וֹם הַשְּׁבִיעִ֔י וַיְקַדֵּ֖שׁ אֹת֑וֹ כִּ֣י ב֤וֹ שָׁבַת֙ מִכׇּל־מְלַאכְתּ֔וֹ אֲשֶׁר־בָּרָ֥א אֱלֹהִ֖ים לַֽעֲשֽׂוֹת׃
 
-\shabboskiddushhayom{}}{}
+\shabboskiddushhayom{}
+%}{}
 
-\ifboolexpr{togl {includeshabbat} and togl {includefestival}}{\instruction{רצה וכו׳}
-
-\sepline}{}
-
-\ifboolexpr{togl {includefestival}}{\label{maarivyt}
-\ytkiddushhayom{\YTShabboshavdalah}}{}
-
-
-\ifboolexpr{togl {includeshabbat} and togl {includefestival}}{\sepline}{}
+%\ifboolexpr{togl {includeshabbat} and togl {includefestival}}{\instruction{רצה וכו׳}
+%
+%\sepline}{}
+%
+%\ifboolexpr{togl {includefestival}}{\label{maarivyt}
+%\ytkiddushhayom{\YTShabboshavdalah}}{}
+%
+%
+%\ifboolexpr{togl {includeshabbat} and togl {includefestival}}{\sepline}{}
 
 \retzeh
 
