@@ -11,7 +11,6 @@
 \newcommand{\diluginst}{\englishinst{}}
 \ifboolexpr{(togl {includeweekday} or togl {includeshabbat}) and not togl {includefestival} and not togl {includeChM}}{
 	\renewcommand{\diluginst}{\englishinst{This section is skipped on Rosh \d{H}odesh (except on \d{H}anukka).}}
-	
 	\chapter[הלל‎]{\adforn{53} הלל‎ \adforn{25}}
 }{}
 \ifboolexpr{(togl {includefestival} or togl {includeChM}) and (togl {includeweekday} or togl {includeshabbat})}{
@@ -161,4 +160,6 @@
 \firstword{יְהַלְלֽוּךָ}
 יְיָ אֱלֹהֵֽינוּ כׇּל־מַעֲשֶֽׂיךָ וַחֲסִידֶֽיךָ צַדִּיקִים עוֹשֵׂי רְצֹנֶֽךָ וְכׇל־עַמְּךָ בֵּית יִשְׂרָאֵל בְּרִנָּה יוֹדוּ וִיבָרְכוּ וִישַׁבְּחוּ וִיפָאֲרוּ וִירוֹמֲמוּ וְיַעֲרִֽיצוּ וְיַקְדִּֽישׁוּ וְיַמְלִֽיכוּ אֶת־שִׁמְךָ מַלְכֵּֽנוּ כִּי לְךָ טוֹב לְהוֹדוֹת וּלְשִׁמְךָ נָאֶה לְזַמֵּר כִּי מֵעוֹלָם וְעַד עוֹלָם אַתָּה אֵל׃ בָּרוּךְ אַתָּה יְיָ מֶֽלֶךְ מְהֻלָּל בַּתִּשְׁבָּחוֹת׃\\
 
-\ifboolexpr{togl {includeshabbat} and togl {includeweekday} and not togl {includeChM}}{\englishinst{On Shabbat, continue with Full Kaddish on page \pageref{shacharitShabbatYTtitkabel}. On weekday Rosh \d{H}odesh, continue with Full Kaddish on page \pageref{end of shacharis}, followed by the Psalm of the Day as relevant on page \pageref{shir_shel_yom}. On \d{H}anukka that is not Rosh \d{H}odesh, continue with Half Kaddish on page \pageref{hatzi_kaddish}.}}{}
+%\ifboolexpr{togl {includeshabbat} and togl {includeweekday} and not togl {includeChM}}{\englishinst{On Shabbat, continue with Full Kaddish on page \pageref{shacharitShabbatYTtitkabel}. On weekday Rosh \d{H}odesh, continue with Full Kaddish on page \pageref{end of shacharis}, followed by the Psalm of the Day as relevant on page \pageref{shir_shel_yom}. On \d{H}anukka that is not Rosh \d{H}odesh, continue with Half Kaddish on page \pageref{hatzi_kaddish}.}}{}
+
+\englishinst{On Shabbat, Festivals, and Rosh \d{H}odesh, recite Full Kaddish followed by the Psalm of the Day. Then Mourner's Kaddish is read, followed by the Torah service on page \pageref{shabYTtorah} for Shabbat and Festivals and page \pageref{weekday torah} for Intermediate Festival Days and Rosh \d{H}odesh.}
