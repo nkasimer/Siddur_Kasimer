@@ -260,8 +260,8 @@
 \instruction{אזכרה לרבים}
 אֵל מָלֵא רַחֲמִים, שׁוֹכֵן בַּמְּרוֹמִים, הַמְצֵא מְנוּחָה נְכוֹנָה תַּֽחַת כַּנְפֵי הַשְּׁכִינָה, בְּמַעֲלוֹת קְדוֹשִׁים וּטְהוֹרִים כְּזֹֽהַר הָרָקִֽיעַ מַזְהִירִים, אֶת נְשָׁמוֹת \instruction{פב״פ ופב״פ} שֶׁהָלַךְ לְעוֹלָמָם. בַּעֲבוּר שֶׁנָּדְרוּ צְדָקָה בְּעַד הַזְכָּרַת נִשְׁמוֹתֵיהֶם בְּגַן עֵֽדֶן תְּהֵא מְנוּחָתָם. לָכֵן בַּֽעַל הָרַחֲמִים יַסְתִּירֵם בְּסֵֽתֶר כְּנָפָיו לְעוֹלָמִים, וְיִצְרוֹר בִּצְרוֹר הַחַיִּים אֶת נִשְׁמוֹתֵיהֶם. יְיָ הוּא נַחֲלָתָם; וְיָנֽוּחַ בְּשָׁלוֹם עַל מִשְׁכָּבָם, וְנֹאמַר אָמֵן׃
 
-\ifboolexpr{togl {includeshabbat}}{\instruction{אומרים אב הרחמים בעמ׳ \pageref{avharachamim}}}{\avharachamimmartyrs}}
-{}
+\ifboolexpr{togl {includeshabbat}}{\englishinst{Av HaRachamim is recited on page \pageref{avharachamim}.}}{\avharachamimmartyrs}
+}{}
 
 \ssubsection{\adforn{18} יקום פרקן \adforn{17}}
 
@@ -285,7 +285,7 @@
 חַיִּים שֶׁתְּהֵא בָנוּ אַהֲבַת תּוֹרָה וְיִרְאַת שָׁמַיִם,
 חַיִּים שֶׁיְּמַּלֵא יְיָ מִשְׁאֲלוֹת לִבֵּנוּ לְטוֹבָה. אָמֵן סֶלָה׃
 
-\instruction{הגבאי מודיעה המולד:}\\
+\englishinst{In many communities the warden announces the Molad at this point.}
 \firstword{מִי שֶׁעָשָׂה}
 נִסִּים לַאֲבוֹתֵינוּ, וְגָאַל אוֹתָם מֵעַבְדוּת לְחֵרוּת. הוּא יִגְאַל אוֹתָנוּ בְּקָרוֹב, וִיקַבֵּץ נִדָּחֵינוּ מֵאַרְבַּע כַּנְפוֹת הָאָרֶץ. חֲבֵרִים כׇּל־יִשְׂרָאֵל׃ וְנֹאמַר אָמֵן׃
 
@@ -295,45 +295,43 @@
 
 \label{avharachamim}
 \ifboolexpr{togl {includeshabbat}}{
-\instruction{א״א אב הרחמים ביו״ט ובשבת חוה״מ ובשבת מברכים. אבל אומרים בימי ספירה ובר״ח אב ובימים שאומרים יזכור.}\\
+\englishinst{Av Harachamim is omitted on festive occasions, such as Festivals (except as part of Yizkor), Intermediate Days of Festivals, and Rosh \d{H}odesh. Most omit it when the new month is blessed, on the Four Parshiyot, and when Ta\d{h}anun would be omitted were it a weekday. Nonwithstanding it is recited during the Omer, and most recite it on Shabbat Mevarekhim Av and Rosh \d{H}odesh Av should it fall on a Shabbat. Some recite it only on Shabbat \d{H}azon and the Shabbat before Shavu'ot.}
 \avharachamimmartyrs}{}
 
 \ifboolexpr{togl {includefestival}}{
 \begin{sometimes}
-\negline
+	
+\vspace{4pt}\englishinst{Some congregations recite the following on Festivals that do not fall on Shabbat. Most omit it when Yizkor is recited.}
 \begin{narrow}
-\instruction{ביו״ט שלא חל בשבת מוספים:}\\
+	\vspace{-\baselineskip}
 יָהּ אֵלִי\hfill וְגוֹאֲלִי\hfill אֶתְיַצְבָה לִקְרָאתֶֽךָ\\
-הָיָה וְיִהְיֶה\hfill הָיָה וְהֹוֶה\hfill כׇּל־גּוֹי אַדְמָתֶֽךָ\\
+הָיָה וְיִהְיֶה\hfill הָיָה וְהֹוֶה\hfill כׇּל־גּוֹי אַדְמָתֶֽךָ׃\\
 וְתוֹדָה וְלָעוֹלָה וְלַמִּנְחָה וְלַחַטָּאת וְלָאָשָׁם \\
 וְלַשְּׁלָמִים וְלַמִּלוּאִים כׇּל־קׇרְבָּנֶֽךָ\\
 זְכוֹר נִלְאָה אֲשֶׁר נָשְׂאָה וְהָשִׁיבָה לְאַדְמָתֶֽךָ\\
-סֶֽלָה אֲהַלְלֶֽךָּ בְּאַשְׁרֵי יוֹשְׁבֵי בֵיתֶֽךָ\\
+סֶֽלָה אֲהַלְלֶֽךָּ בְּאַשְׁרֵי יוֹשְׁבֵי בֵיתֶֽךָ׃\\
 דַּק עַל דַּק\hfill עַד אֵין נִבְדַק\hfill וְלִתְבוּנָתוֹ אֵין חֵֽקֶר\\
-הָאֵל נוֹרָא\hfill בְּאַחַת סְקִירָה\hfill בֵּין טוֹב לָרַע יְבַקֵּר\\
+הָאֵל נוֹרָא\hfill בְּאַחַת סְקִירָה\hfill בֵּין טוֹב לָרַע יְבַקֵּר׃\\
 וְתוֹדָה וְלָעוֹלָה וְלַמִּנְחָה וְלַחַטָּאת וְלָאָשָׁם \\
 וְלַשְּׁלָמִים וְלַמִּלוּאִים כׇּל־קׇרְבָּנֶֽךָ\\
 זְכוֹר נִלְאָה אֲשֶׁר נָשְׂאָה וְהָשִׁיבָה לְאַדְמָתֶֽךָ\\
-סֶֽלָה אֲהַלְלֶֽךָּ בְּאַשְׁרֵי יוֹשְׁבֵי בֵיתֶֽךָ\\
+סֶֽלָה אֲהַלְלֶֽךָּ בְּאַשְׁרֵי יוֹשְׁבֵי בֵיתֶֽךָ׃\\
 אֲדוֹן צְבָאוֹת\hfill בְּרוֹב פְּלָאוֹת\hfill חִבֵּר כׇּל־אׇהֳלוֹ\\
-בִּנְתִיבוֹת לֵב\hfill לִבְלֵב\hfill הַצּוּר תָּמִים פׇּעֳלוֹ\\
+בִּנְתִיבוֹת לֵב\hfill לִבְלֵב\hfill הַצּוּר תָּמִים פׇּעֳלוֹ׃\\
 וְתוֹדָה וְלָעוֹלָה וְלַמִּנְחָה וְלַחַטָּאת וְלָאָשָׁם \\
 וְלַשְּׁלָמִים וְלַמִּלוּאִים כׇּל־קׇרְבָּנֶֽךָ\\
 זְכוֹר נִלְאָה אֲשֶׁר נָשְׂאָה וְהָשִׁיבָה לְאַדְמָתֶֽךָ\\
-סֶֽלָה אֲהַלְלֶֽךָּ בְּאַשְׁרֵי יוֹשְׁבֵי בֵיתֶֽךָ
+סֶֽלָה אֲהַלְלֶֽךָּ בְּאַשְׁרֵי יוֹשְׁבֵי בֵיתֶֽךָ׃
 \end{narrow}
-
 \end{sometimes}
 
 }{}
-
-
 
 \ashrei
 
 \yehalelu
 
-\instruction{כשחוזרים הספר תורה בשבת:}\\
+\englishinst{While the Torah is returned on Shabbat:}
 \firstword{מִזְמ֗וֹר לְדָ֫וִ֥ד}\source{תהלים כט}
 הָב֣וּ לַ֭ייָ בְּנֵ֣י אֵלִ֑ים הָב֥וּ לַ֝ייָ֗ כָּב֥וֹד וָעֹֽז׃
 הָב֣וּ לַ֭ייָ כְּב֣וֹד שְׁמ֑וֹ הִשְׁתַּחֲו֥וּ לַ֝ייָ֗ בְּהַדְרַת־קֹֽדֶשׁ׃
@@ -349,7 +347,7 @@
 \ifboolexpr{togl {includefestival} and togl {includeshabbat}}{
 \begin{sometimes}
 
-\instruction{כשחוזרים הספר תורה ביום טוב שלא בשבת:}\\
+\englishinst{While the Torah is returned on weekdays:}
 \kafdalet
 
 \end{sometimes}}{}
@@ -358,4 +356,5 @@
 	\kafdalet}
 
 \etzchaim\\
+
 \halfkaddish\\
