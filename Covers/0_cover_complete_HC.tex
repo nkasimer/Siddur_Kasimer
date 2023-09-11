@@ -1,0 +1,83 @@
+\documentclass[
+coverheight=8.75in,
+coverwidth=5.625in,
+spinewidth=1.063in,
+bleedwidth=.75in,
+marklength=0in,
+12pt,
+pagecolor=black,
+%trimmed
+]{bookcover}
+
+\usepackage{polyglossia}
+\usepackage{xcolor}
+\usepackage{adforn}
+\definecolor{darkblue}{HTML}{06038D}
+\definecolor{gold}{HTML}{D9911A}
+\usepackage{fontspec}
+
+\setdefaultlanguage{english}
+\setotherlanguage{hebrew}
+%\setmainfont[BoldFont = {Shlomo semiStam}]{Shlomo}
+\setmainfont{Shlomo}
+%\setmainfont{Taamey Ashkenaz}
+%\setsansfont{Mekorot-Rashi}
+\newfontfamily\englishfont{EB Garamond}
+
+\newbookcovercomponenttype{center rotate}{
+	\vfill
+	\centering
+	\rotatebox[origin=c]{90}{#1}
+	\vfill}
+
+\letnamebookcoverpart{bg spine bottom}{bg spine}[,,,\partheight-\bleedwidth-\spinewidth]
+
+\newcommand{\hebtext}[1]{
+\begin{hebrew}
+	#1
+\end{hebrew}
+}
+
+\begin{document}
+	\begin{bookcover}
+	\begin{bookcoverelement}{center rotate}{spine}[,,,-0.34\coverheight]
+		%\color{yellow!60!black}\huge\sffamily\bfseries
+		\LARGE\textcolor{gold}{\hebtext{ישרים לשון סדור} }
+	\end{bookcoverelement}
+	\begin{bookcoverelement}{center}{spine}[,,,0.2\coverheight]
+	%\color{yellow!60!black}\huge\sffamily\bfseries
+	\textcolor{gold}{\hebtext{לחול}}
+	\end{bookcoverelement}
+	\begin{bookcoverelement}{center}{spine}[,,,0.2\coverheight+2\baselineskip]
+	%\color{yellow!60!black}\huge\sffamily\bfseries
+	\textcolor{gold}{\hebtext{לשבת}}
+	\end{bookcoverelement}
+	\begin{bookcoverelement}{center}{spine}[,,,0.2\coverheight+4\baselineskip]
+	%\color{yellow!60!black}\huge\sffamily\bfseries
+	\textcolor{gold}{\hebtext{וליו״ט}}
+	\end{bookcoverelement}
+	\begin{bookcoverelement}{normal}{bg spine bottom}[0.1\spinewidth,0in,0.1\spinewidth,0in]
+		\includegraphics[width=0.8\spinewidth,height=0.8\spinewidth]{kasimer_logo.png}
+	\end{bookcoverelement}
+		
+%	\begin{bookcoverelement}{center}{bg spine bottom}
+%		\raisebox{\bleedwidth+2\baselineskip}{\textcolor{gold}{Kasimer}}
+%	\end{bookcoverelement}
+%	\begin{bookcoverelement}{center}{bg spine bottom}
+%		\raisebox{\bleedwidth}{\textcolor{gold}{Edition}}
+%	\end{bookcoverelement}
+
+	\begin{bookcoverelement}{center}{back}
+		\begin{Huge}
+			\textcolor{gold}{\hebtext{\adforn{54} סדור \adforn{26}}}\\
+			\textcolor{gold}{\hebtext{ישרים לשון}}\\
+			\textcolor{gold}{Prayer Book}
+				
+		\end{Huge}
+		\vspace{2\baselineskip}
+		\begin{large}
+			\textcolor{gold}{For Weekdays, Shabbat, and Festivals\\Edited by Nathan Kasimer}
+		\end{large}
+	\end{bookcoverelement}
+	\end{bookcover}
+	\end{document}
